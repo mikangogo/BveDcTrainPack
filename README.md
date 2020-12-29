@@ -7,3 +7,4 @@
 
 - [重要告知事項](NOTICE.md)
 - [変更履歴](CHANGELOG.md)
+- [ライセンス](LICENSE.md)
