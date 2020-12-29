@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <HighLightColor />
+  <HighLightColorString>#FFFF00</HighLightColorString>
+  <RefleshInterval>1</RefleshInterval>
+  <HighLightTime>1000</HighLightTime>
+  <Topmost>true</Topmost>
+  <StateIndexWidth>0</StateIndexWidth>
+  <StateValueWidth>0</StateValueWidth>
+  <PanelIndexWidth>0</PanelIndexWidth>
+  <PanelValueWidth>0</PanelValueWidth>
+  <PanelLabelWidth>0</PanelLabelWidth>
+  <SoundIndexWidth>0</SoundIndexWidth>
+  <SoundValueWidth>0</SoundValueWidth>
+  <SoundLabelWidth>0</SoundLabelWidth>
+  <MainWindowWidth>640</MainWindowWidth>
+  <MainWindowHeight>553</MainWindowHeight>
+</CSettings>

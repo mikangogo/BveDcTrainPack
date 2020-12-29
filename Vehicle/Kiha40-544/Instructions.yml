@@ -1,0 +1,9 @@
+﻿version: 1.0.00
+pip:
+  - prio: 0
+    exec:
+      - run ..\..\Plugin\Engine\Dmf15Hs_Dw10\Dmf15Hs_Dw10.dll
+      - run ..\..\Plugin\AirBrake\CLE\CLE.dll
+      - run ..\..\Plugin\ThirdParty\RealAnalogGauge\x86\RealAnalogGauge.dll
+#      - run ..\..\Plugin\ThirdParty\BvetsStatusWindow\BvetsStatusWindow.dll
+      
