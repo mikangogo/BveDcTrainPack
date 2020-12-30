@@ -9,3 +9,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - 新しい車両パックを新規作成。
 - ライセンスを設定。
 - 重要告知事項を追加。
+
+### Changed
+- 車両数に応じてブレーキの応答性が変わるように変更。
