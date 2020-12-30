@@ -1,0 +1,9 @@
+﻿version: 1.0.00
+pip:
+  - prio: 0
+    exec:
+      - run ..\..\Plugin\Engine\Dmh17_Tc2a\Dmh17_Tc2a.dll
+#      - run D:\workspace\Bve\AtsPlugin\Develop\DMH17_TC2\BveAtsPluginCsharpFramework\bin\x86\Debug\Dmh17_Tc2a.dll
+      - run ..\..\Plugin\ThirdParty\RealAnalogGauge\x86\RealAnalogGauge.dll
+#      - run ..\..\Plugin\ThirdParty\BvetsStatusWindow\BvetsStatusWindow.dll
+      
