@@ -68,6 +68,5 @@ TdOrOffThreshold = 3.0
 
 FinalDriveRatio = 2.976
 WheelDiameter = 820.0 ;新品は860、計算の場合は820
-IsEnableSyncing = false
 
 ShowDebugDialog = false
