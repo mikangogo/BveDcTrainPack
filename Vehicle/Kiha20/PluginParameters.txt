@@ -63,12 +63,6 @@ ReverserClutchDisengagingDuration = 100.0
 ExhaustBrakeValveOpeningDuration = 500.0
 ExhaustBrakeValveClosingDuration = 500.0
 
-SrHrOnThreshold = 0.915
-SrHrOffThreshold = 0.872
-RdHrNEngineOnThreshold = 1961.0
-RdHrNEngineOffThreshold = 1961.0
-RdHrNTransmissionOnThreshold = 1774.0
-RdHrNTransmissionOffThreshold = 1774.0
 TdOrOnThreshold = 3.0
 TdOrOffThreshold = 3.0
 
