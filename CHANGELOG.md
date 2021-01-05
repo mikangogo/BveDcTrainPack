@@ -13,8 +13,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - 重要告知事項を追加。
 - `./Plugin/ThridParty/Onemanhoso` に「ワンマン放送プラグイン(Xaudio2版)」を追加。作者: [@AskED757001](https://twitter.com/AskED757001) さん
 - PluginOrganizer: 各プラグインの読み込み前にファイル移動など初期化・下準備ができるようなコマンドを実行できる機能を追加。
+- CLE: いくつかの音再生機能（減圧音など）を追加。
 
 ### Changed
-- 車両数に応じてブレーキの応答性が変わるように変更。
+- CLE: 車両数に応じてブレーキの応答性が変わるように変更。
 - PluginOrganizer: Yamlのバージョンを 1.1.00 へ変更。
 - PluginOrganizer: 書式を変更。

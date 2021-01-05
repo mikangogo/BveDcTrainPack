@@ -26,8 +26,8 @@ BveTs Vehicle Sound 3.00
 2 = ..\..\Sound\Run\Kiha58\\Switch\Switch.wav
 
 [Horn]
-Primary = ..\..\Sound\Horn\Aw5\Start.wav
-PrimaryRelease = ..\..\Sound\Horn\Aw5\End.wav
+Primary = ..\..\Sound\Horn\Kiha40_Sanin\Start.wav
+PrimaryRelease = ..\..\Sound\Horn\Kiha40_Sanin\End.wav
 
 [Door]
 Open Left = ..\..\Sound\Door\Tk105\Open.wav
@@ -81,5 +81,11 @@ Moderate = ..\..\Sound\Environment\Shock_Moderate_0.wav
 1 = ..\..\Sound\Shoe\Kiha58\Shoe_1.wav
 
 [AutomaticBrake]
-ErDrop = ..\..\Sound\Brake\Ku\ErDrop.wav
-ErCharging = ..\..\Sound\Brake\Ku\ErCharging.wav
+ErPistonDropping = ..\..\Sound\BrakeController\ME23\ErPistonDropping.wav
+ErDropping = ..\..\Sound\BrakeController\ME23\ErDropping.wav
+ErCharging = ..\..\Sound\BrakeController\ME23\ErCharging.wav
+BpCharging = ..\..\Sound\BrakeController\ME23\BpCharging.wav
+EvBpDropping = ..\..\Sound\Brake\Ku\EvBpDropping.wav
+BpExhaust = ..\..\Sound\BrakeController\ME23\BpExhaust.wav
+ControllerMoveToCharging = ..\..\Sound\BrakeController\ME23\ControllerMoveToCharging.wav
+ControllerMoveToDropping = ..\..\Sound\BrakeController\ME23\ControllerMoveToDropping.wav
