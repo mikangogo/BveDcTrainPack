@@ -33,9 +33,9 @@ CarLength = 21
 
 [Cab]
 PowerNotchCount = 5
-BrakeNotchCount = 2
+BrakeNotchCount = 3
 HoldingSpeedNotchCount = 1
-BrakeText = ユルメ,重リ,常用,非常
+BrakeText = ユルメ,保チ,重リ,常用,非常
 PowerText = 切,１,２,３,４,５
 HoldingSpeedText = 切,停
 ReverserText = 後退,中立,前進
