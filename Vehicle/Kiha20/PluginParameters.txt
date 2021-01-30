@@ -70,3 +70,11 @@ FinalDriveRatio = 2.976
 WheelDiameter = 820.0 ;新品は860、計算の場合は820
 
 ShowDebugDialog = false
+
+[DA.dll]
+SoundFilesRootPath = .\
+ShoeNoiseMotorNoiseTxtFileName = ShoeNoise\MotorNoise.txt
+ShoeNoiseSoundTxtFileName = Sound.txt
+ShoeNoiseSoundTxtSectionName = Shoe
+OtherNoiseSoundTxtFileName = Sound.txt
+ShowDebugDialog = false

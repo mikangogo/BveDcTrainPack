@@ -12,5 +12,8 @@ pip:
         - ..\..\Plugin\Engine\Dmh17_Tc2a\Dmh17_Tc2a.dll
       - cmd:
         - run
+        - ..\..\Plugin\AirBrake\DA\DA.dll
+      - cmd:
+        - run
         - ..\..\Plugin\ThirdParty\RealAnalogGauge\x86\RealAnalogGauge.dll
         

@@ -32,7 +32,7 @@ layer = 15
 
 ; 圧力計(赤:元空気ダメ 黒:ツリアイ空気ダメ)
 [Needle]; ツリアイ空気ダメ
-Subject = er
+Subject = ats101
 Location = 688, 1551
 DaytimeImage = needle\prs_up_d.png
 NighttimeImage = needle\prs_up_n.png
@@ -47,7 +47,7 @@ Maximum = 980
 NaturalFreq = 0
 
 [Needle]; 元空気ダメ
-Subject = mr
+Subject = ats102
 Location = 688, 1551
 DaytimeImage = needle\prs_low_d.png
 NighttimeImage = needle\prs_low_n.png
@@ -62,7 +62,7 @@ Maximum = 980
 NaturalFreq = 0
 
 [Needle]; ブレーキ管
-Subject = bp
+Subject = ats103
 Location = 948, 1551
 DaytimeImage = needle\prs_up_d.png
 NighttimeImage = needle\prs_up_n.png
