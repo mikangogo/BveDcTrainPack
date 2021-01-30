@@ -63,8 +63,7 @@ Off = ..\..\Sound\TractionController\Mc19\Rever_Neutral.wav
 [Gear]
 
 [TransferGear1]
-
-[TransferGear2]
+0 = ..\..\Sound\ReductionDrive\Kiha20\Gear_0.wav
 
 [Exhaust]
 

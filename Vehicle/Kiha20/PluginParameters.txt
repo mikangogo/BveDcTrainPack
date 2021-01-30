@@ -20,10 +20,6 @@ TransferGear1NoiseMotorNoiseTxtFileName = TransferGear1Noise\MotorNoise.txt
 TransferGear1NoiseSoundTxtFileName = Sound.txt
 TransferGear1NoiseSoundTxtSectionName = TransferGear1
 
-TransferGear2NoiseMotorNoiseTxtFileName = TransferGear2Noise\MotorNoise.txt
-TransferGear2NoiseSoundTxtFileName = Sound.txt
-TransferGear2NoiseSoundTxtSectionName = TransferGear2
-
 ExhaustNoiseMotorNoiseTxtFileName = ExhaustNoise\MotorNoise.txt
 ExhaustNoiseSoundTxtFileName = Sound.txt
 ExhaustNoiseSoundTxtSectionName = Exhaust
