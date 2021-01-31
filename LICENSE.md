@@ -10,3 +10,107 @@
 以下のディレクトリに格納されているすべてファイル（著作物）については、著作者に無断で自由に複製し頒布することができます。
 
 - ./Vehicle/*
+
+
+# ファイル（著作物）について
+
+以下の羅列しているファイルにつきましては、それぞれ作者の方々に著作権があります。
+
+また、データの監修も併せてお願いいたしました。
+誠にありがとうございます。
+
+
+## [@サハ２０９](http://saha209kame.web.fc2.com/) さん
+
+- キハ30運転台
+  - .\Panel\Kiha30\Chi_Mari
+
+
+## [@秋田の新快速](http://asked757001.web.fc2.com/) さん
+
+- ワンマン放送プラグイン(Xaudio2版)
+  - .\Plugin\ThirdParty\Onemanhoso
+
+- キハ40運転台
+  - .\Panel\Kiha40\Aki_Aki
+
+
+## [@Miso_yk](https://miso-yk.wixsite.com/ci19) さん
+
+- キハ40運転台
+  - .\Panel\Kiha40\Aki_Aki
+
+
+## [@BVE Workshop](http://bvews.jpn.org/) さん
+
+- Bvets Status Window
+  - .\Plugin\ThirdParty\BvetsStatusWindow
+
+- RealAnalogGauge
+  - .\Plugin\ThirdParty\RealAnalogGauge
+
+
+## [@おーやま](https://twitter.com/Aila_SW) さん
+
+- キハ40運転台
+  - .\Panel\Kiha40\Miya_Miya
+
+
+## @[亀](https://twitter.com/anagumakame) さん
+
+- 気動車音源
+
+
+## @Chiy さん
+
+- 気動車音源
+
+
+## @すずはる さん
+
+- 気動車音源
+
+
+## [@NT/fiv](http://kantanbay.org/) さん
+
+- 気動車音源
+
+
+## [@摂津ライナー](https://blog.ap.teacup.com/bve-west/) さん
+
+- 気動車音源
+
+
+## [@秀霰](http://km207.blog.fc2.com/) さん
+
+- 気動車音源
+
+
+## [@えでい](https://twitter.com/eddy_474740) さん
+
+- 気動車音源
+
+
+## [@52でこ](https://twitter.com/52D5022D_2154) さん
+
+- 気動車音源
+
+
+## [@Mc_1323](https://mc1323bve.blogspot.com/) さん
+
+- 気動車音源
+
+
+## [@でんちょく](https://twitter.com/ME41AEB) さん
+
+- 気動車音源
+
+
+## [@CT](https://twitter.com/ct_813) さん
+
+- 気動車音源
+
+
+## [@Y.T](https://twitter.com/OCEAN283) さん
+
+- 気動車音源

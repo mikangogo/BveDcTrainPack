@@ -1,0 +1,272 @@
+BveTs Instrument Panel 2.00
+
+[This]
+Resolution = 1800
+Left = 1
+Top = 128
+Right = 2046
+Bottom = 2884
+Center = 1150, 1650
+Origin = 1150, 1158
+
+
+[PilotLamp]
+Subject = true
+Location = 0, 0
+DaytimeImage = panel_DC3098.png
+NighttimeImage = panel_DC3098_n.png
+Layer = 2
+
+
+;前照灯
+[PilotLamp]
+Subject = true
+Location = 0, 0
+DaytimeImage = light.png
+Layer = 1
+
+;蓋
+[PilotLamp]
+Subject = true
+Location = 1028, 2490
+DaytimeImage = sticker.png
+NighttimeImage = sticker_n.png
+Layer = 14
+
+[PilotLamp]
+Subject = true
+Location = 694, 2277
+DaytimeImage = futa1.png
+NighttimeImage = futa1_n.png
+Layer = 14
+
+[PilotLamp]
+Subject = true
+Location = 1052, 2324
+DaytimeImage = futa2.png
+NighttimeImage = futa2_n.png
+Layer = 14
+
+[PilotLamp]
+Subject = true
+Location = 1324, 2324
+DaytimeImage = futa2.png
+NighttimeImage = futa2_n.png
+Layer = 14
+
+;スタフ置きライト
+[PilotLamp]
+Subject = true
+Location = 185, 726
+DaytimeImage = light2.png
+Layer = 15
+
+
+;戸閉灯
+[PilotLamp]
+Subject = door
+Location = 125, 2018
+DaytimeImage = door.png
+Layer = 15
+
+;速度計
+[Needle]
+Subject = ats30
+Location = 757, 2341
+DaytimeImage = needle1.png
+NighttimeImage = needle1_n.png
+Origin = 16, 256
+Layer = 9
+Radius = 95
+InitialAngle = -180
+LastAngle = 180
+Minimum = 0
+Maximum = 360000
+NaturalFreq = 5
+DampingRatio = 0.8
+
+
+;圧力計1
+[Needle]
+Subject = ats102
+Location = 1067,2340
+DaytimeImage = needle2.png
+NighttimeImage = needle2_n.png
+Origin = 64, 180
+Layer = 8
+Radius = 92
+InitialAngle = -135
+LastAngle = 135
+Minimum = 0
+Maximum = 1000
+NaturalFreq = 0
+
+[Needle]
+Subject = ats101
+Location = 1067,2340
+DaytimeImage = needle3.png
+NighttimeImage = needle3_n.png
+Origin = 64, 180
+Layer = 9
+Radius = 92
+InitialAngle = -135
+LastAngle = 135
+Minimum = 0
+Maximum = 1000
+NaturalFreq = 0
+
+
+;圧力計2
+[Needle]
+Subject = ats103
+Location = 1339,2340
+DaytimeImage = needle2.png
+NighttimeImage = needle2_n.png
+Origin = 64, 180
+Layer = 8
+Radius = 92
+InitialAngle = -135
+LastAngle = 135
+Minimum = 0
+Maximum = 1000
+NaturalFreq = 0
+
+[Needle]
+Subject = ats104
+Location = 1339,2340
+DaytimeImage = needle3.png
+NighttimeImage = needle3_n.png
+Origin = 64, 180
+Layer = 9
+Radius = 92
+InitialAngle = -135
+LastAngle = 135
+Minimum = 0
+Maximum = 1000
+NaturalFreq = 0
+
+
+;速度計
+[Needle]
+Subject = ats30
+Location = 757, 2346
+DaytimeImage = needle1_kage.png
+Origin = 16, 256
+Layer = 6
+Radius = 95
+InitialAngle = -180
+LastAngle = 180
+Minimum = 0
+Maximum = 360000
+NaturalFreq = 5
+DampingRatio = 0.8
+
+
+;圧力計1
+[Needle]
+Subject = ats102
+Location = 1067,2345
+DaytimeImage = needle2_kage.png
+Origin = 64, 180
+Layer = 5
+Radius = 92
+InitialAngle = -135
+LastAngle = 135
+Minimum = 0
+Maximum = 1000
+NaturalFreq = 0
+
+[Needle]
+Subject = ats101
+Location = 1067,2345
+DaytimeImage = needle3_kage.png
+Origin = 64, 180
+Layer = 6
+Radius = 92
+InitialAngle = -135
+LastAngle = 135
+Minimum = 0
+Maximum = 1000
+NaturalFreq = 0
+
+
+;圧力計2
+[Needle]
+Subject = ats103
+Location = 1339,2345
+DaytimeImage = needle2_kage.png
+Origin = 64, 180
+Layer = 5
+Radius = 92
+InitialAngle = -135
+LastAngle = 135
+Minimum = 0
+Maximum = 1000
+NaturalFreq = 0
+
+[Needle]
+Subject = ats104
+Location = 1339,2345
+DaytimeImage = needle3_kage.png
+Origin = 64, 180
+Layer = 6
+Radius = 92
+InitialAngle = -135
+LastAngle = 135
+Minimum = 0
+Maximum = 1000
+NaturalFreq = 0
+
+
+;ATS白灯
+[PilotLamp]
+Subject = ats0
+Location = 1864, 992
+DaytimeImage = ATS_w.png
+NighttimeImage = ATS_w_n.png
+Layer = 10
+
+;ATS赤灯
+[PilotLamp]
+Subject = ats1
+Location = 1920, 978
+DaytimeImage = ATS_r.png
+NighttimeImage = ATS_r_n.png
+Layer = 9
+
+;表示灯
+[pilotlamp]
+subject = ats8
+location = 700, 2131
+daytimeimage = gear_front.png
+layer = 5
+
+[pilotlamp]
+subject = ats9
+location = 761, 2131
+daytimeimage = gear_back.png
+layer = 5
+
+[pilotlamp]
+subject = true
+location = 821, 2131
+daytimeimage = engine.png
+layer = 5
+
+[pilotlamp]
+subject = ats44
+location = 883, 2131
+daytimeimage = tyokketsu.png
+layer = 5
+
+[pilotlamp]
+subject = ats46
+location = 943, 2131
+daytimeimage = churitsu.png
+layer = 5
+
+[pilotlamp]
+subject = ats43
+location = 1004, 2131
+daytimeimage = hensoku.png
+layer = 5
