@@ -1,0 +1,6 @@
+Bvets Vehicle 0.03
+PerformanceCurve = ..\Notch\Dmh17h_Tc2a_2976_820\Notch_Engine2.txt
+Parameters = Kiha52\Param.txt
+Panel = ..\Panel\Kiha30\Chi_Mari\panel_DC3098.txt
+Sound = Kiha52\Sound.txt
+Ats = Kiha52\PluginOrganizer.dll

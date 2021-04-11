@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 ### Added
 - 新しい車両パックを新規作成。
+  - キハ52
   - キハ40
   - キハ30
   - キハ20
