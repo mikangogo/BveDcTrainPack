@@ -1,0 +1,298 @@
+BveTs Instrument Panel 2.00
+
+[This]
+Resolution = 3500
+Left = 0
+Top = 0
+Right = 4096
+Bottom = 3325
+Center = 1900, 2000
+Origin = 1900, 1600
+
+
+[PilotLamp]
+Subject = true
+Location = 0, 0
+DaytimeImage = panel.png
+NighttimeImage = panel_n.png
+Layer = 2
+
+[PilotLamp]
+Subject = true
+Location = 1325, 2674
+DaytimeImage = futa1.png
+NighttimeImage = futa1_n.png
+Layer = 15
+
+[PilotLamp]
+Subject = true
+Location = 1940, 2776
+DaytimeImage = futa2.png
+NighttimeImage = futa2_n.png
+Layer = 15
+
+[PilotLamp]
+Subject = true
+Location = 2457, 2776
+DaytimeImage = futa2.png
+NighttimeImage = futa2_n.png
+Layer = 15
+
+
+
+[Needle]
+Subject = kmph
+Location = 1460, 2802
+DaytimeImage = needle1.png
+NighttimeImage = needle1_n.png
+TransparentColor = 000000
+Origin = 16, 256
+Layer = 14
+Radius = 162
+InitialAngle = -118
+LastAngle = 118
+Minimum = 1
+Maximum = 160
+NaturalFreq = 5
+DampingRatio = 0.8
+
+[Needle]
+Subject = kmph
+Location = 1460, 2812
+DaytimeImage = needle1_kage.png
+TransparentColor = 000000
+Origin = 16, 256
+Layer = 13
+Radius = 162
+InitialAngle = -118
+LastAngle = 118
+Minimum = 1
+Maximum = 160
+NaturalFreq = 5
+DampingRatio = 0.8
+
+
+
+[Needle]
+Subject = mr
+Location = 1972,2808
+DaytimeImage = needle2.png
+NighttimeImage = needle2_n.png
+TransparentColor = 000000
+Origin = 64, 180
+Layer = 9
+Radius = 153
+InitialAngle = -131
+LastAngle = 131
+Minimum = 1
+Maximum = 1500
+NaturalFreq = 80
+DampingRatio = 0.1
+
+[Needle]
+Subject = er
+Location = 1972,2808
+DaytimeImage = needle3.png
+NighttimeImage = needle3_n.png
+TransparentColor = 000000
+Origin = 64, 180
+Layer = 10
+Radius = 153
+InitialAngle = -131
+LastAngle = 131
+Minimum = 1
+Maximum = 1500
+NaturalFreq = 80
+DampingRatio = 0.1
+
+
+[Needle]
+Subject = mr
+Location = 1972,2818
+DaytimeImage = needle2_kage.png
+TransparentColor = 000000
+Origin = 64, 180
+Layer = 7
+Radius = 153
+InitialAngle = -131
+LastAngle = 131
+Minimum = 1
+Maximum = 1500
+NaturalFreq = 80
+DampingRatio = 0.1
+
+[Needle]
+Subject = er
+Location = 1972,2818
+DaytimeImage = needle3_kage.png
+TransparentColor = 000000
+Origin = 64, 180
+Layer = 8
+Radius = 153
+InitialAngle = -131
+LastAngle = 131
+Minimum = 1
+Maximum = 1500
+NaturalFreq = 80
+DampingRatio = 0.1
+
+
+[Needle]
+Subject = bc
+Location = 2489,2808
+DaytimeImage = needle2.png
+NighttimeImage = needle2_n.png
+TransparentColor = 000000
+Origin = 64, 180
+Layer = 9
+Radius = 153
+InitialAngle = -131
+LastAngle = 131
+Minimum = 1
+Maximum = 1000
+NaturalFreq = 80
+DampingRatio = 0.1
+
+[Needle]
+Subject = bp
+Location = 2489,2808
+DaytimeImage = needle3.png
+NighttimeImage = needle3_n.png
+TransparentColor = 000000
+Origin = 64, 180
+Layer = 10
+Radius = 153
+InitialAngle = -131
+LastAngle = 131
+Minimum = 1
+Maximum = 1000
+NaturalFreq = 80
+DampingRatio = 0.1
+
+[Needle]
+Subject = bc
+Location = 2489,2818
+DaytimeImage = needle2_kage.png
+TransparentColor = 000000
+Origin = 64, 180
+Layer = 7
+Radius = 153
+InitialAngle = -131
+LastAngle = 131
+Minimum = 1
+Maximum = 1000
+NaturalFreq = 80
+DampingRatio = 0.1
+
+[Needle]
+Subject = bp
+Location = 2489,2818
+DaytimeImage = needle3_kage.png
+TransparentColor = 000000
+Origin = 64, 180
+Layer = 8
+Radius = 153
+InitialAngle = -131
+LastAngle = 131
+Minimum = 1
+Maximum = 1000
+NaturalFreq = 80
+DampingRatio = 0.1
+
+[PilotLamp]
+Subject = door
+Location = 1486, 2457
+DaytimeImage = door.png
+Layer = 5
+
+[pilotlamp]
+subject = ats10
+location = 1619, 2457
+daytimeimage = gearFront.png
+layer = 5
+
+[pilotlamp]
+subject = ats11
+location = 1729, 2458
+daytimeimage = gearBack.png
+layer = 5
+
+[pilotlamp]
+subject = ats12
+location = 1857, 2457
+daytimeimage = engine.png
+layer = 5
+
+[pilotlamp]
+subject = ats13
+location = 1991, 2457
+daytimeimage = tyoku.png
+layer = 5
+
+[pilotlamp]
+subject = ats14
+location = 2107, 2459
+daytimeimage = chu.png
+layer = 5
+
+[pilotlamp]
+subject = ats15
+location = 2215, 2458
+daytimeimage = hen.png
+layer = 5
+
+[pilotlamp]
+subject = ats18
+location = 2349, 2460
+daytimeimage = enginebrake.png
+layer = 5
+
+##[pilotlamp]
+##subject = 
+##location = 2349, 2460
+##daytimeimage = enginebrakeG.png
+##layer = 5
+
+[pilotlamp]
+subject = ats0
+location = 2447, 2459
+daytimeimage = ATS.png
+layer = 5
+
+[pilotlamp]
+subject = ats1
+location = 2447, 2459
+daytimeimage = ATSR.png
+layer = 5
+
+##[pilotlamp]
+##subject = 
+##location = 2575, 2461
+##daytimeimage = EB.png
+##layer = 5
+
+##[pilotlamp]
+##subject = 
+##location = 2701, 2458
+##daytimeimage = AntiSnow.png
+##layer = 5
+
+##[pilotlamp]
+##subject = 
+##location = 2829, 2458
+##daytimeimage = Emergency.png
+##layer = 5
+
+[pilotlamp]
+subject = ats200
+location = 1505, 1903
+daytimeimage = Halt.png
+nighttimeimage = HaltN.png
+layer = 5
+
+
+
+
+
+
+

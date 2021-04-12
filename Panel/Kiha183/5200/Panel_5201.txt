@@ -1,0 +1,282 @@
+BveTs Instrument Panel 2.00:shift_jis
+
+[This]
+Resolution = 3500
+Left = 20
+Top = 20
+Right = 4076
+Bottom = 3052
+Center = 2049, 1700
+Origin = 2049, 1232
+
+[PilotLamp]
+Subject = true
+Location = 0, 0
+DayTimeImage = Panel.png
+NightTimeImage = Panel_N.png
+Layer = 3
+
+[PilotLamp]
+Subject = true
+Location = 1134, 2451
+DayTimeImage = SpdCover.png
+NightTimeImage = SpdCover_N.png
+Layer = 6
+
+[Needle]
+Subject = ats150
+Location = 1261, 2572
+DaytimeImage   = SpdNeedle.png
+NighttimeImage = SpdNeedle_N.png
+Origin = 64, 800
+Radius = 150
+InitialAngle = -180
+LastAngle = 180
+Minimum = 0
+Maximum = 360000
+NaturalFreq = 5
+DampingRatio = 0.8
+Layer = 5
+[Needle]
+Subject = ats150
+Location = 1261, 2572
+DaytimeImage   = Null.png
+NighttimeImage = SpdNeedle_S.png
+Origin = 64, 800
+Radius = 150
+InitialAngle = -180
+LastAngle = 180
+Minimum = 0
+Maximum = 360000
+NaturalFreq = 5
+DampingRatio = 0.8
+Layer = 4
+
+[PilotLamp]
+Subject = true
+Location = 1754, 2561
+DayTimeImage = PrsCover.png
+NightTimeImage = PrsCover_N.png
+Layer = 8
+
+
+[Needle]
+Subject = er
+Location = 1769, 2577
+DaytimeImage   = NeedleB.png
+NighttimeImage = NeedleB_N.png
+Origin = 128, 512
+Radius = 145
+InitialAngle = -132.9
+LastAngle = 133.79
+Minimum = 0
+Maximum = 1500
+NaturalFreq = 80
+DampingRatio = 0.1
+Layer = 7
+[Needle]
+Subject = er
+Location = 1772, 2581
+DaytimeImage   = Null.png
+NighttimeImage = NeedleB_S.png
+Origin = 128, 512
+Radius = 145
+InitialAngle = -132.9
+LastAngle = 133.79
+Minimum = 0
+Maximum = 1500
+NaturalFreq = 80
+DampingRatio = 0.1
+Layer = 5
+
+[Needle]
+Subject = mr
+Location = 1770, 2579
+DaytimeImage   = NeedleR.png
+NighttimeImage = NeedleR_N.png
+Origin = 128, 512
+Radius = 145
+InitialAngle = -132.9
+LastAngle = 133.79
+Minimum = 0
+Maximum = 1500
+NaturalFreq = 80
+DampingRatio = 0.1
+Layer = 6
+[Needle]
+Subject = mr
+Location = 1772, 2581
+DaytimeImage   = Null.png
+NighttimeImage = NeedleR_S.png
+Origin = 128, 512
+Radius = 145
+InitialAngle = -132.9
+LastAngle = 133.79
+Minimum = 0
+Maximum = 1500
+NaturalFreq = 80
+DampingRatio = 0.1
+Layer = 4
+
+[PilotLamp]
+Subject = true
+Location = 2243, 2562
+DayTimeImage = PrsCover.png
+NightTimeImage = PrsCover_N.png
+Layer = 8
+
+[Needle]
+Subject = bp
+Location = 2258, 2578
+DaytimeImage   = NeedleB.png
+NighttimeImage = NeedleB_N.png
+Origin = 128, 512
+Radius = 145
+InitialAngle = -131.99
+LastAngle = 133.52
+Minimum = 0
+Maximum = 1000
+NaturalFreq = 80
+DampingRatio = 0.1
+Layer = 7
+[Needle]
+Subject = bp
+Location = 2254, 2582
+DaytimeImage   = Null.png
+NighttimeImage = NeedleB_S.png
+Origin = 128, 512
+Radius = 145
+InitialAngle = -131.99
+LastAngle = 133.52
+Minimum = 0
+Maximum = 1000
+NaturalFreq = 80
+DampingRatio = 0.1
+Layer = 5
+
+[Needle]
+Subject = bc
+Location = 2256, 2580
+DaytimeImage   = NeedleR.png
+NighttimeImage = NeedleR_N.png
+Origin = 128, 512
+Radius = 145
+InitialAngle = -131.99
+LastAngle = 133.52
+Minimum = 0
+Maximum = 1000
+NaturalFreq = 80
+DampingRatio = 0.1
+Layer = 6
+[Needle]
+Subject = bc
+Location = 2254, 2582
+DaytimeImage   = Null.png
+NighttimeImage = NeedleR_S.png
+Origin = 128, 512
+Radius = 145
+InitialAngle = -131.99
+LastAngle = 133.52
+Minimum = 0
+Maximum = 1000
+NaturalFreq = 80
+DampingRatio = 0.1
+Layer = 4
+
+[PilotLamp]
+Subject = ats1111
+Location = 1081, 2223
+DayTimeImage = BoosterBrake.png
+NightTimeImage = BoosterBrake_N.png
+Layer = 6
+
+[PilotLamp]
+Subject = door
+Location = 1220, 2223
+DayTimeImage = Door.png
+NightTimeImage = Door_N.png
+Layer = 6
+
+[PilotLamp]
+Subject = ats10
+Location = 1353, 2223
+DayTimeImage = Forward.png
+NightTimeImage = Forward_N.png
+Layer = 6
+
+[PilotLamp]
+Subject = ats11
+Location = 1479, 2223
+DayTimeImage = Backward.png
+NightTimeImage = Backward_N.png
+Layer = 6
+
+[PilotLamp]
+Subject = ats12
+Location = 1613, 2223
+DayTimeImage = Engine.png
+NightTimeImage = Engine_N.png
+Layer = 6
+
+[PilotLamp]
+Subject = ats13
+Location = 1745, 2223
+DayTimeImage = Mission.png
+NightTimeImage = Mission_N.png
+Layer = 6
+
+[PilotLamp]
+Subject = ats14
+Location = 1865, 2223
+DayTimeImage = Newtral.png
+NightTimeImage = Newtral_N.png
+Layer = 6
+
+[PilotLamp]
+Subject = ats15
+Location = 1983, 2223
+DayTimeImage = Converter.png
+NightTimeImage = Converter_N.png
+Layer = 6
+
+[PilotLamp]
+Subject = ats18
+Location = 2117, 2223
+DayTimeImage = EngineBrake.png
+NightTimeImage = EngineBrake_N.png
+Layer = 6
+
+[PilotLamp]
+Subject = ats0
+Location = 2233, 2223
+DayTimeImage = ATSO.png
+NightTimeImage = ATSO_N.png
+Layer = 6
+
+[PilotLamp]
+Subject = ats1
+Location = 2233, 2223
+DayTimeImage = ATSR.png
+NightTimeImage = ATSR_N.png
+Layer = 6
+
+[PilotLamp]
+Subject = ats8
+Location = 2348, 2223
+DayTimeImage = EB.png
+NightTimeImage = EB_N.png
+Layer = 6
+
+[PilotLamp]
+Subject = ats1111
+Location = 2454, 2223
+DayTimeImage = AntiSnow.png
+NightTimeImage = AntiSnow_N.png
+Layer = 6
+
+[PilotLamp]
+Subject = ats1111
+Location = 2566, 2223
+DayTimeImage = Emergency.png
+NightTimeImage = Emergency_N.png
+Layer = 6

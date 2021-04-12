@@ -1,0 +1,37 @@
+[0912/215107.354:INFO:CONSOLE(1)] "%cUnhandled rejection Error: unknown exception type
+    at <anonymous>:1:1
+From previous event:
+    at j.F [as _captureStackTrace] (file:///C:/Program%20Files/Adobe/Adobe%20Photoshop%202020/Required/www-butler/build/external.js:1:15958)
+    at j._resolveFromExecutor (file:///C:/Program%20Files/Adobe/Adobe%20Photoshop%202020/Required/www-butler/build/external.js:1:45082)
+    at new j (file:///C:/Program%20Files/Adobe/Adobe%20Photoshop%202020/Required/www-butler/build/external.js:1:38328)
+    at t.initializeDictionaries (file:///C:/Program%20Files/Adobe/Adobe%20Photoshop%202020/Required/www-butler/build/spaces.js:1:1957)
+    at Object.<anonymous> (file:///C:/Program%20Files/Adobe/Adobe%20Photoshop%202020/Required/www-butler/build/main.js:1:11271)
+    at o (file:///C:/Program%20Files/Adobe/Adobe%20Photoshop%202020/Required/www-butler/build/spaces.js:1:410)
+    at window.webpackJsonp (file:///C:/Program%20Files/Adobe/Adobe%20Photoshop%202020/Required/www-butler/build/spaces.js:1:284)
+    at file:///C:/Program%20Files/Adobe/Adobe%20Photoshop%202020/Required/www-butler/build/main.js:1:1", source: file:///C:/Program%20Files/Adobe/Adobe%20Photoshop%202020/Required/www-butler/build/external.js (1)
+[0922/215406.373:WARNING:cache_util.cc(94)] Unable to delete cache folder.
+[0924/124310.825:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0924/124315.890:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0924/124320.896:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0924/124342.725:INFO:CONSOLE(1)] "Long rAF frame-time", source: file:///C:/Program%20Files/Adobe/Adobe%20Photoshop%202020/Required/www-rich-tooltips/build/external.js (1)
+[0924/124429.762:WARNING:angle_platform_impl.cc(52)] compileToBinary(230): 
+C:\fakepath(69,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(77,9-43): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0924/153721.514:INFO:CONSOLE(1)] "Long rAF frame-time", source: file:///C:/Program%20Files/Adobe/Adobe%20Photoshop%202020/Required/www-rich-tooltips/build/external.js (1)
+[0924/214439.711:INFO:CONSOLE(1)] "Long rAF frame-time", source: file:///C:/Program%20Files/Adobe/Adobe%20Photoshop%202020/Required/www-rich-tooltips/build/external.js (1)
+[0924/214652.024:WARNING:angle_platform_impl.cc(52)] compileToBinary(230): 
+C:\fakepath(69,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(77,9-43): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0924/234050.927:INFO:CONSOLE(1)] "Long rAF frame-time", source: file:///C:/Program%20Files/Adobe/Adobe%20Photoshop%202020/Required/www-rich-tooltips/build/external.js (1)
+[0924/234944.720:WARNING:angle_platform_impl.cc(52)] compileToBinary(230): 
+C:\fakepath(69,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(77,9-43): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[1001/231401.166:INFO:CONSOLE(1)] "Long rAF frame-time", source: file:///C:/Program%20Files/Adobe/Adobe%20Photoshop%202020/Required/www-rich-tooltips/build/external.js (1)
+[1001/231409.838:WARNING:angle_platform_impl.cc(52)] compileToBinary(230): 
+C:\fakepath(69,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(77,9-43): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[1002/110921.880:ERROR:media_internals.cc(112)] Cannot get RenderProcessHost

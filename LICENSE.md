@@ -114,3 +114,26 @@
 ## [@Y.T](https://twitter.com/OCEAN283) さん
 
 - 気動車音源
+
+
+## [@Mc_1323](https://mc1323bve.blogspot.com/) さん
+
+- 気動車音源
+
+
+## [@なっぱ](https://bvetkn.jimdofree.com/) さん
+
+- キハ183運転台
+  - .\Panel\Kiha183
+
+
+## [@kyu-roku](https://kyurokugouyon.web.fc2.com/) さん
+
+- キハ183運転台
+  - .\Panel\Kiha183
+
+
+## [@BVE飯田保線区](http://bve.iida-hosenku.com/) さん
+
+- キハ183運転台
+  - .\Panel\Kiha183

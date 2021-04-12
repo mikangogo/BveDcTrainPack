@@ -78,7 +78,7 @@ WheelDiameter = 820.0
 
 ShowDebugDialog = false
 
-[CLE.dll]
+[C26.dll]
 SoundFilesRootPath = .\
 ShoeNoiseMotorNoiseTxtFileName = ShoeNoise\MotorNoise.txt
 ShoeNoiseSoundTxtFileName = Sound.txt
