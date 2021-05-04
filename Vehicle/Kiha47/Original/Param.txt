@@ -25,9 +25,9 @@ PressureRates = 0,	0.00226757369614512,	0.00453514739229025,	0.00680272108843537
 
 
 [Dynamics]
-MotorcarWeight = 38200
+MotorcarWeight = 36800
 MotorcarCount = 2
-TrailerWeight = 38200
+TrailerWeight = 36800
 TrailerCount = 0
 CarLength = 21
 

@@ -1,6 +1,6 @@
 Bvets Vehicle 0.03
 PerformanceCurve = ..\Notch\Dmf15Hsa_Dw10_2995_810\Notch.txt
-Parameters = Kiha40\Original\Param.txt
+Parameters = Kiha47\Original\Param.txt
 Panel = ..\Panel\Kiha40\Aki_Aki\panel.txt
 Sound = Kiha40\Original\Sound.txt
 Ats = Kiha40\Original\PluginOrganizer.dll

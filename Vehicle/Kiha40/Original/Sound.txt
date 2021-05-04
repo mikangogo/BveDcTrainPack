@@ -1,0 +1,50 @@
+BveTs Vehicle Sound 3.00
+
+[Run]
+0 = ..\..\..\Sound\Run\Kiha58\Ballast\25m.wav
+1 = ..\..\..\Sound\Run\Kiha58\Bridge\25m.wav
+2 = ..\..\..\Sound\Run\Kiha58\Bridge\25m.wav
+3 = ..\..\..\Sound\Run\Kiha58\Tunnel\25m.wav
+4 = ..\..\..\Sound\Run\Kiha58\Tunnel\25m.wav
+5 = ..\..\..\Sound\Run\Kiha58\Ballast\25m.wav
+6 = ..\..\..\Sound\Run\Kiha58\Tunnel\25m.wav
+
+
+[Flange]
+0 = ..\..\..\Sound\Run\Kiha58\Flange\Moderate_0.wav
+1 = ..\..\..\Sound\Run\Kiha58\Flange\Moderate_0.wav
+2 = ..\..\..\Sound\Run\Kiha58\Flange\Moderate_0.wav
+3 = ..\..\..\Sound\Run\Kiha58\Flange\Moderate_0.wav
+4 = ..\..\..\Sound\Run\Kiha58\Flange\Moderate_0.wav
+5 = ..\..\..\Sound\Run\Kiha58\Flange\Moderate_0.wav
+6 = ..\..\..\Sound\Run\Kiha58\Flange\Moderate_0.wav
+
+[Switch]
+0 = ..\..\..\Sound\Run\Kiha58\\Switch\Switch.wav
+
+[Horn]
+Primary = ..\..\..\Sound\Horn\Aw5\Start.wav
+PrimaryRelease = ..\..\..\Sound\Horn\Aw5\End.wav
+
+[Door]
+Open Left = ..\..\..\Sound\Door\Tk105\Open.wav
+Open Right = ..\..\..\Sound\Door\Tk105\Open.wav
+Close Left = ..\..\..\Sound\Door\Tk105\Close.wav
+Close Right = ..\..\..\Sound\Door\Tk105\Close.wav
+
+[Ats]
+50 = ..\..\..\Sound\TractionController\Mc19\Shift_Neutral.wav
+51 = ..\..\..\Sound\TractionController\Mc19\Shift_Max.wav
+
+[Pilot Lamp]
+On = ..\..\..\Sound\Buzzer\Bz3a\Dah.wav
+
+[Master Controller]
+Up = ..\..\..\Sound\TractionController\Mc19\Notch_Step.wav
+Down = ..\..\..\Sound\TractionController\Mc19\Notch_Step.wav
+Max = ..\..\..\Sound\TractionController\Mc19\Notch_Max.wav
+Min = ..\..\..\Sound\TractionController\Mc19\Notch_Off.wav
+
+[Reverser]
+On = ..\..\..\Sound\TractionController\Mc19\Rever_Max.wav
+Off = ..\..\..\Sound\TractionController\Mc19\Rever_Neutral.wav

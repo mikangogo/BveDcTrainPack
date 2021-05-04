@@ -4,9 +4,8 @@ BveTs Vehicle Parameters 2.01
 VerboseLogging = true
 InstructionFileName = Instructions.yml
 
-
 [Dmf15Hs_Dw10.dll]
-SoundFilesRootPath = .\
+SoundFilesRootPath = Dmf15Hsa_Dw10\
 
 EngineNoiseMotorNoiseTxtFileName = EngineNoise\MotorNoise.txt
 EngineNoiseSoundTxtFileName = Sound.txt
@@ -77,11 +76,3 @@ WheelDiameter = 820.0
 
 
 ShowDebugDialog = false
-
-[C26.dll]
-SoundFilesRootPath = .\
-ShoeNoiseMotorNoiseTxtFileName = ShoeNoise\MotorNoise.txt
-ShoeNoiseSoundTxtFileName = Sound.txt
-ShoeNoiseSoundTxtSectionName = Shoe
-
-OtherNoiseSoundTxtFileName = Sound.txt

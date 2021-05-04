@@ -1,0 +1,26 @@
+﻿version: 1.1.00
+pip:
+  - prio: 0
+    init:
+    exec:
+      - cmd:
+        - run
+        - ..\..\..\..\GeneralAtsPlugin\Rock_On\ATSN.dll
+      - cmd:
+        - run
+        - ..\..\..\..\GeneralAtsPlugin\Rock_On\BV.dll
+      - cmd:
+        - run
+        - ..\..\..\..\GeneralAtsPlugin\Rock_On\MC.dll
+      - cmd:
+        - run
+        - ..\..\..\..\GeneralAtsPlugin\Rock_On\ATS_S.dll
+      - cmd:
+        - run
+        - ..\..\..\..\GeneralAtsPlugin\Rock_On\EB.dll
+      - cmd:
+        - run
+        - ..\..\..\Plugin\Engine\Sa6d125h_Ktf3335a\Sa6d125h_Ktf3335a.dll
+      - cmd:
+        - run
+        - ..\..\Kiha40\CommonPlugins\PluginOrganizer.dll

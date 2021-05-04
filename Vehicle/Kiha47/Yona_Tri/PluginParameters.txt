@@ -1,0 +1,98 @@
+BveTs Vehicle Parameters 2.01
+
+[PluginOrganizer.dll]
+VerboseLogging = true
+InstructionFileName = Instructions.yml
+
+
+[Sa6d125h_Ktf3335a.dll]
+SoundFilesRootPath = Sa6d125h_Ktf3335a\
+
+EngineNoiseMotorNoiseTxtFileName = EngineNoise\MotorNoise.txt
+EngineNoiseSoundTxtFileName = Sound.txt
+EngineNoiseSoundTxtSectionName = Engine
+
+GearNoiseMotorNoiseTxtFileName = GearNoise\MotorNoise.txt
+GearNoiseSoundTxtFileName = Sound.txt
+GearNoiseSoundTxtSectionName = Gear
+
+TransferGear1NoiseMotorNoiseTxtFileName = TransferGear1Noise\MotorNoise.txt
+TransferGear1NoiseSoundTxtFileName = Sound.txt
+TransferGear1NoiseSoundTxtSectionName = TransferGear1
+
+TransferGear2NoiseMotorNoiseTxtFileName = TransferGear2Noise\MotorNoise.txt
+TransferGear2NoiseSoundTxtFileName = Sound.txt
+TransferGear2NoiseSoundTxtSectionName = TransferGear2
+
+TransferGear3NoiseMotorNoiseTxtFileName = TransferGear3Noise\MotorNoise.txt
+TransferGear3NoiseSoundTxtFileName = Sound.txt
+TransferGear3NoiseSoundTxtSectionName = TransferGear3
+
+ExhaustNoiseMotorNoiseTxtFileName = ExhaustNoise\MotorNoise.txt
+ExhaustNoiseSoundTxtFileName = Sound.txt
+ExhaustNoiseSoundTxtSectionName = Exhaust
+
+TurbineNoiseMotorNoiseTxtFileName = TurbineNoise\MotorNoise.txt
+TurbineNoiseSoundTxtFileName = Sound.txt
+TurbineNoiseSoundTxtSectionName = Turbine
+
+NumberOfTractionNotch = 9
+TractionHandleToPositionTable = 0, 1, 2, 5, 7, 8
+
+FuelTable = 0.0, 0.48, 0.554285714, 0.628571429, 0.702857143, 0.777142857, 0.851428571, 0.925714286,1.0
+TractionPositionTable = 0, 1, 2, 3, 4, 5, 6, 7, 8, 0, 9, 10, 11, 12, 13, 14, 15, 16, 0, 17, 18, 19, 20, 21, 22, 23, 24, 0, 25, 26, 27, 28, 29, 30, 31, 32, 0, 33, 34, 35, 36, 37, 38, 39, 40, 0, 41, 42, 43, 44, 45, 46, 47, 48
+EngineBrakeTractionPositionTable = 49, 50, 51
+
+NOverrun = 2400.0
+NEngineMaximum = 2200.0
+NEngineMinimum = 600.0
+NoLoadMaximumNEngineRatio = 1.5
+ResponseCharacteristicsFactors = 200.0, 4000.0, 10.0
+ResponsePneumaticFactors = 3000.0, 500.0
+ResponseCombustionFactor = 250.0
+
+GovernorMinimumPidParameters = 1.5, 0.2, 0.5, 1.0, 0.0
+GovernorMaximumPidParameters = 30.0, 15.0, 0.0, 0.0, -1.0
+GovernorSyncingPidParameters = 5.0, 0.3, 0.9, 0.7, 0.0
+;GovernorSyncingPidParameters = 5.0, 3.0, 0.0, 0.7, 0.0
+GovernorMotorResponseFactor = 200.0
+
+GearTrainBacklashFactors = 500.0, 2.0, 1.0, 275.0, 0.5, 70.0
+ConverterFactors = 0.000000085455791485667, -0.000108750228828345000, 0.044933930790468300000, 1758.280313929670000000000
+
+GearRatios = 1.933, 1.237, 0.966
+NumberOfShiftRange = 3
+
+ShiftClutchesEngagingDuration = 500.0, 500.0, 500.0
+ShiftClutchesDisengagingDuration = 350.0, 350.0, 350.0
+LockUpClutchEngagingDuration = 500.0
+LockUpClutchDisengagingDuration = 500.0
+ReverserClutchEngagingDuration = 1000.0
+ReverserClutchDisengagingDuration = 100.0
+ExhaustBrakeValveOpeningDuration = 500.0
+ExhaustBrakeValveClosingDuration = 500.0
+
+LockUpRange = 60.0
+ConverterRange = 55.0
+
+ShiftRanges = 40.0, 80.0, -1.0
+ShiftUpRanges = 40.0, 80.0, -1.0
+ShiftDownRanges = -1.0, 35.0, 75.0
+ShiftPattern = 0, 1, 2
+
+EngineBrakeShiftRanges = 35.0, 80.0, -1.0
+EngineBrakeShiftUpRanges = 35.0, 80.0, -1.0
+EngineBrakeShiftDownRanges = -1.0, 35.0, 80.0
+EngineBrakeStartVelocities = 40.0, 40.0, 40.0
+EngineBrakeEndVelocities = 40.0, 40.0, 40.0
+EngineBrakeEnableBrakeNotches = -1
+EngineBrakeShiftPattern = 0, 1, 2
+
+TractionNotchLimitingRanges = -1
+TractionNotchLimitingPattern = -1
+
+FinalDriveRatio = 2.995
+WheelDiameter = 820.0
+
+
+ShowDebugDialog = true

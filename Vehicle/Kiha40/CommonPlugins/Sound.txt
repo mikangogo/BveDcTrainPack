@@ -1,0 +1,16 @@
+BveTs Vehicle Sound 3.00
+
+[Shoe]
+0 = ..\..\..\Sound\Shoe\Kiha58\Shoe_0.wav
+1 = ..\..\..\Sound\Shoe\Kiha58\Shoe_1.wav
+
+[AutomaticBrake]
+ErPistonDropping = ..\..\..\Sound\BrakeController\ME23\ErPistonDropping.wav
+ErDropping = ..\..\..\Sound\BrakeController\ME23\ErDropping.wav
+ErCharging = ..\..\..\Sound\BrakeController\ME23\ErCharging.wav
+BpCharging = ..\..\..\Sound\BrakeController\ME23\BpCharging.wav
+EvBpDropping = ..\..\..\Sound\Brake\Ku\EvBpDropping.wav
+BcExhaust = ..\..\..\Sound\Brake\Ku\BcExhaust.wav
+BpExhaust = ..\..\..\Sound\BrakeController\ME23\BpExhaust.wav
+ControllerMoveToCharging = ..\..\..\Sound\BrakeController\ME23\ControllerMoveToCharging.wav
+ControllerMoveToDropping = ..\..\..\Sound\BrakeController\ME23\ControllerMoveToDropping.wav

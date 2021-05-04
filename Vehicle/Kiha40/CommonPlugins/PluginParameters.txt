@@ -1,0 +1,26 @@
+BveTs Vehicle Parameters 2.01
+
+[PluginOrganizer.dll]
+VerboseLogging = true
+InstructionFileName = Instructions.yml
+
+[C26.dll]
+SoundFilesRootPath = .\
+ShoeNoiseMotorNoiseTxtFileName = ShoeNoise\MotorNoise.txt
+ShoeNoiseSoundTxtFileName = Sound.txt
+ShoeNoiseSoundTxtSectionName = Shoe
+
+OtherNoiseSoundTxtFileName = Sound.txt
+
+EnabledHoldingCommand = true
+EnabledGovernor = true
+EnabledAntiSnowBrake = false
+
+RelayValveProportionGain = 3.0
+RelayValveDeliveryRatio = 2.0
+RelayValveExhaustRatio = 7.0
+RelayValveDeliveryThresholdKiloPascal = 0.0
+RelayValveExhaustThresholdKiloPascal = 8.0
+
+ShowDebugDialog = false
+ShowMccbDialog = false
