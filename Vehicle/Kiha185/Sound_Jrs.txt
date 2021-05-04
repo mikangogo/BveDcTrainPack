@@ -1,0 +1,113 @@
+BveTs Vehicle Sound 3.00
+
+[Run]
+;長尺
+1 = ../../../../SA6D125H/JRS2000/Sound_sl\Run_long0.wav
+
+;定尺
+0 = ../../../../SA6D125H/JRS2000/Sound_sl\Run_25m0.wav
+;0 = ../../../../SA6D125H/JRS2000/Sound_sl\Run_long0.wav
+
+10 = ../../../../SA6D125H/JRS2000/Sound_sl\Run_25m1.wav;高規格
+;20 = ../../../../SA6D125H/JRS2000/Sound_sl\Run_25m_0.wav;低速
+
+;スラブ
+3 = ../../../../SA6D125H/JRS2000/Sound_sl\Run_slab0.wav
+13 = ../../../../SA6D125H/JRS2000/Sound_sl\Run_slab0.wav;高速
+23 = ../../../../SA6D125H/JRS2000/Sound_sl\Run_slab0.wav;瀬戸大橋
+
+;橋梁
+2 = ../../../../SA6D125H/JRS2000/Sound_sl\Run_bridge0.wav
+6 = ../../../../SA6D125H/JRS2000/Sound_sl\Run_bridge_Seto0.wav;瀬戸大橋
+
+12 = ../../../../SA6D125H/JRS2000/Sound_sl\Run_bridge0.wav
+
+;トンネル
+4 = ../../../../SA6D125H/JRS2000/Sound_sl\Run_tunnel0.wav
+5 = ../../../../SA6D125H/JRS2000/Sound_sl\Run_tunnel0.wav
+
+[Flange]
+0 = ../../../../SA6D125H/JRS2000/Sound_sl\Flange0.wav
+1 = ../../../../SA6D125H/JRS2000/Sound_sl\Flange0.wav
+
+[Joint]
+0 = ../../../../SA6D125H/JRS2000/Sound_sl\Point0.wav
+1 = ../../../../SA6D125H/JRS2000/Sound_sl\Point_45.wav
+
+3 = ../../../../SA6D125H/JRS2000/Sound_sl\Point_slab.wav
+
+5 = ../../../../SA6D125H/JRS2000/Sound_sl\Joint0.wav
+
+6  =  ../../../../SA6D125H/JRS2000/Sound_sl\Point_crossing0.wav
+7  =  ../../../../SA6D125H/JRS2000/Sound_sl\Point_crossing1.wav
+
+9 = ../../../../SA6D125H/JRS2000/Sound\RunSetojointP.wav
+10 = ../../../../SA6D125H/JRS2000/Sound\RunSetojointP.wav
+11 = ../../../../SA6D125H/JRS2000/Sound_sl\Joint_Seto_shimo.wav
+12 = ../../../../SA6D125H/JRS2000/Sound\RunSetojointP.wav
+
+;255 = ../../../../common\Sound\null.wav
+
+[Horn]
+Primary = ..\..\Sound\Horn\Aw5\Start.wav
+PrimaryRelease = ..\..\Sound\Horn\Aw5\End.wav
+
+[Door]
+Open Left = ..\..\Sound\Door\Tk7a\Open.wav
+Open Right = ..\..\Sound\Door\Tk7a\Open.wav
+Close Left = ..\..\Sound\Door\Tk7a\Close.wav
+Close Right = ..\..\Sound\Door\Tk7a\Close.wav
+
+[Ats]
+50 = ..\..\Sound\TractionController\Mc19\Shift_Neutral.wav
+51 = ..\..\Sound\TractionController\Mc19\Shift_Max.wav
+
+[Pilot Lamp]
+On = ..\..\Sound\Buzzer\Bz3a\Dah.wav
+
+[Master Controller]
+Up = ..\..\Sound\TractionController\Mc19\Notch_Step.wav
+Down = ..\..\Sound\TractionController\Mc19\Notch_Step.wav
+Max = ..\..\Sound\TractionController\Mc19\Notch_Max.wav
+Min = ..\..\Sound\TractionController\Mc19\Notch_Off.wav
+
+[Reverser]
+On = ..\..\Sound\TractionController\Mc19\Rever_Max.wav
+Off = ..\..\Sound\TractionController\Mc19\Rever_Neutral.wav
+
+
+[Engine]
+0 = ..\..\Sound\Engine\Dmf13Hs\Kiha185\Engine_Idle.wav
+1 = ..\..\Sound\Engine\Dmf13Hs\Kiha185\Engine_1.wav
+2 = ..\..\Sound\Engine\Dmf13Hs\Kiha185\Engine_2.wav
+3 = ..\..\Sound\Engine\Dmf13Hs\Kiha185\Engine_3.wav
+4 = ..\..\Sound\Engine\Dmf13Hs\Kiha185\Engine_4.wav
+5 = ..\..\Sound\Engine\Dmf13Hs\Kiha185\Engine_Max.wav
+
+[Turbine]
+;0 = ..\..\Sound\Engine\DMF15HSA\Turbine.wav
+
+[Shock]
+Moderate = ..\..\Sound\Environment\Shock_Moderate_0.wav
+
+[Gear]
+;0 = ..\..\Sound\ReductionDrive\GB122\Gear_0.wav
+
+[TransferGear1]
+
+[Exhaust]
+
+[Shoe]
+0 = ..\..\Sound\Shoe\Kiha58\Shoe_0.wav
+1 = ..\..\Sound\Shoe\Kiha58\Shoe_1.wav
+
+[AutomaticBrake]
+ErPistonDropping = ..\..\Sound\BrakeController\ME23\ErPistonDropping.wav
+ErDropping = ..\..\Sound\BrakeController\ME23\ErDropping.wav
+ErCharging = ..\..\Sound\BrakeController\ME23\ErCharging.wav
+BpCharging = ..\..\Sound\BrakeController\ME23\BpCharging.wav
+EvBpDropping = ..\..\Sound\Brake\Ku\EvBpDropping.wav
+BcExhaust = ..\..\Sound\Brake\Ku\BcExhaust.wav
+BpExhaust = ..\..\Sound\BrakeController\ME23\BpExhaust.wav
+ControllerMoveToCharging = ..\..\Sound\BrakeController\ME23\ControllerMoveToCharging.wav
+ControllerMoveToDropping = ..\..\Sound\BrakeController\ME23\ControllerMoveToDropping.wav
