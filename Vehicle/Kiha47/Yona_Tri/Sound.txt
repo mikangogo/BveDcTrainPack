@@ -1,39 +1,32 @@
 BveTs Vehicle Sound 3.00
 
 [Run]
-0 = ..\..\..\Sound\Run\Kiha58\Ballast\Long.wav
-1 = ..\..\..\Sound\Run\Kiha58\Ballast\Long.wav
-2 = ..\..\..\Sound\Run\Kiha58\Ballast\25m.wav
-3 = ..\..\..\Sound\Run\Kiha58\Bridge\25m.wav
-4 = ..\..\..\Sound\Run\Kiha58\Tunnel\25m.wav
-5 = ..\..\..\Sound\Run\Kiha58\Tunnel\25m.wav
-6 = ..\..\..\Sound\Run\Kiha58\Tunnel\25m.wav
-10 = ..\..\..\Sound\Run\Kiha58\Ballast\25m.wav
-12 = ..\..\..\Sound\Run\Kiha58\Ballast\25m.wav
-13 = ..\..\..\Sound\Run\Kiha58\Ballast\25m.wav
-14 = ..\..\..\Sound\Run\Kiha58\Ballast\25m.wav
-15 = ..\..\..\Sound\Run\Kiha58\Ballast\25m.wav
-16 = ..\..\..\Sound\Run\Kiha58\Ballast\25m.wav
-17 = ..\..\..\Sound\Run\Kiha58\Ballast\25m.wav
+0 = ..\..\..\Sound\Run\Kiha40\Ballast\FromSettsuLiner\Long.wav
+1 = ..\..\..\Sound\Run\Kiha40\Slab\FromSettsuLiner\Long_Jrs.wav
+2 = ..\..\..\Sound\Run\Kiha40\Ballast\FromSettsuLiner\25m.wav
+3 = ..\..\..\Sound\Run\Kiha40\Bridge\FromSettsuLiner\25m.wav
+4 = ..\..\..\Sound\Run\Kiha40\Tunnel\FromSettsuLiner\25m.wav
+5 = ..\..\..\Sound\Run\Kiha40\Tunnel\FromSettsuLiner\Slab.wav
+12 = ..\..\..\Sound\Run\Kiha40\Ballast\FromSettsuLiner\25m_Sanin.wav
 
 [Flange]
-0 = ..\..\..\Sound\Run\Kiha58\Flange\Moderate_0.wav
+0 = ..\..\..\Sound\Run\Kiha40\Flange\FromSettsuLiner\Flange_Hs.wav
 1 = ..\..\..\Sound\Run\Kiha58\Flange\Moderate_0.wav
 
 [Joint]
-0 = ..\..\..\Sound\Run\Kiha58\\Switch\Switch.wav
-1 = ..\..\..\Sound\Run\Kiha58\\Switch\Switch.wav
-2 = ..\..\..\Sound\Run\Kiha58\\Switch\Switch.wav
+0 = ..\..\..\Sound\Run\Kiha40\Switch\FromSettsuLiner\Switch.wav
+1 = ..\..\..\Sound\Run\Kiha40\Switch\FromSettsuLiner\Switch_1.wav
+2 = ..\..\..\Sound\Run\Kiha40\Switch\FromSettsuLiner\Switch_45.wav
 
 [Horn]
 Primary = ..\..\..\Sound\Horn\Kiha40_Sanin\Start.wav
 PrimaryRelease = ..\..\..\Sound\Horn\Kiha40_Sanin\End.wav
 
 [Door]
-Open Left = ..\..\..\Sound\Door\Tk105\Open.wav
-Open Right = ..\..\..\Sound\Door\Tk105\Open.wav
-Close Left = ..\..\..\Sound\Door\Tk105\Close.wav
-Close Right = ..\..\..\Sound\Door\Tk105\Close.wav
+Open Left = ..\..\..\Sound\Door\Tk105\FromSettsuLiner\Open_Jrs.wav
+Open Right = ..\..\..\Sound\Door\Tk105\FromSettsuLiner\Open_Jrs.wav
+Close Left = ..\..\..\Sound\Door\Tk105\FromSettsuLiner\Close_Jrs.wav
+Close Right = ..\..\..\Sound\Door\Tk105\FromSettsuLiner\Close_Jrs.wav
 
 [Ats]
 0 = ..\..\..\Sound\Ats\Cs171\Ring.wav

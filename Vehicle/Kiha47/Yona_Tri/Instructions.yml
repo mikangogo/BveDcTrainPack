@@ -23,4 +23,4 @@ pip:
         - ..\..\..\Plugin\Engine\Sa6d125h_Ktf3335a\Sa6d125h_Ktf3335a.dll
       - cmd:
         - run
-        - ..\..\Kiha40\CommonPlugins\PluginOrganizer.dll
+        - ..\..\Kiha40\CommonPlugins_Jrs\PluginOrganizer.dll

@@ -2,7 +2,7 @@ BveTs Vehicle Sound 3.00
 
 [Engine]
 0 = ..\..\..\..\Sound\Engine\Sa6d125h\Engine_Idle.wav
-;1 = ..\..\..\..\Sound\Engine\Sa6d125h\Engine_1.wav
+1 = ..\..\..\..\Sound\Engine\Sa6d125h\Engine_1.wav
 3 = ..\..\..\..\Sound\Engine\Sa6d125h\Engine_2.wav
 4 = ..\..\..\..\Sound\Engine\Sa6d125h\Engine_3.wav
 5 = ..\..\..\..\Sound\Engine\Sa6d125h\Engine_4.wav
