@@ -1,6 +1,0 @@
-Bvets Vehicle 0.03
-PerformanceCurve = ..\Notch\Sa6d125h_Ktf3335a_2995_820\Notch.txt
-Parameters = Kiha47\Yona_Tri\Param.txt
-Panel = ..\Panel\Kiha40\Aki_Aki\panel.txt
-Sound = Kiha47\Yona_Tri\Sound.txt
-Ats = Kiha47\Yona_Tri\PluginOrganizer.dll

@@ -1,6 +1,0 @@
-Bvets Vehicle 0.03
-PerformanceCurve = ..\Notch\Dmf13Hs_Tc2a_2613_860\Notch.txt
-Parameters = Kiha185\Param.txt
-Panel = ..\Panel\Kiha40\Aki_Aki\panel.txt
-Sound = Kiha185\Sound.txt
-Ats = Kiha185\PluginOrganizer.dll

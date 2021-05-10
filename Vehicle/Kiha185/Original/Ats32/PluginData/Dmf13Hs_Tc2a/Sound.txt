@@ -1,0 +1,22 @@
+BveTs Vehicle Sound 3.00
+
+[Engine]
+0 = ..\..\..\..\..\..\Sound\Engine\Dmf13Hs\Kiha185\Engine_Idle.wav
+1 = ..\..\..\..\..\..\Sound\Engine\Dmf13Hs\Kiha185\Engine_1.wav
+2 = ..\..\..\..\..\..\Sound\Engine\Dmf13Hs\Kiha185\Engine_2.wav
+3 = ..\..\..\..\..\..\Sound\Engine\Dmf13Hs\Kiha185\Engine_3.wav
+4 = ..\..\..\..\..\..\Sound\Engine\Dmf13Hs\Kiha185\Engine_4.wav
+5 = ..\..\..\..\..\..\Sound\Engine\Dmf13Hs\Kiha185\Engine_Max.wav
+
+[Turbine]
+;0 = ..\..\..\..\..\..\Sound\Engine\DMF15HSA\Turbine.wav
+
+[Shock]
+Moderate = ..\..\..\..\..\..\Sound\Environment\Shock_Moderate_0.wav
+
+[Gear]
+;0 = ..\..\..\..\..\..\Sound\ReductionDrive\GB122\Gear_0.wav
+
+[TransferGear1]
+
+[Exhaust]
