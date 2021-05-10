@@ -44,15 +44,15 @@ NighttimeImage = needle\spd_n.png
 Origin = 16, 124
 layer = 5
 Radius = 126
-InitialAngle = -122
-LastAngle = 120
+InitialAngle = -180
+LastAngle = 180
 Minimum = 0
-Maximum = 120000
+Maximum = 360000
 NaturalFreq = 6.3
 DampingRatio = 0.5
 
 [Needle]
-Subject = er
+Subject = ats101
 Location = 839, 1289
 DaytimeImage = needle\prs.png
 NighttimeImage = needle\prs_n.png
@@ -62,11 +62,11 @@ Radius = 85
 InitialAngle = -132
 LastAngle = 132
 Minimum = 0
-Maximum = 980
+Maximum = 1000
 NaturalFreq = 0
 
 [Needle]
-Subject = mr
+Subject = ats102
 Location = 839, 1289
 DaytimeImage = needle\prsr.png
 NighttimeImage = needle\prsr_n.png
@@ -76,11 +76,11 @@ Radius = 85
 InitialAngle = -132
 LastAngle = 132
 Minimum = 0
-Maximum = 980
+Maximum = 1000
 NaturalFreq = 0
 
 [Needle]
-Subject = bp
+Subject = ats103
 Location = 1060, 1289
 DaytimeImage = needle\prs.png
 NighttimeImage = needle\prs_n.png
@@ -90,11 +90,11 @@ Radius = 85
 InitialAngle = -132
 LastAngle = 132
 Minimum = 0
-Maximum = 980
+Maximum = 1000
 NaturalFreq = 0
 
 [Needle]
-Subject = bc
+Subject = ats104
 Location = 1060, 1289
 DaytimeImage = needle\prsr.png
 NighttimeImage = needle\prsr_n.png
@@ -104,7 +104,7 @@ Radius = 85
 InitialAngle = -132
 LastAngle = 132
 Minimum = 0
-Maximum = 980
+Maximum = 1000
 NaturalFreq = 0
 
 [Pilotlamp]
@@ -192,35 +192,35 @@ nighttimeimage = dn_n.png
 layer = 10
 
 [pilotlamp]
-subject = ats12
+subject = true
 location = 926,1100
 daytimeimage = engine.png
 nighttimeimage = engine_n.png
 layer = 10
 
 [pilotlamp]
-subject = ats13
+subject = ats44
 location = 988,1100
 daytimeimage = tyokketsu.png
 nighttimeimage = tyokketsu_n.png
 layer = 10
 
 [pilotlamp]
-subject = ats14
+subject = ats46
 location = 1042,1100
 daytimeimage = churitsu.png
 nighttimeimage = churitsu_n.png
 layer = 10
 
 [pilotlamp]
-subject = ats15
+subject = ats43
 location = 1096,1101
 daytimeimage = hensoku.png
 nighttimeimage = hensoku_n.png
 layer = 10
 
 [pilotlamp]
-subject = ats18
+subject = ats41
 location = 1160,1100
 daytimeimage = B.png
 nighttimeimage = B_n.png

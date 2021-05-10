@@ -1,0 +1,24 @@
+BveTs Vehicle Sound 3.00
+
+[Engine]
+0 = ..\..\..\..\..\..\Sound\Engine\Dmh17c\Engine_Idle.wav
+;1 = ..\..\..\..\..\Sound\Engine\Dmh17c\Engine_1700.wav  ; ラジエータの塞ぎなし（夏）
+2 = ..\..\..\..\..\..\Sound\Engine\Dmh17c\Engine_Rd_1700.wav    ; ラジエータの塞ぎあり（冬）
+3 = ..\..\..\..\..\..\Sound\Engine\Dmh17c\EnginePump_Idle.wav
+4 = ..\..\..\..\..\..\Sound\Engine\Dmh17c\EnginePump_800.wav
+5 = ..\..\..\..\..\..\Sound\Engine\Dmh17c\Engine_2.wav
+6 = ..\..\..\..\..\..\Sound\Engine\Dmh17c\Engine_Max.wav
+7 = ..\..\..\..\..\..\Sound\Engine\Dmh17c\Engine_1600.wav
+
+
+[Gear]
+
+[TransferGear1]
+0 = ..\..\..\..\..\..\Sound\ReductionDrive\Kiha20\Gear_0.wav
+
+[Exhaust]
+
+[Turbine]
+
+[Shock]
+Moderate = ..\..\..\..\..\..\Sound\Environment\Shock_Moderate_1.wav

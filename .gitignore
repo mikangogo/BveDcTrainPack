@@ -3,3 +3,6 @@
 *.bak
 *.Sound
 *.tmp
+*.psd
+*コピー.*
+*.log

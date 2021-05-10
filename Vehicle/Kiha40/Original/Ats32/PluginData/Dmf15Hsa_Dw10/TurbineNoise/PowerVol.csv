@@ -1,0 +1,10 @@
+BveTs Motor Noise Table 1.00:utf-8,
+#Volume,
+#,Turbine0
+#,0
+0,0
+0.1,0.7
+0.15,0.7
+0.5,1
+0.6,0.2
+1,0
