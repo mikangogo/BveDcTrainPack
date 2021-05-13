@@ -1,0 +1,468 @@
+﻿BveTs Instrument Panel 2.00
+
+;----------------------<    ベース    >----------------------
+[This]##本体
+DaytimeImage = Panel.png
+NighttimeImage = Panel_N.png
+Resolution = 2300
+Left = 390
+Top = 50
+Right = 3940
+Bottom = 2660
+Center = 1825, 1200
+Origin = 2000, 900
+
+[PilotLamp]##計器灯
+Subject = door
+Location = 306, 1643
+Layer = 1
+DaytimeImage = lamp.png
+NighttimeImage = lamp_N.png
+;----------------------<    ベース    >----------------------
+
+
+;----------------------<    ATS関連   >----------------------
+[PilotLamp]##ATS電源
+Subject = ats0
+Location = 3278, 1234
+Layer = 2
+DaytimeImage = ATS.png
+
+[PilotLamp]##ATS動作
+Subject = ats1
+Location = 3386, 1218
+Layer = 2
+DaytimeImage = ATSr.png
+;----------------------<    ATS関連   >----------------------
+
+
+;----------------------<   表示灯類   >----------------------
+[PilotLamp]##戸
+Subject = door
+Location = 1516, 1838
+Layer = 2
+DaytimeImage = door_N.png
+##NighttimeImage = door_n.png
+
+[PilotLamp]##逆転機前
+Subject = ats8
+Location = 1629, 1838
+Layer = 2
+DaytimeImage = forward_N.png
+##NighttimeImage = forward_n.png
+
+[PilotLamp]##逆転機後
+Subject = ats9
+Location = 1726, 1838
+Layer = 2
+DaytimeImage = backward_N.png
+##NighttimeImage = backward_n.png
+
+[PilotLamp]##機
+Subject = ats12
+Location = 1840, 1838
+Layer = 2
+DaytimeImage = engine_N.png
+##NighttimeImage = engine_n.png
+
+[PilotLamp]##変速機直結
+Subject = ats44
+Location = 1953, 1838
+Layer = 2
+DaytimeImage = direct_N.png
+##NighttimeImage = direct_n.png
+
+[PilotLamp]##変速機中立
+Subject = ats46
+Location = 2051, 1838
+Layer = 2
+DaytimeImage = neutral_N.png
+##NighttimeImage = neutral_n.png
+
+[PilotLamp]##変速機変速
+Subject = ats43
+Location = 2148, 1838
+Layer = 2
+DaytimeImage = change_N.png
+##NighttimeImage = change_n.png
+
+[PilotLamp]##排気ブレーキ
+Subject = ats41
+Location = 2261, 1838
+Layer = 2
+DaytimeImage = brake_N.png
+##NighttimeImage = brake_n.png
+;----------------------<   表示灯類   >----------------------
+
+
+;----------------------<   計器中心   >----------------------
+[PilotLamp]##pr針中心右
+Subject = true
+Location = 2072, 2175
+Layer = 8
+DaytimeImage = pr_center.png
+NighttimeImage = pr_center_n.png
+
+[PilotLamp]##pr針中心右計器灯点灯差分
+Subject = door
+Location = 2072, 2175
+Layer = 9
+DaytimeImage = pr_center.png
+NighttimeImage = pr_center_L_N_R.png
+
+
+[PilotLamp]##pr針中心左
+Subject = true
+Location = 1692, 2175
+Layer = 8
+DaytimeImage = pr_center.png
+NighttimeImage = pr_center_n.png
+
+[PilotLamp]##pr針中心左計器灯点灯差分
+Subject = door
+Location = 1692, 2175
+Layer = 9
+DaytimeImage = pr_center.png
+NighttimeImage = pr_center_L_N_L.png
+
+
+[PilotLamp]##spd針中心
+Subject = true
+Location = 1199, 2128
+Layer = 7
+DaytimeImage = spd_center.png
+NighttimeImage = spd_center_n.png
+
+[PilotLamp]##spd針中心計器灯点灯差分
+Subject = door
+Location = 1199, 2128
+Layer = 8
+DaytimeImage = spd_center.png
+NighttimeImage = spd_center_L_N.png
+;----------------------<   計器中心   >----------------------
+
+
+;----------------------<   速度計針   >----------------------
+[Needle]##spd_needle
+Subject = ats30
+;Subject = kmph
+Location = 1254, 2183
+DaytimeImage = BVEWS\toyo-analog-needle.png
+NighttimeImage = null.png
+Origin = 128, 512
+Layer = 6
+Radius = 138
+InitialAngle = -182
+LastAngle = 178
+;InitialAngle = -118
+;LastAngle = 116
+Minimum = 0
+Maximum = 360000
+NaturalFreq = 8.5
+DampingRatio = 0.6
+Color = 151017
+StopPin = True
+
+[Needle]
+Subject = ats30
+;Subject = kmph
+Location = 1254, 2183
+DaytimeImage = null.png
+NighttimeImage = BVEWS\toyo-analog-needle.png
+Origin = 128, 512
+Layer = 5
+Radius = 138
+InitialAngle = -182
+LastAngle = 178
+;InitialAngle = -118
+;LastAngle = 116
+Minimum = 0
+Maximum = 360000
+NaturalFreq = 8.5
+DampingRatio = 0.6
+Color = 020804
+StopPin = True
+
+[Needle]##spd_needle_shadow
+Subject = ats30
+;Subject = kmph
+Location = 1260, 2210
+DaytimeImage = BVEWS\toyo-analog-needle_shadow.png
+;NighttimeImage = null.png
+Origin = 128, 512
+Layer = 2
+Radius = 138
+InitialAngle = -182
+LastAngle = 178
+;InitialAngle = -112
+;LastAngle = 110
+Minimum = 0
+Maximum = 360000
+NaturalFreq = 8.5
+DampingRatio = 0.6
+StopPin = True
+
+[Needle]##spd_needle_B
+Subject = ats30
+;Subject = kmph
+Location = 1254, 2183
+DaytimeImage = BVEWS\toyo-analog-needle_shadowB.png
+NighttimeImage = null.png
+Origin = 128, 512
+Layer = 4
+Radius = 138
+InitialAngle = -182
+LastAngle = 178
+;InitialAngle = -123
+;LastAngle = 118
+Minimum = 0
+Maximum = 360000
+NaturalFreq = 8.5
+DampingRatio = 0.6
+StopPin = True
+;----------------------<   速度計針   >----------------------
+
+
+[Needle]##mr_needle
+##Subject = mr
+Subject = ats102
+Location = 1704, 2189
+DaytimeImage = BVEWS\pressure-needle-up.png
+NighttimeImage = null.png
+Origin = 128, 511
+Layer = 5
+Radius = 130
+InitialAngle = -134
+LastAngle = 136
+Minimum = 0
+Maximum = 1000
+NaturalFreq = 0
+Color = 901518
+
+[Needle]
+##Subject = mr
+Subject = ats102
+Location = 1704, 2189
+DaytimeImage = null.png
+NighttimeImage = BVEWS\pressure-needle-up.png
+Origin = 128, 511
+Layer = 4
+Radius = 130
+InitialAngle = -134
+LastAngle = 136
+Minimum = 0
+Maximum = 1000
+NaturalFreq = 0
+Color = 160402
+
+[Needle]##mr_needle_shadow
+##Subject = mr
+Subject = ats102
+Location = 1720, 2200
+DaytimeImage = BVEWS\pressure-needle-up_shadow.png
+;NighttimeImage = null.png
+Origin = 128, 511
+Layer = 2
+Radius = 130
+InitialAngle = -136
+LastAngle = 133
+Minimum = 0
+Maximum = 1000
+NaturalFreq = 0
+
+[Needle]##mr_needle_shadow_B
+##Subject = mr
+Subject = ats102
+Location = 1638, 2239
+DaytimeImage = BVEWS\pressure-needle-up_shadowB.png
+;NighttimeImage = null.png
+Origin = 128, 511
+Layer = 2
+Radius = 130
+InitialAngle = -136
+LastAngle = 138
+Minimum = 0
+Maximum = 1000
+NaturalFreq = 0
+
+
+[Needle]##er_needle
+##Subject = er
+Subject = ats101
+Location = 1703, 2189
+DaytimeImage = BVEWS\pressure-needle-up.png
+NighttimeImage = null.png
+Origin = 128, 511
+Layer = 7
+Radius = 130
+InitialAngle = -134
+LastAngle = 136
+Minimum = 0
+Maximum = 1000
+NaturalFreq = 0
+Color = 242227
+
+[Needle]
+##Subject = er
+Subject = ats101
+Location = 1703, 2189
+DaytimeImage = null.png
+NighttimeImage = BVEWS\pressure-needle-up.png
+Origin = 128, 511
+Layer = 6
+Radius = 130
+InitialAngle = -134
+LastAngle = 136
+Minimum = 0
+Maximum = 1000
+NaturalFreq = 0
+Color = 040404
+
+[Needle]##er_needle_shadow
+##Subject = er
+Subject = ats101
+Location = 1730, 2207
+DaytimeImage = BVEWS\pressure-needle-up_shadow.png
+;NighttimeImage = null.png
+Origin = 128, 511
+Layer = 2
+Radius = 130
+InitialAngle = -136
+LastAngle = 136
+Minimum = 0
+Maximum = 1000
+NaturalFreq = 0
+
+[Needle]##er_needle_shadow_B
+##Subject = er
+Subject = ats101
+Location = 1638, 2239
+DaytimeImage = BVEWS\pressure-needle-up_shadowB.png
+;NighttimeImage = null.png
+Origin = 128, 511
+Layer = 2
+Radius = 130
+InitialAngle = -136
+LastAngle = 140
+Minimum = 0
+Maximum = 1000
+NaturalFreq = 0
+
+
+[Needle]##bc_needle
+##Subject = bc
+Subject = ats104
+Location = 2083, 2188
+DaytimeImage = BVEWS\pressure-needle-up.png
+NighttimeImage = null.png
+Origin = 128, 511
+Layer = 5
+Radius = 130
+InitialAngle = -134
+LastAngle = 136
+Minimum = 0
+Maximum = 1000
+NaturalFreq = 0
+Color = 901518
+
+[Needle]
+##Subject = bc
+Subject = ats104
+Location = 2083, 2188
+DaytimeImage = null.png
+NighttimeImage = BVEWS\pressure-needle-up.png
+Origin = 128, 511
+Layer = 4
+Radius = 130
+InitialAngle = -134
+LastAngle = 136
+Minimum = 0
+Maximum = 1000
+NaturalFreq = 0
+Color = 160402
+
+[Needle]##bc_needle_shadow
+##Subject = bc
+Subject = ats104
+Location = 2067, 2215
+DaytimeImage = BVEWS\pressure-needle-up_shadow.png
+;NighttimeImage = null.png
+Origin = 128, 511
+Layer = 2
+Radius = 130
+InitialAngle = -134
+LastAngle = 150
+Minimum = 0
+Maximum = 1000
+NaturalFreq = 0
+
+
+[Needle]##bp_needle
+##Subject = bp
+Subject = ats103
+Location = 2083, 2188
+DaytimeImage = BVEWS\pressure-needle-up.png
+NighttimeImage = null.png
+Origin = 128, 511
+Layer = 7
+Radius = 130
+InitialAngle = -134
+LastAngle = 136
+Minimum = 0
+Maximum = 1000
+NaturalFreq = 0
+Color = 242227
+
+[Needle]
+##Subject = bp
+Subject = ats103
+Location = 2083, 2188
+DaytimeImage = null.png
+NighttimeImage = BVEWS\pressure-needle-up.png
+Origin = 128, 511
+Layer = 6
+Radius = 130
+InitialAngle = -134
+LastAngle = 136
+Minimum = 0
+Maximum = 1000
+NaturalFreq = 0
+Color = 040404
+
+[Needle]##bp_needle
+##Subject = bp
+Subject = ats103
+Location = 2058, 2239
+DaytimeImage = BVEWS\pressure-needle-up_shadow.png
+;NighttimeImage = null.png
+Origin = 128, 511
+Layer = 2
+Radius = 130
+InitialAngle = -136
+LastAngle = 165
+Minimum = 0
+Maximum = 1000
+NaturalFreq = 0
+
+[Needle]##中心の影 右
+Subject = true
+Location = 2088, 2189
+DaytimeImage = shadow.png
+;NighttimeImage = null.png
+Origin = 31, 222
+Layer = 2
+Radius = 110
+InitialAngle = -157
+LastAngle = -157
+Minimum = 0
+Maximum = 1
+NaturalFreq = 0
+
+
+[digitalnumber]##計器灯未点灯時の影隠し
+Subject = Door
+Location = 1053, 1984
+DaytimeImage = metercover_true.png
+NighttimeImage = metercover_true_N.png
+layer = 3
+Interval = 1024

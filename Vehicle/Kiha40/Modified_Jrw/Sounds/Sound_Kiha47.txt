@@ -23,14 +23,14 @@ Primary = ..\..\..\..\Sound\Horn\Kiha40_Sanin\Start.wav
 PrimaryRelease = ..\..\..\..\Sound\Horn\Kiha40_Sanin\End.wav
 
 [Door]
-Open Left = ..\..\..\..\Sound\Door\Tk105\Open.wav
-Open Right = ..\..\..\..\Sound\Door\Tk105\Open.wav
-Close Left = ..\..\..\..\Sound\Door\Tk105\Close.wav
-Close Right = ..\..\..\..\Sound\Door\Tk105\Close.wav
+Open Left = ..\..\..\..\Sound\Door\Tk106a\Open.wav
+Open Right = ..\..\..\..\Sound\Door\Tk106a\Open.wav
+Close Left = ..\..\..\..\Sound\Door\Tk106a\Close.wav
+Close Right = ..\..\..\..\Sound\Door\Tk106a\Close.wav
 
 [Ats]
 0 = ..\..\..\..\Sound\Ats\Cs171\Ring.wav
-3 = ..\..\..\..\Sound\Eb\West\Dah.wav
+3 = ..\..\..\..\Sound\Ats\Eb_West_1\Dah.wav
 21 = ..\..\..\..\Sound\Ats\Bz21\L.wav
 22 = ..\..\..\..\Sound\Ats\Bz21\R.wav
 50 = ..\..\..\..\Sound\TractionController\Mc19\Shift_Neutral.wav
