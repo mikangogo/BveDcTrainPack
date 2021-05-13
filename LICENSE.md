@@ -132,6 +132,9 @@
 - キハ183運転台
   - .\Panel\Kiha183
 
+- キハ40運転台
+  - .\Panel\Kiha40\Yon_Toku
+
 
 ## [@BVE飯田保線区](http://bve.iida-hosenku.com/) さん
 
