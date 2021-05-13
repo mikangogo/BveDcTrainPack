@@ -5,10 +5,10 @@ Primary = ..\..\..\..\Sound\Horn\Aw5\Start.wav
 PrimaryRelease = ..\..\..\..\Sound\Horn\Aw5\End.wav
 
 [Door]
-Open Left = ..\..\..\..\Sound\Door\Tk7a\Open.wav
-Open Right = ..\..\..\..\Sound\Door\Tk7a\Open.wav
-Close Left = ..\..\..\..\Sound\Door\Tk7a\Close.wav
-Close Right = ..\..\..\..\Sound\Door\Tk7a\Close.wav
+Open Left = ..\..\..\..\Sound\Door\Tk109\Open.wav
+Open Right = ..\..\..\..\Sound\Door\Tk109\Open.wav
+Close Left = ..\..\..\..\Sound\Door\Tk109\Close.wav
+Close Right = ..\..\..\..\Sound\Door\Tk109\Close.wav
 
 [Ats]
 50 = ..\..\..\..\Sound\TractionController\Mc19\Shift_Neutral.wav
