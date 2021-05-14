@@ -49,6 +49,8 @@
 - RealAnalogGauge
   - .\Plugin\ThirdParty\RealAnalogGauge
 
+- 汎用計器画像素材
+
 
 ## [@おーやま](https://twitter.com/Aila_SW) さん
 
