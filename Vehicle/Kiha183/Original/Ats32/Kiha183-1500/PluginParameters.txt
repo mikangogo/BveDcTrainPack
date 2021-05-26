@@ -108,5 +108,5 @@ RelayValveExhaustPositionThresholdKiloPascal = 10.0
 
 Formation = m,M,M,M,m,M,M,M,m
 
-ShowDebugDialog = true
-ShowMccbDialog = true
+ShowDebugDialog = false
+ShowMccbDialog = false
