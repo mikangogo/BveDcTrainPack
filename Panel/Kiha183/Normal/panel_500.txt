@@ -74,7 +74,7 @@ DampingRatio = 0.8
 
 
 [Needle]
-Subject = mr
+Subject = ats102
 Location = 1972,2808
 DaytimeImage = needle2.png
 NighttimeImage = needle2_n.png
@@ -90,7 +90,7 @@ NaturalFreq = 80
 DampingRatio = 0.1
 
 [Needle]
-Subject = er
+Subject = ats101
 Location = 1972,2808
 DaytimeImage = needle3.png
 NighttimeImage = needle3_n.png
@@ -107,7 +107,7 @@ DampingRatio = 0.1
 
 
 [Needle]
-Subject = mr
+Subject = ats102
 Location = 1972,2818
 DaytimeImage = needle2_kage.png
 TransparentColor = 000000
@@ -122,7 +122,7 @@ NaturalFreq = 80
 DampingRatio = 0.1
 
 [Needle]
-Subject = er
+Subject = ats101
 Location = 1972,2818
 DaytimeImage = needle3_kage.png
 TransparentColor = 000000
@@ -138,7 +138,7 @@ DampingRatio = 0.1
 
 
 [Needle]
-Subject = bc
+Subject = ats104
 Location = 2489,2808
 DaytimeImage = needle2.png
 NighttimeImage = needle2_n.png
@@ -154,7 +154,7 @@ NaturalFreq = 80
 DampingRatio = 0.1
 
 [Needle]
-Subject = bp
+Subject = ats103
 Location = 2489,2808
 DaytimeImage = needle3.png
 NighttimeImage = needle3_n.png
@@ -170,7 +170,7 @@ NaturalFreq = 80
 DampingRatio = 0.1
 
 [Needle]
-Subject = bc
+Subject = ats104
 Location = 2489,2818
 DaytimeImage = needle2_kage.png
 TransparentColor = 000000
@@ -185,7 +185,7 @@ NaturalFreq = 80
 DampingRatio = 0.1
 
 [Needle]
-Subject = bp
+Subject = ats103
 Location = 2489,2818
 DaytimeImage = needle3_kage.png
 TransparentColor = 000000
@@ -206,52 +206,52 @@ DaytimeImage = door.png
 Layer = 5
 
 [pilotlamp]
-subject = ats10
+subject = ats8
 location = 1619, 2457
 daytimeimage = gearFront.png
 layer = 5
 
 [pilotlamp]
-subject = ats11
+subject = ats9
 location = 1729, 2458
 daytimeimage = gearBack.png
 layer = 5
 
 [pilotlamp]
-subject = ats12
+subject = true
 location = 1857, 2457
 daytimeimage = engine.png
 layer = 5
 
 [pilotlamp]
-subject = ats13
+subject = ats44
 location = 1991, 2457
 daytimeimage = tyoku.png
 layer = 5
 
 [pilotlamp]
-subject = ats14
+subject = ats46
 location = 2107, 2459
 daytimeimage = chu.png
 layer = 5
 
 [pilotlamp]
-subject = ats15
+subject = ats43
 location = 2215, 2458
 daytimeimage = hen.png
 layer = 5
 
 [pilotlamp]
-subject = ats18
+subject = ats41
 location = 2349, 2460
 daytimeimage = enginebrake.png
 layer = 5
 
-##[pilotlamp]
-##subject = 
-##location = 2349, 2460
-##daytimeimage = enginebrakeG.png
-##layer = 5
+[pilotlamp]
+subject = ats83
+location = 2349, 2460
+daytimeimage = enginebrakeG.png
+layer = 5
 
 [pilotlamp]
 subject = ats0
@@ -271,11 +271,11 @@ layer = 5
 ##daytimeimage = EB.png
 ##layer = 5
 
-##[pilotlamp]
-##subject = 
-##location = 2701, 2458
-##daytimeimage = AntiSnow.png
-##layer = 5
+[pilotlamp]
+subject = ats110
+location = 2701, 2458
+daytimeimage = AntiSnow.png
+layer = 5
 
 ##[pilotlamp]
 ##subject = 
