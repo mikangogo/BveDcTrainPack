@@ -1,0 +1,26 @@
+BveTs Vehicle Sound 3.00
+
+[Engine]
+0 = ..\..\..\..\..\..\Sound\Engine\Dml30Hsi\Kiha181\Engine_Idle.wav
+1 = ..\..\..\..\..\..\Sound\Engine\Dml30Hsi\Kiha181\EnginePump_Idle.wav
+2 = ..\..\..\..\..\..\Sound\Engine\Dml30Hsi\Kiha181\EnginePump_1.wav
+3 = ..\..\..\..\..\..\Sound\Engine\Dml30Hsi\Kiha181\EnginePump_2.wav
+4 = ..\..\..\..\..\..\Sound\Engine\Dml30Hsi\Kiha181\Engine_3.wav
+5 = ..\..\..\..\..\..\Sound\Engine\Dml30Hsi\Kiha181\Engine_4.wav
+6 = ..\..\..\..\..\..\Sound\Engine\Dml30Hsi\Kiha181\Engine_1820.wav
+7 = ..\..\..\..\..\..\Sound\Engine\Dml30Hsi\Kiha181\Engine_Max.wav
+8 = ..\..\..\..\..\..\Sound\Engine\Dml30Hsi\Kiha181\Engine_HydroPump.wav
+9 = ..\..\..\..\..\..\Sound\Engine\Dml30Hsi\Kiha181\Engine_Combustion_2.wav
+
+[Turbine]
+0 = ..\..\..\..\..\..\Sound\Engine\Dml30Hsi\Kiha181\Turbine.wav
+
+[Shock]
+Moderate = ..\..\..\..\..\..\Sound\Environment\Shock_Moderate_2.wav
+
+[Gear]
+0 = ..\..\..\..\..\..\Sound\ReductionDrive\GB122\Gear_0.wav
+
+[TransferGear1]
+
+[Exhaust]

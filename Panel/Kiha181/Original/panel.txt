@@ -1,0 +1,324 @@
+BveTs Instrument Panel 2.00
+
+[This]
+Resolution = 3072
+Left = 1
+Top = 1
+Right = 4093
+Bottom = 2894
+Center = 1950, 1650
+Origin = 1950, 1158
+
+
+[PilotLamp]
+Subject = true
+Location = 0, 0
+DaytimeImage = panel.png
+NighttimeImage = panel_n.png
+Layer = 2
+
+[PilotLamp]
+Subject = true
+Location = 1322, 2252
+DaytimeImage = futa1.png
+NighttimeImage = futa1_n.png
+Layer = 15
+
+[PilotLamp]
+Subject = true
+Location = 2013, 2356
+DaytimeImage = futa2.png
+NighttimeImage = futa2_n.png
+Layer = 15
+
+[PilotLamp]
+Subject = true
+Location = 2603, 2354
+DaytimeImage = futa3.png
+NighttimeImage = futa3_n.png
+Layer = 15
+
+[PilotLamp]
+Subject = true
+Location = 3377, 0
+DaytimeImage = light.png
+Layer = 15
+
+
+;速度計
+[Needle]
+Subject = kmph
+Location = 1446,2381
+DaytimeImage = needle1.png
+NighttimeImage = needle1_n.png
+Origin = 16, 256
+Layer = 9
+Radius = 230
+InitialAngle = -116
+LastAngle = 116
+Minimum = 0
+Maximum = 120
+NaturalFreq = 5
+DampingRatio = 0.8
+
+
+
+;圧力計1
+[Needle]
+Subject = ats103
+Location = 2045,2388
+DaytimeImage = needle3.png
+NighttimeImage = needle3_n.png
+Origin = 64, 180
+Layer = 9
+Radius = 222
+InitialAngle = -120
+LastAngle = 120
+Minimum = 10
+Maximum = 980
+NaturalFreq = 0
+
+[Needle]
+Subject = ats104
+Location = 2045,2388
+DaytimeImage = needle2.png
+NighttimeImage = needle2_n.png
+Origin = 64, 180
+Layer = 8
+Radius = 222
+InitialAngle = -120
+LastAngle = 120
+Minimum = 10
+Maximum = 980
+NaturalFreq = 80
+DampingRatio = 0.1
+
+
+;時計
+[Needle]
+Subject = min
+Location = 2635,2385
+DaytimeImage = needle4.png
+NighttimeImage = needle4_n.png
+Origin = 16, 256
+Layer = 12
+Radius = 220
+InitialAngle = 0
+LastAngle = 360
+Minimum = 0
+Maximum = 60
+NaturalFreq = 5
+DampingRatio = 0.8
+
+[Needle]
+Subject = hour
+Location = 2635,2385
+DaytimeImage = needle4.png
+NighttimeImage = needle4_n.png
+Origin = 16, 256
+Layer = 11
+Radius = 180
+InitialAngle = 0
+LastAngle = 360
+Minimum = 0
+Maximum = 12
+NaturalFreq = 5
+DampingRatio = 0.8
+
+[Needle]
+Subject = sec
+Location = 2635,2385
+DaytimeImage = needle5.png
+NighttimeImage = needle5_n.png
+Origin = 16, 256
+Layer = 13
+Radius = 210
+InitialAngle = 0
+LastAngle = 360
+Minimum = 0
+Maximum = 60
+NaturalFreq = 5
+DampingRatio = 0.8
+
+;陰
+
+;速度計
+[Needle]
+Subject = kmph
+Location = 1446,2386
+DaytimeImage = needle1_kage.png
+Origin = 16, 256
+Layer = 6
+Radius = 230
+InitialAngle = -116
+LastAngle = 116
+Minimum = 0
+Maximum = 120
+NaturalFreq = 5
+DampingRatio = 0.8
+
+
+
+;圧力計1
+[Needle]
+Subject = ats103
+Location = 2045,2393
+DaytimeImage = needle3_kage.png
+Origin = 64, 180
+Layer = 6
+Radius = 222
+InitialAngle = -120
+LastAngle = 120
+Minimum = 10
+Maximum = 980
+NaturalFreq = 0
+
+[Needle]
+Subject = ats104
+Location = 2045,2393
+DaytimeImage = needle2_kage.png
+Origin = 64, 180
+Layer = 5
+Radius = 222
+InitialAngle = -120
+LastAngle = 120
+Minimum = 10
+Maximum = 980
+NaturalFreq = 80
+DampingRatio = 0.1
+
+
+;時計
+[Needle]
+Subject = min
+Location = 2635,2390
+DaytimeImage = needle1_kage.png
+Origin = 16, 256
+Layer = 9
+Radius = 220
+InitialAngle = 0
+LastAngle = 360
+Minimum = 0
+Maximum = 60
+NaturalFreq = 5
+DampingRatio = 0.8
+
+[Needle]
+Subject = hour
+Location = 2635,2390
+DaytimeImage = needle1_kage.png
+Origin = 16, 256
+Layer = 8
+Radius = 180
+InitialAngle = 0
+LastAngle = 360
+Minimum = 0
+Maximum = 12
+NaturalFreq = 5
+DampingRatio = 0.8
+
+[Needle]
+Subject = sec
+Location = 2635,2390
+DaytimeImage = needle5_kage.png
+Origin = 16, 256
+Layer = 10
+Radius = 210
+InitialAngle = 0
+LastAngle = 360
+Minimum = 0
+Maximum = 60
+NaturalFreq = 5
+DampingRatio = 0.8
+
+;ドア
+[PilotLamp]
+Subject = door
+Location = 881, 1965
+DaytimeImage = door.png
+Layer = 15
+
+
+;↑
+[PilotLamp]
+Subject = ats8
+Location = 1108, 1965
+DaytimeImage = ue.png
+Layer = 15
+
+;－
+[PilotLamp]
+Subject = ats10
+Location = 1287, 1966
+DaytimeImage = yoko.png
+Layer = 15
+
+;↓
+[PilotLamp]
+Subject = ats9
+Location = 1463, 1965
+DaytimeImage = shita.png
+Layer = 15
+
+;ブレーキ
+[PilotLamp]
+Subject = ats41
+Location = 2137, 1967
+DaytimeImage = EBpLp.png
+Layer = 15
+
+;変
+[PilotLamp]
+Subject = ats43
+Location = 1709, 1966
+DaytimeImage = hen.png
+Layer = 15
+
+;変・機関ブレーキ
+[PilotLamp]
+Subject = ats53
+Location = 1709, 1966
+DaytimeImage = hen_eb.png
+Layer = 16
+
+;直
+[PilotLamp]
+Subject = ats44
+Location = 1886, 1966
+DaytimeImage = choku.png
+Layer = 15
+
+;直・機関ブレーキ
+[PilotLamp]
+Subject = ats54
+Location = 1886, 1966
+DaytimeImage = choku_eb.png
+Layer = 16
+
+;ATS
+[PilotLamp]
+Subject = ats0
+Location = 2388, 1966
+DaytimeImage = ATS.png
+Layer = 15
+
+;ATS
+[PilotLamp]
+Subject = ats1
+Location = 2388, 1966
+DaytimeImage = ATS_r.png
+Layer = 15
+
+;非常
+;[PilotLamp]
+;Subject = 
+;Location = 2639, 1967
+;DaytimeImage = EmPLp_R.png
+;Layer = 15
+
+;非常
+;[PilotLamp]
+;Subject = 
+;Location = 2639, 1967
+;DaytimeImage = EmPLp_Y.png
+;Layer = 15

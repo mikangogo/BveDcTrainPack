@@ -1,0 +1,110 @@
+BveTs Vehicle Parameters 2.01
+
+[PluginOrganizer.dll]
+VerboseLogging = true
+InstructionFileName = Instructions.yml
+
+
+[Dml30Hsd_Dw4.dll]
+SoundFilesRootPath = ..\PluginData\Dml30Hsd_Dw4\
+
+EngineNoiseMotorNoiseTxtFileName = EngineNoise\MotorNoise.txt
+EngineNoiseSoundTxtFileName = Sound.txt
+EngineNoiseSoundTxtSectionName = Engine
+
+GearNoiseMotorNoiseTxtFileName = GearNoise\MotorNoise.txt
+GearNoiseSoundTxtFileName = Sound.txt
+GearNoiseSoundTxtSectionName = Gear
+
+TransferGear1NoiseMotorNoiseTxtFileName = TransferGear1Noise\MotorNoise.txt
+TransferGear1NoiseSoundTxtFileName = Sound.txt
+TransferGear1NoiseSoundTxtSectionName = TransferGear1
+
+ExhaustNoiseMotorNoiseTxtFileName = ExhaustNoise\MotorNoise.txt
+ExhaustNoiseSoundTxtFileName = Sound.txt
+ExhaustNoiseSoundTxtSectionName = Exhaust
+
+TurbineNoiseMotorNoiseTxtFileName = TurbineNoise\MotorNoise.txt
+TurbineNoiseSoundTxtFileName = Sound.txt
+TurbineNoiseSoundTxtSectionName = Turbine
+
+OtherNoiseSoundTxtFileName = Sound.txt
+
+FuelTable = 0.0, 0.35, 0.5, 0.6 ,0.7, 0.9, 1.0, 1.0
+TimerOffTractionPositionTable = 0, 1, 2, 3, 4, 5, 6, 6, 0, 7, 8, 9, 10, 11, 12, 12
+TimerOnTractionPositionTable = 0, 13, 14, 15, 16, 17, 18, 18, 0, 19, 20, 21, 22, 23, 24, 24
+EngineBrakeTractionPositionTable = 25, 26, 27
+
+
+NOverrun = 2400.0
+NEngineMaximum = 2200.0
+NEngineMinimum = 540.0
+NoLoadMaximumNEngineRatio = 2.1
+ResponseCharacteristicsFactors = 600.0, 4000.0, 10.0
+ResponsePneumaticFactors = 3000.0, 100.0
+ResponseCombustionFactor = 250.0
+
+GovernorMinimumPidParameters = 1.5, 0.2, 0.5, 1.0, 0.0
+GovernorMaximumPidParameters = 15.0, 10.0, 5.0, 0.0, -1.0
+;GovernorMaximumPidParameters = 10.0, 5.0, 5.0, 0.0, -1.0
+GovernorSyncingPidParameters = 5.0, 0.8, 0.9, 0.7, 0.0
+GovernorMotorResponseFactor = 1200.0
+TimerActuatorResponseFactor = 150.0
+
+
+;GovernorMinimumPidParameters = 1.5, 0.2, 0.5, 1.0, 0.0
+;GovernorMaximumPidParameters = 5.0, 1.0, 0.0, 0.0, -1.0
+;GovernorSyncingPidParameters = 5.0, 0.8, 0.9, 0.7, 0.0
+;GovernorMotorResponseFactor = 2000.0
+;TimerActuatorResponseFactor = 50.0
+
+GearTrainBacklashFactors = 500.0, 2.0, 1.0, 275.0, 0.5, 70.0
+ConverterFactors = -0.000000007797573801650, 0.000083529013089111800, -0.089388190037915400000, 1856.037581352730000000000
+LockUpClutchEngagingDuration = 1000.0
+LockUpClutchDisengagingDuration = 800.0
+ConverterClutchEngagingDuration = 500.0
+ConverterClutchDisengagingDuration = 800.0
+ReverserClutchEngagingDuration = 1000.0
+ReverserClutchDisengagingDuration = 2000.0
+ExhaustBrakeValveOpeningDuration = 500.0
+ExhaustBrakeValveClosingDuration = 500.0
+
+SrLrOnThreshold = 0.7
+SrLrOffThreshold = 0.7
+SrHrOnThreshold = 0.992
+SrHrOffThreshold = 0.992
+SlrOnThreshold = 600.0
+SlrOffThreshold = 600.0
+ShrOnThreshold = 1100.0
+ShrOffThreshold = 1100.0
+RdsNEngineOnThreshold = 1200.0
+RdsNEngineOffThreshold = 1100.0
+TdOrOnThreshold = 1.0
+TdOrOffThreshold = 1.0
+
+FinalDriveRatio = 2.4112083
+WheelDiameter = 820.0
+
+
+ShowDebugDialog = false
+
+[C16.dll]
+SoundFilesRootPath = ..\PluginData\C16\
+ShoeNoiseMotorNoiseTxtFileName = ShoeNoise\MotorNoise.txt
+ShoeNoiseSoundTxtFileName = Sound.txt
+ShoeNoiseSoundTxtSectionName = Shoe
+
+EnabledHoldingCommand = true
+EnabledGovernor = true
+EnabledAntiSnowBrake = false
+
+RelayValveProportionGain = 3.0
+RelayValveDeliveryRatio = 2.0
+RelayValveExhaustRatio = 28.0
+RelayValveDeliveryThresholdKiloPascal = 0.0
+RelayValveExhaustThresholdKiloPascal = 8.0
+
+OtherNoiseSoundTxtFileName = Sound.txt
+
+ShowDebugDialog = false
+ShowMccbDialog = false

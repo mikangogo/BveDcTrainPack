@@ -1,0 +1,44 @@
+BveTs Vehicle Sound 3.00
+
+[Run]
+0 = D:\workspace\Bve\Develop\Train\NewPlugin\jnr_dc\Sound\Run\Kiha183\Ballast\25m.wav
+1 = D:\workspace\Bve\Develop\Train\NewPlugin\jnr_dc\Sound\Run\Kiha183\Slab\Long.wav
+2 = D:\workspace\Bve\Develop\Train\NewPlugin\jnr_dc\Sound\Run\Kiha183\Ballast\Long.wav
+3 = D:\workspace\Bve\Develop\Train\NewPlugin\jnr_dc\Sound\Run\Kiha183\Bridge\25m.wav
+4 = D:\workspace\Bve\Develop\Train\NewPlugin\jnr_dc\Sound\Run\Kiha183\Tunnel\25m.wav
+
+[Flange]
+0 = D:\workspace\Bve\Develop\Train\NewPlugin\jnr_dc\Sound\Run\Kiha183\Flange\Moderate_0.wav
+1 = D:\workspace\Bve\Develop\Train\NewPlugin\jnr_dc\Sound\Run\Kiha183\Flange\Moderate_0.wav
+
+[Joint]
+0 = D:\workspace\Bve\Develop\Train\NewPlugin\jnr_dc\Sound\Run\Kiha183\Switch\Switch.wav
+1 = D:\workspace\Bve\Develop\Train\NewPlugin\jnr_dc\Sound\Run\Kiha183\Switch\Switch.wav
+2 = D:\workspace\Bve\Develop\Train\NewPlugin\jnr_dc\Sound\Run\Kiha183\Switch\Switch.wav
+
+[Horn]
+Primary = ..\..\..\..\Sound\Horn\AW5\Start.wav
+PrimaryRelease = ..\..\..\..\Sound\Horn\AW5\End.wav
+
+[Door]
+Open Left = ..\..\..\..\Sound\Door\Tk9c\Open.wav
+Open Right = ..\..\..\..\Sound\Door\Tk9c\Open.wav
+Close Left = ..\..\..\..\Sound\Door\Tk9c\Close.wav
+Close Right = ..\..\..\..\Sound\Door\Tk9c\Close.wav
+
+[Ats]
+
+[Pilot Lamp]
+On = ..\..\..\..\Sound\Buzzer\Bz22a\Dah.wav
+
+[Master Controller]
+Up = ..\..\..\..\Sound\TractionController\Mc19\Notch_Step.wav
+Down = ..\..\..\..\Sound\TractionController\Mc19\Notch_Step.wav
+Max = ..\..\..\..\Sound\TractionController\Mc19\Notch_Max.wav
+Min = ..\..\..\..\Sound\TractionController\Mc19\Notch_Off.wav
+
+[Reverser]
+On = ..\..\..\..\Sound\TractionController\Mc19\Rever_Max.wav
+Off = ..\..\..\..\Sound\TractionController\Mc19\Rever_Neutral.wav
+
+[Others]
