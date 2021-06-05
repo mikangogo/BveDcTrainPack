@@ -1,20 +1,20 @@
 BveTs Vehicle Sound 3.00
 
 [Run]
-0 = D:\workspace\Bve\Develop\Train\NewPlugin\jnr_dc\Sound\Run\Kiha183\Ballast\25m.wav
-1 = D:\workspace\Bve\Develop\Train\NewPlugin\jnr_dc\Sound\Run\Kiha183\Slab\Long.wav
-2 = D:\workspace\Bve\Develop\Train\NewPlugin\jnr_dc\Sound\Run\Kiha183\Ballast\Long.wav
-3 = D:\workspace\Bve\Develop\Train\NewPlugin\jnr_dc\Sound\Run\Kiha183\Bridge\25m.wav
-4 = D:\workspace\Bve\Develop\Train\NewPlugin\jnr_dc\Sound\Run\Kiha183\Tunnel\25m.wav
+0 = ..\..\..\..\Sound\Run\Kiha183\Ballast\25m.wav
+1 = ..\..\..\..\Sound\Run\Kiha183\Slab\Long.wav
+2 = ..\..\..\..\Sound\Run\Kiha183\Ballast\Long.wav
+3 = ..\..\..\..\Sound\Run\Kiha183\Bridge\25m.wav
+4 = ..\..\..\..\Sound\Run\Kiha183\Tunnel\25m.wav
 
 [Flange]
-0 = D:\workspace\Bve\Develop\Train\NewPlugin\jnr_dc\Sound\Run\Kiha183\Flange\Moderate_0.wav
-1 = D:\workspace\Bve\Develop\Train\NewPlugin\jnr_dc\Sound\Run\Kiha183\Flange\Moderate_0.wav
+0 = ..\..\..\..\Sound\Run\Kiha183\Flange\Moderate_0.wav
+1 = ..\..\..\..\Sound\Run\Kiha183\Flange\Moderate_0.wav
 
 [Joint]
-0 = D:\workspace\Bve\Develop\Train\NewPlugin\jnr_dc\Sound\Run\Kiha183\Switch\Switch.wav
-1 = D:\workspace\Bve\Develop\Train\NewPlugin\jnr_dc\Sound\Run\Kiha183\Switch\Switch.wav
-2 = D:\workspace\Bve\Develop\Train\NewPlugin\jnr_dc\Sound\Run\Kiha183\Switch\Switch.wav
+0 = ..\..\..\..\Sound\Run\Kiha183\Switch\Switch.wav
+1 = ..\..\..\..\Sound\Run\Kiha183\Switch\Switch.wav
+2 = ..\..\..\..\Sound\Run\Kiha183\Switch\Switch.wav
 
 [Horn]
 Primary = ..\..\..\..\Sound\Horn\AW5\Start.wav
