@@ -9,11 +9,9 @@ pip:
     exec:
       - cmd:
         - run
-        #- ..\..\..\..\..\Plugin\Engine\Dml30Hsd_Dw4\Dml30Hsd_Dw4.dll
-        - D:\workspace\Bve\AtsPlugin\Develop\DML30HS_DW4\BveAtsPluginCsharpFramework\bin\x86\Debug\Dml30Hsd_Dw4.dll
+        - ..\..\..\..\..\Plugin\Engine\Dml30Hsd_Dw4\Dml30Hsd_Dw4.dll
       - cmd:
         - run
-        #- D:\workspace\Bve\AtsPlugin\Develop\C16\BveAtsPluginCsharpFramework\bin\x86\Debug\C16.dll
         - ..\..\..\..\..\Plugin\AirBrake\Cle\C16.dll
       - cmd:
         - run
