@@ -46,12 +46,6 @@ Close Left = ..\..\..\..\Sound\Door\Tk103\Close.wav
 Close Right = ..\..\..\..\Sound\Door\Tk103\Close.wav
 
 [Ats]
-0 = ..\..\..\..\Sound\Ats\Cs171\Ring.wav
-21 = ..\..\..\..\Sound\Ats\Bz21\L.wav
-22 = ..\..\..\..\Sound\Ats\Bz21\R.wav
-
-3 = ..\..\..\..\Sound\Ats\Eb_West_1\Eb.wav
-
 50 = ..\..\..\..\Sound\TractionController\Mc19\Shift_Neutral.wav
 51 = ..\..\..\..\Sound\TractionController\Mc19\Shift_Max.wav
 
