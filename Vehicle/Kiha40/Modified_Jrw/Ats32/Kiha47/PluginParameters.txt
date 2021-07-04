@@ -37,7 +37,7 @@ TurbineNoiseSoundTxtFileName = Sound.txt
 TurbineNoiseSoundTxtSectionName = Turbine
 
 NumberOfTractionNotch = 9
-TractionHandleToPositionTable = 0, 1, 2, 5, 7, 8
+TractionHandleToPositionTable = 0, 1, 2, 4, 6, 8
 
 ;FuelTable = 0.0, 0.51, 0.554285714, 0.628571429, 0.702857143, 0.777142857, 0.851428571, 0.925714286,1.0
 FuelTable = 0.0, 0.48, 0.554285714, 0.628571429, 0.702857143, 0.777142857, 0.851428571, 0.925714286,1.0
@@ -96,7 +96,7 @@ FinalDriveRatio = 2.995
 WheelDiameter = 820.0
 
 
-ShowDebugDialog = false
+ShowDebugDialog = true
 
 
 [C26.dll]
