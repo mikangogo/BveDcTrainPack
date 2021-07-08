@@ -1,0 +1,120 @@
+BveTs Vehicle Parameters 2.01
+
+[PluginOrganizer.dll]
+VerboseLogging = true
+InstructionFileName = Instructions.yml
+
+
+[Sa6d125h_Tacn22.dll]
+SoundFilesRootPath = ..\PluginData\Sa6d125h_Tacn22\
+
+EngineNoiseMotorNoiseTxtFileName = EngineNoise\MotorNoise.txt
+EngineNoiseSoundTxtFileName = Sound.txt
+EngineNoiseSoundTxtSectionName = Engine
+
+GearNoiseMotorNoiseTxtFileName = GearNoise\MotorNoise.txt
+GearNoiseSoundTxtFileName = Sound.txt
+GearNoiseSoundTxtSectionName = Gear
+
+TransferGear1NoiseMotorNoiseTxtFileName = TransferGear1Noise\MotorNoise.txt
+TransferGear1NoiseSoundTxtFileName = Sound.txt
+TransferGear1NoiseSoundTxtSectionName = TransferGear1
+
+TransferGear2NoiseMotorNoiseTxtFileName = TransferGear2Noise\MotorNoise.txt
+TransferGear2NoiseSoundTxtFileName = Sound.txt
+TransferGear2NoiseSoundTxtSectionName = TransferGear2
+
+ExhaustNoiseMotorNoiseTxtFileName = ExhaustNoise\MotorNoise.txt
+ExhaustNoiseSoundTxtFileName = Sound.txt
+ExhaustNoiseSoundTxtSectionName = Exhaust
+
+TurbineNoiseMotorNoiseTxtFileName = TurbineNoise\MotorNoise.txt
+TurbineNoiseSoundTxtFileName = Sound.txt
+TurbineNoiseSoundTxtSectionName = Turbine
+
+NumberOfTractionNotch = 9
+TractionHandleToPositionTable = 0, 1, 2, 4, 6, 8
+
+FuelTable = 0.0, 0.48, 0.625, 0.75, 0.875, 1.0
+TractionPositionTable = 0, 1, 2, 3, 4, 5, 0, 6, 7, 8, 9, 10, 0, 11, 12, 13, 14, 15, 0, 16, 17, 18, 19, 20
+EngineBrakeTractionPositionTable = 21, 22
+
+NOverrun = 2400.0
+NEngineMaximum = 2200.0
+NEngineMinimum = 600.0
+NoLoadMaximumNEngineRatio = 2.3
+ResponseCharacteristicsFactors = 900.0, 4000.0, 400.0
+ResponsePneumaticFactors = 3000.0, 500.0
+ResponseCombustionFactor = 250.0
+
+GovernorMinimumPidParameters = 1.5, 0.2, 5.0, 1.0, 0.0
+GovernorMaximumPidParameters = 15.0, 10.0, 5.0, 0.0, -1.0
+GovernorSyncingPidParameters = 5.0, 0.8, 0.9, 0.7, 0.0
+GovernorMotorResponseFactor = 1300.0
+
+GearTrainBacklashFactors = 500.0, 2.0, 1.0, 275.0, 0.5, 70.0
+ConverterFactors = -0.000000120511731633490, 0.000452537007978341000, -0.208124738850867000000, 1764.929113627030000000000
+
+GearRatios = 1.464, 1.029
+NumberOfShiftRange = 2
+
+ShiftClutchesEngagingDuration = 500.0, 500.0
+ShiftClutchesDisengagingDuration = 500.0, 500.0
+LockUpClutchEngagingDuration = 300.0
+LockUpClutchDisengagingDuration = 300.0
+ReverserClutchEngagingDuration = 1000.0
+ReverserClutchDisengagingDuration = 100.0
+ExhaustBrakeValveOpeningDuration = 500.0
+ExhaustBrakeValveClosingDuration = 500.0
+
+LockUpRange = 50.0
+ConverterRange = 45.0
+
+ShiftRanges = 68.0, -1.0
+ShiftUpRanges = 68.0, -1.0
+ShiftDownRanges = -1.0, 63.0
+ShiftPattern = 0, 1
+
+EngineBrakeShiftRanges = 68.0, -1.0
+EngineBrakeShiftUpRanges = 68.0, -1.0
+EngineBrakeShiftDownRanges = -1.0, 63.0
+EngineBrakeStartVelocities = 40.0, 40.0
+EngineBrakeEndVelocities = 40.0, 40.0
+EngineBrakeEnableBrakeNotches = -1
+EngineBrakeShiftPattern = 0, 1
+
+TractionNotchLimitingRanges = 20.0, -1.0
+TractionNotchLimitingPattern = 4, -1
+
+IsEnabledSynchronizingByGovernor = false
+NEngineSynchronizingThreshold = 2000.0
+DeltaSynchronizingThreshold = 120.0
+DeltaEngagingThreshold = 90.0
+
+FinalDriveRatio = 2.995
+WheelDiameter = 820.0
+
+
+ShowDebugDialog = false
+
+
+[C26.dll]
+SoundFilesRootPath = ..\PluginData\C26\
+ShoeNoiseMotorNoiseTxtFileName = ShoeNoise\MotorNoise.txt
+ShoeNoiseSoundTxtFileName = Sound.txt
+ShoeNoiseSoundTxtSectionName = Shoe
+
+OtherNoiseSoundTxtFileName = Sound.txt
+
+EnabledHoldingCommand = true
+EnabledGovernor = true
+EnabledAntiSnowBrake = false
+
+RelayValveProportionGain = 3.0
+RelayValveDeliveryRatio = 2.0
+RelayValveExhaustRatio = 7.0
+RelayValveDeliveryThresholdKiloPascal = 0.0
+RelayValveExhaustThresholdKiloPascal = 8.0
+
+ShowDebugDialog = false
+ShowMccbDialog = false
