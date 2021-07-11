@@ -106,7 +106,7 @@ ShoeNoiseSoundTxtSectionName = Shoe
 
 OtherNoiseSoundTxtFileName = Sound.txt
 
-EnabledHoldingCommand = true
+EnabledHoldingCommand = false
 EnabledGovernor = true
 EnabledAntiSnowBrake = false
 

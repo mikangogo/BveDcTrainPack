@@ -8,6 +8,9 @@ BveTs Vehicle Sound 3.00
 4 = ..\..\..\..\..\..\Sound\Engine\Sa6d125h\Tacn22\Engine4.wav
 5 = ..\..\..\..\..\..\Sound\Engine\Sa6d125h\Tacn22\Engine5.wav
 6 = ..\..\..\..\..\..\Sound\Engine\Sa6d125h\Tacn22\EngineMax.wav
+7 = ..\..\..\..\..\..\Sound\Engine\Sa6d125h\Engine_4.wav
+8 = ..\..\..\..\..\..\Sound\Engine\Sa6d125h\Engine_NaturalFreq_3.wav
+9 = ..\..\..\..\..\..\Sound\Engine\Sa6d125h\Engine_5.wav
 
 
 [Gear]
