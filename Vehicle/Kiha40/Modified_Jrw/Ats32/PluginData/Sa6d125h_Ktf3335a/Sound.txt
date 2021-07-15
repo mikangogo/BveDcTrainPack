@@ -11,6 +11,8 @@ BveTs Vehicle Sound 3.00
 8 = ..\..\..\..\..\..\Sound\Engine\Sa6d125h\Engine_NaturalFreq_3.wav
 9 = ..\..\..\..\..\..\Sound\Engine\Sa6d125h\Engine_TimingGear_0.wav
 10 = ..\..\..\..\..\..\Sound\Engine\Sa6d125h\Engine_TimingGear_1.wav
+11 = ..\..\..\..\..\..\Sound\Engine\Sa6d125h\Tacn22\Engine5.wav
+12 = ..\..\..\..\..\..\Sound\Engine\Sa6d125h\Tacn22\EngineMax.wav
 
 
 [Gear]
@@ -22,7 +24,7 @@ BveTs Vehicle Sound 3.00
 [TransferGear3]
 
 [Exhaust]
-6 = ..\..\..\..\..\..\Sound\Engine\Sa6d125h\Exhaust_Max.wav
+6 = ..\..\..\..\..\..\Sound\Engine\Sa6d125h\Tacn22\ExhaustMax.wav
 
 
 [Turbine]

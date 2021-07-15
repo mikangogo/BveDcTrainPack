@@ -96,7 +96,7 @@ FinalDriveRatio = 2.995
 WheelDiameter = 820.0
 
 
-ShowDebugDialog = true
+ShowDebugDialog = false
 
 
 [C26.dll]
