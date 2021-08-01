@@ -9,6 +9,10 @@ BveTs Vehicle Sound 3.00
 5 = ..\..\..\..\..\..\Sound\Engine\Dmf15Hsa\Engine_4.wav
 6 = ..\..\..\..\..\..\Sound\Engine\Dmf15Hsa\Engine_1820.wav
 7 = ..\..\..\..\..\..\Sound\Engine\Dmf15Hsa\Engine_Max.wav
+8 = ..\..\..\..\..\..\Sound\Engine\Dmf15Hsa\Engine_Combustion_4.wav
+9 = ..\..\..\..\..\..\Sound\Engine\Dmf15Hsa\Engine_Combustion_1820.wav
+10 = ..\..\..\..\..\..\Sound\Engine\Dmf15Hsa\Engine_Combustion_Max.wav
+
 
 [Turbine]
 0 = ..\..\..\..\..\..\Sound\Engine\Dmf15Hsa\Turbine.wav
