@@ -80,6 +80,9 @@ EnabledHoldingCommand = true
 EnabledGovernor = true
 EnabledAntiSnowBrake = false
 
+ChargingValueGain = 0.3
+BpQuicknessGain = 2.0
+EvDroppingValueGain = 1.5
 RelayValveProportionGain = 3.0
 RelayValveDeliveryRatio = 2.0
 RelayValveExhaustRatio = 7.0

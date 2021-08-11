@@ -3,4 +3,4 @@ PerformanceCurve = ..\..\..\Notch\Sa6d125h_Tacn22_2995_820\Notch.txt
 Parameters = Params\Param_Kiha40.txt
 Panel = ..\..\..\Panel\Kiha40\Hiro_Seki\Panel_JRW.txt
 Sound = Sounds\Sound_Kiha47.txt
-Ats = Ats32\Kiha40\PluginOrganizer.dll
+Ats = Ats32\Kiha40_Jrw_Seki\PluginOrganizer.dll
