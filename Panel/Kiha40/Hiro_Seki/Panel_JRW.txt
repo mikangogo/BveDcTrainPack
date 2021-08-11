@@ -1,0 +1,181 @@
+BveTs Instrument Panel 2.00:shift_jis
+
+[This]
+Resolution = 1200
+Left = 50
+Top = 500
+Right = 1770
+Bottom = 1650
+DaytimeImage = Panel_jrw.png
+NighttimeImage = panel_jrw_dark.png
+Center = 1009,1108
+Origin = 1009,885
+
+[PilotLamp]
+Subject = true
+Location = 733, 1421
+DaytimeImage = Speedm.png
+NighttimeImage = Speedm_dark.png
+Layer = 6
+
+[Needle]
+Subject = ats30
+Location = 757,1443
+DaytimeImage = ..\Aki_Aki\NeedleSpeed.png
+NighttimeImage = ..\Aki_Aki\NeedleSpeed_N.png
+Origin = 16, 182
+Layer = 5
+Radius = 52
+InitialAngle = -185
+LastAngle = 185
+Minimum = 0
+Maximum = 360000
+NaturalFreq = 6.3
+DampingRatio = 0.5
+
+[Needle]
+Subject = ats102
+Location = 946,1448
+DaytimeImage = ..\Aki_Aki\NeedlePressLow.png
+NighttimeImage = ..\Aki_Aki\NeedlePressLow_N.png
+Origin = 28,202
+Layer = 5
+Radius = 52
+InitialAngle = -135
+LastAngle = 135
+Minimum = 0
+Maximum = 1000
+NaturalFreq      = 150
+DampingRatio     = 0.01
+
+
+[Needle]
+Subject = ats101
+Location = 946,1448
+DaytimeImage = ..\Aki_Aki\NeedlePressHigh.png
+NighttimeImage = ..\Aki_Aki\NeedlePressHigh_N.png
+Origin = 30, 198
+Layer = 5
+Radius = 52
+InitialAngle = -135
+LastAngle = 135
+Minimum = 0
+Maximum = 1000
+NaturalFreq      = 150
+DampingRatio     = 0.01
+
+
+[Needle]
+Subject = ats104
+Location = 1170, 1447
+DaytimeImage = ..\Aki_Aki\NeedlePressLow.png
+NighttimeImage = ..\Aki_Aki\NeedlePressLow_N.png
+Origin = 28,202;57,404;
+Layer = 5
+Radius = 52
+InitialAngle = -135
+LastAngle = 135
+Minimum = 0
+Maximum = 1000
+NaturalFreq      = 150
+DampingRatio     = 0.01
+
+
+[Needle]
+Subject = ats103
+Location = 1170, 1447
+DaytimeImage = ..\Aki_Aki\NeedlePressHigh.png
+NighttimeImage = ..\Aki_Aki\NeedlePressHigh_N.png
+Origin =  30, 198;57,404 ;
+Layer = 5
+Radius = 52
+InitialAngle = -135
+LastAngle = 135
+Minimum = 0
+Maximum = 1000
+NaturalFreq      = 150
+DampingRatio     = 0.01
+
+[PilotLamp]
+Subject = ats0
+Location = 1618, 1035
+DaytimeImage = ATS.png
+NighttimeImage = ATS_dark.png
+Layer = 5
+
+[PilotLamp]
+Subject = ats1
+Location = 1665, 1042
+DaytimeImage = ATSsado.png
+NighttimeImage = ATSsado_dark.png
+Layer = 5
+
+[PilotLamp]
+Subject = ats8
+Location = 915, 1300
+DaytimeImage = ue_jrw.png
+NighttimeImage = ue_jrw_dark.png
+Layer = 5
+
+[PilotLamp]
+Subject = ats9
+Location = 956, 1303
+DaytimeImage = sita_jrw.png
+NighttimeImage = sita_jrw_dark.png
+Layer = 5
+
+[PilotLamp]
+Subject = ats12
+Location = 1005, 1303
+DaytimeImage = ki.png
+NighttimeImage = ki_dark.png
+Layer = 5
+
+[PilotLamp]
+Subject = ats44
+Location = 1050, 1303
+DaytimeImage = tyoku.png
+NighttimeImage = tyoku_dark.png
+Layer = 5
+
+[PilotLamp]
+Subject = ats46
+Location = 1092, 1303
+DaytimeImage = tyu.png
+NighttimeImage = tyu_dark.png
+Layer = 5
+
+[PilotLamp]
+Subject = ats43
+Location = 1134, 1304
+DaytimeImage = hen.png
+NighttimeImage = hen_dark.png
+Layer = 5
+
+#[PilotLamp]
+#Subject = ats18
+#Location = 1181, 1307
+#DaytimeImage = B.png
+#NighttimeImage = B_dark.png
+#Layer = 5
+
+[PilotLamp]
+Subject = door
+Location = 863, 1301
+DaytimeImage = to.png
+NighttimeImage = to_dark.png
+Layer = 5
+
+[PilotLamp]
+Subject = door
+Location = 1167, 1163
+DaytimeImage = LumpR.png
+NighttimeImage = LumpR_dark.png
+Layer = 4
+
+[PilotLamp]
+Subject = door
+Location = 623, 1169
+DaytimeImage = LumpL.png
+NighttimeImage = LumpL_dark.png
+Layer = 4

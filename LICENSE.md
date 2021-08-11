@@ -152,3 +152,10 @@
 
 - キハ183運転台
   - .\Panel\Kiha183
+
+
+## [@はちなな](https://8l7r.webnode.jp/) さん
+
+- キハ40運転台
+  - .\Panel\Kiha40\Hiro_Seki
+  - .\Panel\Kiha40\Mai_Tori
