@@ -1,0 +1,330 @@
+﻿BveTs Instrument Panel 2.00
+
+;////////////////////////////////////////////////////
+
+;車体カラー
+;（お好みの車体色のDaytimeimage-、NighttimeImage- の左端の「;」を削除してお使いください。）
+;（使わない車体色はDaytimeimage-、NighttimeImage- の左端に「;」を付けておいてください。）
+
+;車体カラーリング
+[This]
+Resolution = 2800
+Left = 15
+Top = 5
+Right = 4073
+Bottom = 2709
+
+;①JR四国色
+DaytimeImage = BodyCol_JRS_d.png
+NighttimeImage = BodyCol_JRS_n.png
+
+;②剣山色
+;DaytimeImage = BodyCol_Tsurugisan_d.png
+;NighttimeImage = BodyCol_Tsurugisan_n.png
+
+;③国鉄色
+;DaytimeImage = BodyCol_JNR_d.png
+;NighttimeImage = BodyCol_JNR_n.png
+
+Center = 1973, 1633
+Origin = 1837, 1265
+
+;////////////////////////////////////////////////////
+
+;運転台画像
+[PilotLamp]
+Subject = true
+Location = 0, 0
+DaytimeImage = Panel185_d.png
+NighttimeImage = Panel185_n.png
+Layer = 1
+
+;////////////////////////////////////////////////////
+
+;パイロットランプカバー
+[PilotLamp]
+Subject = true
+Location = 1372, 1837
+DaytimeImage = PlCover_d.png
+NighttimeImage =PlCover_n.png
+Layer = 7
+
+;1戸ジメ表示灯
+[PilotLamp]
+Subject = door
+Location = 1429, 1926
+DaytimeImage = Pl01_Tojime_d.png
+NighttimeImage = Pl01_Tojime_n.png
+Layer = 5
+
+;2前進表示灯
+[PilotLamp]
+Subject = ats8
+Location = 1507, 1926
+DaytimeImage = Pl02_RvFw_d.png
+NighttimeImage = Pl02_RvFw_n.png
+Layer = 4
+
+;3後進表示灯
+[PilotLamp]
+Subject = ats9
+Location = 1571, 1926
+DaytimeImage = Pl03_RvBw_d.png
+NighttimeImage = Pl03_RvBw_n.png
+Layer = 5
+
+;4機関油圧表示灯
+[PilotLamp]
+Subject = true
+Location = 1651, 1927
+DaytimeImage = Pl04_EngPrs_d.png
+NighttimeImage = Pl04_EngPrs_n.png
+Layer = 4
+
+;5直結表示灯
+[PilotLamp]
+Subject = ats44
+Location = 1729, 1927
+DaytimeImage = Pl05_Tyoku_d.png
+NighttimeImage = Pl05_Tyoku_n.png
+Layer = 5
+
+;6中立表示灯
+[PilotLamp]
+Subject = ats46
+Location = 1794, 1922
+DaytimeImage = Pl06_Tyu_d.png
+NighttimeImage = Pl06_Tyu_n.png
+Layer = 4
+
+;7変速表示灯
+[PilotLamp]
+Subject = ats43
+Location = 1862, 1928
+DaytimeImage = Pl07_Hen_d.png
+NighttimeImage = Pl07_Hen_n.png
+Layer = 5
+
+;8機関ブレーキ表示灯
+[PilotLamp]
+Subject = ats41
+Location = 1942, 1929
+DaytimeImage = Pl08_EngBr_d.png
+NighttimeImage = Pl08_EngBr_n.png
+Layer = 4
+
+;9ATS白色表示灯
+[PilotLamp]
+Subject = true
+Location = 2022, 1930
+DaytimeImage = Pl09_AtsW_d.png
+NighttimeImage = Pl09_AtsW_n.png
+Layer = 5
+
+;9ATS赤色表示灯
+;[PilotLamp]
+;Subject = true
+;Location = 2022, 1930
+;DaytimeImage = Pl09_AtsR_d.png
+;NighttimeImage = Pl09_AtsR_n.png
+;Layer = 6
+
+;10EB表示灯
+;[PilotLamp]
+;Subject = true
+;Location = 2103, 1931
+;DaytimeImage = Pl10_EB_d.png
+;NighttimeImage = Pl10_EB_n.png
+;Layer = 4
+
+;次駅停車表示灯
+;[PilotLamp]
+;Subject = true
+;Location = 1183, 1721
+;DaytimeImage = NextStaStop_d.png
+;NighttimeImage = NextStaStop_n.png
+;Layer = 5
+
+;////////////////////////////////////////////////////
+
+;速度計針カバー
+[PilotLamp]
+Subject = true
+Location = 1368, 2158
+DaytimeImage = SpdCover_d.png
+NighttimeImage = SpdCover_n.png
+Layer = 8
+
+;速度計針
+[Needle]
+Subject = ats30
+Location = 1412, 2208
+DaytimeImage = SpdNeedle_d.png
+NighttimeImage = SpdNeedle_n.png
+Origin = 113, 674
+Layer = 7
+Radius = 99
+InitialAngle = -180
+LastAngle = 180
+Minimum = 0
+Maximum = 360000
+NaturalFreq = 5
+DampingRatio = 0.8
+
+;元空気ダメツリアイ空気ダメ圧力計針トメ
+[Pilotlamp]
+Subject = true
+Location = 1706, 2198
+DaytimeImage = PrsMrErCover_d.png
+NighttimeImage = PrsMrErCover_n.png
+Layer = 8
+
+;元空気ダメ
+[Needle]
+;Subject = mr
+Subject = ats102
+Location = 1736, 2209
+DaytimeImage = PrsRedNeedle1500_d.png
+NighttimeImage = PrsRedNeedle1500_n.png
+Origin = 121, 663
+Layer = 6
+Radius = 93
+InitialAngle = -131
+LastAngle = 131
+Minimum = 0
+Maximum = 1500
+NaturalFreq = 80
+DampingRatio = 0.8
+
+;ツリアイ空気ダメ
+[Needle]
+;Subject = er
+Subject = ats101
+Location = 1736, 2209
+DaytimeImage = PrsBlackNeedle1500_d.png
+NighttimeImage = PrsBlackNeedle1500_n.png
+Origin = 121, 663
+Layer = 7
+Radius = 93
+InitialAngle = -131
+LastAngle = 131
+Minimum = 0
+Maximum = 1500
+NaturalFreq = 80
+DampingRatio = 0.8
+
+;ブレーキ管ブレーキシリンダ圧力計針トメ
+[Pilotlamp]
+Subject = true
+Location = 1981, 2200
+DaytimeImage = PrsBpBcCover_d.png
+NighttimeImage = PrsBpBcCover_n.png
+Layer = 8
+
+;ブレーキ管
+[Needle]
+;Subject = bp
+Subject = ats103
+Location = 2006, 2212
+DaytimeImage = PrsBlackNeedle_d.png
+NighttimeImage = PrsBlackNeedle_n.png
+Origin = 121, 663
+Layer = 7
+Radius = 93
+InitialAngle = -134
+LastAngle = 134
+Minimum = 0
+Maximum = 1000
+NaturalFreq = 80
+DampingRatio = 0.8
+
+;ブレーキシリンダ
+[Needle]
+;Subject = bc
+Subject = ats104
+Location = 2007, 2212
+DaytimeImage = PrsRedNeedle_d.png
+NighttimeImage = PrsRedNeedle_n.png
+Origin = 121, 663
+Layer = 6
+Radius = 93
+InitialAngle = -134
+LastAngle = 134
+Minimum = 0
+Maximum = 1000
+NaturalFreq = 80
+DampingRatio = 0.8
+
+;////////////////////////////////////////////////////
+
+;時刻表灯の光
+[PilotLamp]
+Subject = true
+Location = 2839, 616
+DaytimeImage = TableLight_d.png
+NighttimeImage = TableLight_n.png
+Layer = 10
+
+;計器灯の光
+[PilotLamp]
+Subject = true
+Location = 1233, 1833
+DaytimeImage = KeikiLight_d.png
+NighttimeImage = KeikiLight_n.png
+Layer = 15
+
+;////////////////////////////////////////////////////
+
+;懐中時計
+[PilotLamp]
+Subject = true
+Location = 2213, 2147
+DaytimeImage = Watch_d.png
+NighttimeImage = Watch_n.png
+Layer = 11
+
+;時計秒針
+[Needle]
+Subject = sec
+Location = 2276, 2263
+DaytimeImage = W_SecNeedle_d.png
+NighttimeImage = W_SecNeedle_n.png
+Origin = 123, 670
+Layer = 14
+Radius = 50
+InitialAngle = -1
+LastAngle = 359
+Minimum = 0
+Maximum = 60
+NaturalFreq = 0
+DampingRatio = 0.5
+
+;時計長針
+[Needle]
+Subject = min
+Location = 2276, 2263
+DaytimeImage = W_MinNeedle_d.png
+NighttimeImage = W_MinNeedle_n.png
+Origin = 123, 670
+Layer = 13
+Radius = 48
+InitialAngle = -1
+LastAngle = 359
+Minimum = 0
+Maximum = 60
+NaturalFreq = 0
+
+;時計短針
+[Needle]
+Subject = hour
+Location = 2276, 2263
+DaytimeImage = W_HourNeedle_d.png
+NighttimeImage = W_HourNeedle_n.png
+Origin = 123, 670
+Layer = 12
+Radius = 42
+InitialAngle = -1
+LastAngle = 359
+Minimum = 0
+Maximum = 12
+NaturalFreq = 0

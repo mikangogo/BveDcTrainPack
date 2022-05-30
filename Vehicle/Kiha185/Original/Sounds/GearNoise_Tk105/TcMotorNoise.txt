@@ -1,0 +1,7 @@
+[Power]
+Volume = Ge_PowerVol.csv
+Frequency = Ge_PowerFreq.csv
+
+[Brake]
+Volume = Ge_BrakeVol.csv
+Frequency = Ge_PowerFreq.csv

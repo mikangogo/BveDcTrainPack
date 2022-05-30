@@ -27,3 +27,22 @@ Min = ..\..\..\..\Sound\TractionController\Mc19\Notch_Off.wav
 On = ..\..\..\..\Sound\TractionController\Mc19\Rever_Max.wav
 Off = ..\..\..\..\Sound\TractionController\Mc19\Rever_Neutral.wav
 
+[Run]
+0 = ..\..\..\..\Sound\Run\kiha185\Ballast\FromTk105\25m_Wood.wav
+1 = ..\..\..\..\Sound\Run\kiha185\Tunnel\FromTk105\25m.wav
+2 = ..\..\..\..\Sound\Run\kiha185\Bridge\FromTk105\25m_YoshinogawaBridge.wav
+3 = ..\..\..\..\Sound\Run\kiha185\Ballast\FromTk105\Long.wav
+4 = ..\..\..\..\Sound\Run\kiha185\Ballast\FromTk105\25m_PC.wav
+5 = ..\..\..\..\Sound\Run\kiha185\Tunnel\FromTk105\Long.wav
+
+[Switch]
+0 = ..\..\..\..\Sound\Run\kiha185\Switch\FromTk105\Switch.wav
+
+[Flange]
+0 = ..\..\..\..\Sound\Run\kiha185\Flange\FromTk105\Moderate_0.wav
+1 = ..\..\..\..\Sound\Run\kiha185\Flange\FromTk105\Strong_0.wav
+
+[Motor]
+0 = ..\..\..\..\Sound\ReductionDrive\Kiha185\FromTk105\TcNoise1.wav
+1 = ..\..\..\..\Sound\ReductionDrive\Kiha185\FromTk105\TcNoise1.wav
+2 = ..\..\..\..\Sound\ReductionDrive\Kiha185\FromTk105\TcNoise2.wav
