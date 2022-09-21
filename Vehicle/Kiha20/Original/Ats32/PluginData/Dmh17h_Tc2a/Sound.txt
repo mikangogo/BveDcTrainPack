@@ -8,7 +8,7 @@ BveTs Vehicle Sound 3.00
 4 = ..\..\..\..\..\..\Sound\Engine\Dmh17h\EnginePump_800.wav
 5 = ..\..\..\..\..\..\Sound\Engine\Dmh17h\Engine_Max.wav
 ;6 = ..\..\..\..\..\..\Sound\Engine\Dmh17h\Generator_0.wav        ; 九州
-
+7 = ..\..\..\..\..\..\Sound\Engine\Dmh17h\EnginePump_1600.wav
 
 [Gear]
 
