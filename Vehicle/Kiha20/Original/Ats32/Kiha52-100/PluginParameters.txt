@@ -73,4 +73,5 @@ ShoeNoiseMotorNoiseTxtFileName = ShoeNoise\MotorNoise.txt
 ShoeNoiseSoundTxtFileName = Sound.txt
 ShoeNoiseSoundTxtSectionName = Shoe
 OtherNoiseSoundTxtFileName = Sound.txt
+ComputeCount = 10
 ShowDebugDialog = false
