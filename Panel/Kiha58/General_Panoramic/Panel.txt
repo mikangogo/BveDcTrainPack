@@ -114,42 +114,42 @@ nighttimeimage = d_plp.png
 layer = 15
 
 [pilotlamp]
-subject = ats10
+subject = ats8
 location = 762, 1341
 daytimeimage = d_gear_front.png
 nighttimeimage = d_gear_front.png
 layer = 15
 
 [pilotlamp]
-subject = ats11
+subject = ats9
 location = 825, 1341
 daytimeimage = d_gear_back.png
 nighttimeimage = d_gear_back.png
 layer = 15
 
 [pilotlamp]
-subject = ats12
+subject = true
 location = 886, 1341
 daytimeimage = d_engine.png
 nighttimeimage = d_engine.png
 layer = 15
 
 [pilotlamp]
-subject = ats13
+subject = ats44
 location = 964, 1341
 daytimeimage = d_tyokketsu.png
 nighttimeimage = d_tyokketsu.png
 layer = 15
 
 [pilotlamp]
-subject = ats14
+subject = ats46
 location = 1025, 1341
 daytimeimage = d_churitsu.png
 nighttimeimage = d_churitsu.png
 layer = 15
 
 [pilotlamp]
-subject = ats15
+subject = ats43
 location = 1087, 1341
 daytimeimage = d_hensoku.png
 nighttimeimage = d_hensoku.png
