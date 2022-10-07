@@ -6,6 +6,9 @@ UpperPressure = 686000
 LowerPressure = 607600
 CompressionSpeed = 10000
 
+[MainCircuit]
+RegenerationLimit = 999
+
 [BcServo]
 ApplySpeed = 440000
 ReleaseSpeed = 440000
