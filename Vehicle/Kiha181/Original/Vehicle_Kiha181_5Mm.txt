@@ -1,6 +1,7 @@
-Bvets Vehicle 0.03
+BveTs Vehicle 2.00:utf-8
 PerformanceCurve = ..\..\..\Notch\Kiha181_5Mm\Notch.txt
 Parameters = Params\Param_Kiha181_5Mm.txt
 Panel = ..\..\..\Panel\Kiha181\Original\panel.txt
 Sound = Sounds\Sound_Kiha181.txt
-Ats = Ats32\Kiha181\PluginOrganizer.dll
+Ats32 = Ats32\Kiha181\PluginOrganizer.dll
+Ats64 = Ats32\Kiha181\PluginOrganizer64.dll

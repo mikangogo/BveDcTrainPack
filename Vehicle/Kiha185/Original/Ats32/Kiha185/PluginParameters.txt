@@ -4,6 +4,9 @@ BveTs Vehicle Parameters 2.01
 VerboseLogging = true
 InstructionFileName = Instructions.yml
 
+[PluginOrganizer64.dll]
+VerboseLogging = true
+InstructionFileName = Instructions64.yml
 
 [Dmf13Hs_Tc2a.dll]
 SoundFilesRootPath = ..\PluginData\Dmf13Hs_Tc2a\

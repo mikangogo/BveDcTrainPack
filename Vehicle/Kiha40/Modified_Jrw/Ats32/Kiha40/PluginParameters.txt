@@ -4,6 +4,9 @@ BveTs Vehicle Parameters 2.01
 VerboseLogging = true
 InstructionFileName = Instructions.yml
 
+[PluginOrganizer64.dll]
+VerboseLogging = true
+InstructionFileName = Instructions64.yml
 
 [Sa6d125h_Tacn22.dll]
 SoundFilesRootPath = ..\PluginData\Sa6d125h_Tacn22\
@@ -85,6 +88,9 @@ EngineBrakeShiftPattern = 0, 1
 
 TractionNotchLimitingRanges = 20.0, -1.0
 TractionNotchLimitingPattern = 4, -1
+
+TransmissionShiftModeType = 0
+IsAutomaticShiftChanging = true
 
 IsEnabledSynchronizingByGovernor = false
 NEngineSynchronizingThreshold = 2000.0

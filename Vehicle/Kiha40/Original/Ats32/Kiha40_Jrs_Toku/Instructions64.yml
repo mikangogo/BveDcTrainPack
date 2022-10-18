@@ -1,0 +1,18 @@
+﻿version: 1.1.00
+pip:
+  - prio: 0
+    init:
+      - cmd:
+        - copy
+        - ..\..\..\..\..\Plugin\ThirdParty\RealAnalogGauge\x64
+        - ..\PluginData\Thirdparty\RealAnalogGauge\Kiha40_Jrs_Toku
+    exec:
+      - cmd:
+        - run
+        - ..\..\..\..\..\Plugin64\Engine\Dmf15Hs_Dw10\Dmf15Hs_Dw10.dll
+      - cmd:
+        - run
+        - ..\..\..\..\..\Plugin64\AirBrake\Cle\C26.dll
+      - cmd:
+        - run
+        - ..\..\..\..\..\Plugin\ThirdParty\RealAnalogGauge\x64\RealAnalogGauge.dll

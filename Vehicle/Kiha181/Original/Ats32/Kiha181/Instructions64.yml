@@ -1,0 +1,18 @@
+﻿version: 1.1.00
+pip:
+  - prio: 0
+    init:
+      - cmd:
+        - copy
+        - ..\..\..\..\..\Plugin\ThirdParty\RealAnalogGauge\x64
+        - ..\PluginData\Thirdparty\RealAnalogGauge
+    exec:
+      - cmd:
+        - run
+        - ..\..\..\..\..\Plugin64\Engine\Dml30Hsd_Dw4\Dml30Hsd_Dw4.dll
+      - cmd:
+        - run
+        - ..\..\..\..\..\Plugin64\AirBrake\Cle\C16.dll
+      - cmd:
+        - run
+        - ..\..\..\..\..\Plugin\ThirdParty\RealAnalogGauge\x64\RealAnalogGauge.dll
