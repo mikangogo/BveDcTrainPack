@@ -78,4 +78,4 @@ ShoeNoiseSoundTxtFileName = Sound.txt
 ShoeNoiseSoundTxtSectionName = Shoe
 OtherNoiseSoundTxtFileName = Sound.txt
 ComputeCount = 10
-ShowDebugDialog = false
+ShowDebugDialog = true

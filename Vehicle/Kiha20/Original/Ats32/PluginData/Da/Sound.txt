@@ -3,7 +3,9 @@ BveTs Vehicle Sound 3.00
 [Shoe]
 0 = ..\..\..\..\..\..\Sound\Shoe\Kiha58\Shoe_0.wav
 1 = ..\..\..\..\..\..\Sound\Shoe\Kiha58\Shoe_1.wav
-2 = ..\..\..\..\..\..\Sound\Shoe\Kiha40\Shoe_2.wav
+2 = ..\..\..\..\..\..\Sound\Shoe\Kiha58\Shoe_2.wav
+3 = ..\..\..\..\..\..\Sound\Shoe\Kiha58\Shoe_3.wav
+4 = ..\..\..\..\..\..\Sound\Shoe\Kiha58\Shoe_2.wav
 
 [AutomaticBrake]
 ErPistonDropping = ..\..\..\..\..\..\Sound\BrakeController\ME23B\ErPistonDropping.wav
