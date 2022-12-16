@@ -1,0 +1,7 @@
+BveTs Vehicle 2.00:utf-8
+PerformanceCurve = ..\..\..\Notch\Dmf15Hsa_Dw10_2995_810\Notch.txt
+Parameters = Params\Param_Kiha47.txt
+Panel = ..\..\..\Panel\Kiha40\Yon_Toku\panel_47_toku.txt
+Sound = Sounds\Sound_Kiha40.txt
+Ats32 = Ats32\Kiha40_Jrs_Toku\PluginOrganizer.dll
+Ats64 = Ats32\Kiha40_Jrs_Toku\PluginOrganizer64.dll

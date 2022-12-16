@@ -8,3 +8,7 @@
 *.log
 *.pdf
 *.jpg
+Log_*-*.csv
+*.pdb
+[Ss]lim[Dd][Xx].dll
+
