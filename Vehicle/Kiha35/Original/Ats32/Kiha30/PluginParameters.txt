@@ -76,5 +76,19 @@ ShoeNoiseMotorNoiseTxtFileName = ShoeNoise\MotorNoise.txt
 ShoeNoiseSoundTxtFileName = Sound.txt
 ShoeNoiseSoundTxtSectionName = Shoe
 OtherNoiseSoundTxtFileName = Sound.txt
+
+CompressorRpmReductionRatio = 0.5
+CompressorSupplyLiterPerMinute = 630.0
+GovernorStartKiloPascal = 600.0
+GovernorStopKiloPascal = 695.0
+
+MrPipeVolume = 11.14756454
+BrakePipeVolume = 11.14756454
+ExhaustThrottleRatio = 0.01
+ErServiceBrakeExhaustThrottleRatio = 0.15
+EvExhaustThrottleRatio = 0.15
+EmergencyPistonSensitivyGain = 0.0006
+
 ComputeCount = 10
+
 ShowDebugDialog = false

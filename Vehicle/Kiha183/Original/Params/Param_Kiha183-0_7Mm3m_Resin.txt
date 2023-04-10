@@ -18,8 +18,8 @@ ReleaseStart = 0
 ReleaseStop = 0
 
 [Brake]
-PistonArea = 0.868949448
-ShoeFriction = 0.3, 0.07, 0.122
+PistonArea = 0.49321748
+ShoeFriction = 0.55, 0.01, 0.034
 
 
 [ECB]

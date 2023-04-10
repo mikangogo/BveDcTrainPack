@@ -113,18 +113,32 @@ ShoeNoiseSoundTxtSectionName = Shoe
 
 OtherNoiseSoundTxtFileName = Sound.txt
 
-EnabledHoldingCommand = false
+EnabledHoldingCommand = true
 EnabledGovernor = true
 EnabledAntiSnowBrake = false
 
-ChargingValueGain = 0.3
-BpQuicknessGain = 2.0
-EvDroppingValueGain = 1.0
 RelayValveProportionGain = 3.0
 RelayValveDeliveryRatio = 2.0
 RelayValveExhaustRatio = 7.0
 RelayValveDeliveryThresholdKiloPascal = 0.0
 RelayValveExhaustThresholdKiloPascal = 8.0
+
+CompressorRpmReductionRatio = 0.82
+CompressorSupplyLiterPerMinute = 370.0
+GovernorStartKiloPascal = 600.0
+GovernorStopKiloPascal = 695.0
+
+MrPipeVolume = 11.14756454
+BrakePipeVolume = 15.20122437
+
+ExhaustThrottleRatio = 0.01
+ErServiceBrakeExhaustThrottleRatio = 0.15
+EvExhaustThrottleRatio = 0.1
+EmergencyPistonSensitivyGain = 0.0009
+
+InShotStartKiloPascal = 2.8
+InShotEndKiloPascal = 35.0
+InShotRate = 1.0
 
 ShowDebugDialog = false
 ShowMccbDialog = false

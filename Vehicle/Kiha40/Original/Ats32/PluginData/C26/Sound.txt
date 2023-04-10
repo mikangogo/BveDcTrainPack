@@ -15,3 +15,5 @@ BcExhaust = ..\..\..\..\..\..\Sound\Brake\Ku\BcExhaust.wav
 BpExhaust = ..\..\..\..\..\..\Sound\BrakeController\ME23\BpExhaust.wav
 ControllerMoveToCharging = ..\..\..\..\..\..\Sound\BrakeController\ME23\ControllerMoveToCharging.wav
 ControllerMoveToDropping = ..\..\..\..\..\..\Sound\BrakeController\ME23\ControllerMoveToDropping.wav
+GovernorOn = ..\..\..\..\..\..\Sound\Brake\Av\S17On.wav
+GovernorOff = ..\..\..\..\..\..\Sound\Brake\Av\S17Off.wav

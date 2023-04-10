@@ -99,5 +99,28 @@ RelayValveExhaustRatio = 7.0
 RelayValveDeliveryThresholdKiloPascal = 0.0
 RelayValveExhaustThresholdKiloPascal = 8.0
 
+CompressorRpmReductionRatio = 0.82
+CompressorSupplyLiterPerMinute = 370.0
+GovernorStartKiloPascal = 686.0
+GovernorStopKiloPascal = 784.0
+
+MrPipeVolume = 11.14756454
+BrakePipeVolume = 15.20122437
+
+ExhaustThrottleRatio = 0.01
+ErServiceBrakeExhaustThrottleRatio = 0.15
+EvExhaustThrottleRatio = 0.1
+EmergencyPistonSensitivyGain = 0.0009
+
+InShotStartKiloPascal = 2.8
+InShotEndKiloPascal = 35.0
+InShotRate = 1.0
+
+MinimumBcPressuresKiloPascal = 372.4,343.0,343.0,362.6,343.0,343.0,343.0,343.0,343.0,372.4
+MaximumBcPressuresKiloPascal = 411.6,386.2,386.2,411.6,382.2,386.2,386.2,386.2,386.2,411.6
+BoosterRates = 1.37,1.37,1.37,1.37,1.37,1.37,1.37,1.37,1.37,1.37
+MaximumLoadRate = 1.0
+AcLimitingPressureKiloPascal = 441.0
+
 ShowDebugDialog = false
 ShowMccbDialog = false
