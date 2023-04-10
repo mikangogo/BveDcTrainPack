@@ -9,7 +9,7 @@ VerboseLogging = true
 InstructionFileName = Instructions64.yml
 
 [Dmf15Hs_Dw10.dll]
-SoundFilesRootPath = ..\PluginData\Dml30Hsi_Dw9\
+SoundFilesRootPath = ..\PluginData\Dmf15Hsa_Dw10\
 
 EngineNoiseMotorNoiseTxtFileName = EngineNoise\MotorNoise.txt
 EngineNoiseSoundTxtFileName = Sound.txt
@@ -84,7 +84,7 @@ ShowDebugDialog = false
 [C36.dll]
 SoundFilesRootPath = ..\PluginData\C36\
 ShoeNoiseMotorNoiseTxtFileName = ShoeNoise\MotorNoise.txt
-ShoeNoiseSoundTxtFileName = Sound.txt
+ShoeNoiseSoundTxtFileName = Sound_Resin.txt
 ShoeNoiseSoundTxtSectionName = Shoe
 
 OtherNoiseSoundTxtFileName = Sound.txt
@@ -118,7 +118,7 @@ InShotRate = 1.0
 
 MinimumBcPressuresKiloPascal = 372.4,343.0,343.0,362.6,343.0,343.0,343.0,343.0,343.0,372.4
 MaximumBcPressuresKiloPascal = 411.6,386.2,386.2,411.6,382.2,386.2,386.2,386.2,386.2,411.6
-BoosterRates = 1.37,1.37,1.37,1.37,1.37,1.37,1.37,1.37,1.37,1.37
+BoosterRates = 1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 MaximumLoadRate = 1.0
 AcLimitingPressureKiloPascal = 441.0
 
