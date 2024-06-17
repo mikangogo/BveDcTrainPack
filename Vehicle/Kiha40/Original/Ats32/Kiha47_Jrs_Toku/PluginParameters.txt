@@ -168,7 +168,7 @@ QcBpVolumeRatio = 0.075    		; 47,48
 QcValveOpeningRatio = 0.25
 
 ; デバッグ用ダイアログ表示
-ShowDebugDialog = true
+ShowDebugDialog = false
 ; 配線用遮断器ダイアログ表示
 ShowMccbDialog = false
 ; 計算スレッドの同期にスピンロックを使うかどうか
