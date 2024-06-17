@@ -124,20 +124,22 @@ GovernorStopKiloPascal = 695.0
 ; 元空気だめ管　容積 [リットル]
 MrPipeVolume = 11.14756454
 ; ブレーキ管　容積 [リットル]
-BrakePipeVolume = 20
+;BrakePipeVolume = 15    ; 47,48
+BrakePipeVolume = 17	; 40
 
 ; ブレーキ弁　釣合ピストン　ブレーキ管　排気比率
-BpEqPistonExhaustOpeningRatio = 0.5		; 10両以上は 1.0　それ以外は0.5
+BpEqPistonExhaustOpeningRatio = 1.0
 ; ブレーキ弁　釣合ピストン　釣合管　ブレーキ管　込め溝開度比率
 BpErEqPistonOpeningRatio = 0.05
 ; ブレーキ弁　釣合管　排気開度比率
 ErExhaustOpeningRatio = 0.22
 ; ブレーキ弁　ブレーキ管　常用ブレーキ位置　排気比率
-BpExhaustOpeningRatio = 0.01
+BpExhaustOpeningRatio = 0.01		; 10両未満
+;BpExhaustOpeningRatio = 0.1			; 10両以上
 ; ブレーキ弁　ブレーキ管　非常ブレーキ位置　排気比率
 EmergencyBpExhaustOpeningRatio = 15.0
 ; ブレーキ弁　ブレーキ管　緩め込め位置　開度比率
-BpChargingOpeningRatio = 0.5
+BpChargingOpeningRatio = 0.4
 ; ブレーキ弁　釣合管　緩め込め位置　開度比率
 ErChargingOpeningRatio = 0.5
 
@@ -159,8 +161,16 @@ AcLimitingPressureKiloPascal = 441.0
 AcExhaustOpeningRatio = 0.1
 ; 制御弁　AC給気弁　開度比率
 AcSupplyOpeningRatio = 0.03
+; 制御弁　QC/BP 容積比　（BP容積 x QcBpVolumeRatio = QC容積）
+;QcBpVolumeRatio = 0.075    		; 47,48
+QcBpVolumeRatio = 0.066176471	; 40
+; 制御弁　QC逆止弁　開度比率
+QcValveOpeningRatio = 0.25
 
 ; デバッグ用ダイアログ表示
 ShowDebugDialog = false
 ; 配線用遮断器ダイアログ表示
 ShowMccbDialog = false
+; 計算スレッドの同期にスピンロックを使うかどうか
+; コアが大量にある、新しい世代のCPU環境では使用推奨。
+UseSpinLockSynchronising = false
