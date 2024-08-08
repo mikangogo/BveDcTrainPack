@@ -21,3 +21,4 @@ ControllerMoveToCharging = ..\..\..\..\..\..\Sound\BrakeController\ME23\Controll
 ControllerMoveToDropping = ..\..\..\..\..\..\Sound\BrakeController\ME23\ControllerMoveToDropping.wav
 GovernorOn = ..\..\..\..\..\..\Sound\Brake\Av\S17On.wav
 GovernorOff = ..\..\..\..\..\..\Sound\Brake\Av\S17Off.wav
+B3aExhaust = ..\..\..\..\..\..\Sound\Brake\B3a\Exhaust.wav

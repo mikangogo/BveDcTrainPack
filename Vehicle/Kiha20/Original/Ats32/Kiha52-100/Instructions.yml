@@ -6,7 +6,17 @@ pip:
         - copy
         - ..\..\..\..\..\Plugin\ThirdParty\RealAnalogGauge\x86
         - ..\PluginData\Thirdparty\RealAnalogGauge
+      - cmd:
+        - copy
+        - .tmp\Dmh17_Tc2a_Engine2.dll
+        - ..\..\..\..\..\Plugin\Engine\Dmh17_Tc2a\Dmh17_Tc2a.dll
     exec:
+      - cmd:
+        - run
+        - .tmp\Dmh17_Tc2a_Engine2.dll
+        - DoNotUseHandles
+        - DoNotUsePanel
+        - DoNotUseSound
       - cmd:
         - run
         - ..\..\..\..\..\Plugin\Engine\Dmh17_Tc2a\Dmh17_Tc2a.dll

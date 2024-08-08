@@ -3,5 +3,5 @@ PerformanceCurve = ..\..\..\Notch\Dmh17c_Tc2a_2976_820\Notch_Engine1.txt
 Parameters = Params\Param_Kiha28.txt
 Panel = ..\..\..\Panel\Kiha58\General_Panoramic\Panel.txt
 Sound = Sounds\Sound_Kiha58.txt
-Ats32 = Ats32\Kiha58\PluginOrganizer.dll
-Ats64 = Ats32\Kiha58\PluginOrganizer64.dll
+Ats32 = Ats32\Kiha28\PluginOrganizer.dll
+Ats64 = Ats32\Kiha28\PluginOrganizer64.dll

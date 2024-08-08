@@ -78,18 +78,61 @@ ShoeNoiseSoundTxtFileName = Sound.txt
 ShoeNoiseSoundTxtSectionName = Shoe
 OtherNoiseSoundTxtFileName = Sound.txt
 
+; 「電磁ブレーキ」遮断器位置
+Mccb_BrakeCircuit = true
+; 「調圧器」遮断器位置
+Mccb_Governor = true
+
+; 圧縮機　回転数減速比率
 CompressorRpmReductionRatio = 0.5
+; 圧縮機　供給量 [リットル/分]
 CompressorSupplyLiterPerMinute = 630.0
+; 圧縮機　運転開始圧力 [kPa]
 GovernorStartKiloPascal = 600.0
+; 圧縮機　運転終了圧力 [kPa]
 GovernorStopKiloPascal = 695.0
 
+; 元空気だめ管　容積 [リットル]
 MrPipeVolume = 11.14756454
-BrakePipeVolume = 11.14756454
-ExhaustThrottleRatio = 0.01
-ErServiceBrakeExhaustThrottleRatio = 0.15
-EvExhaustThrottleRatio = 0.15
-EmergencyPistonSensitivyGain = 0.0006
+; ブレーキ管　容積 [リットル]
+BrakePipeVolume = 13
+; ユルメ管　容積 [リットル]
+ReleasePipeVolume = 1.52
 
-ComputeCount = 10
+; ブレーキ弁　釣合ピストン　ブレーキ管　排気比率
+BpEqPistonExhaustOpeningRatio = 1.0
+; ブレーキ弁　釣合ピストン　釣合管　ブレーキ管　込め溝開度比率
+BpErEqPistonOpeningRatio = 0.05
+; ブレーキ弁　釣合管　排気開度比率
+ErExhaustOpeningRatio = 0.22
+; ブレーキ弁　ブレーキ管　常用ブレーキ位置　排気比率
+BpExhaustOpeningRatio = 0.01		; 10両未満
+;BpExhaustOpeningRatio = 0.1			; 10両以上
+; ブレーキ弁　ブレーキ管　非常ブレーキ位置　排気比率
+EmergencyBpExhaustOpeningRatio = 15.0
+; ブレーキ弁　ブレーキ管　緩め込め位置　開度比率
+BpChargingOpeningRatio = 0.4
+; ブレーキ弁　釣合管　緩め込め位置　開度比率
+ErChargingOpeningRatio = 0.5
+; ブレーキ弁　釣合空気だめ 容積 [リットル]
+ErVolume = 15.0
 
+; 「ブレーキ」電磁弁　開度比率
+BrakeMvOpeningRatio = 0.1
+; 「ユルメ」電磁弁　開度比率
+ReleaseMvOpeningRatio = 0.25
+
+; A制御弁　ブレーキシリンダ 容積 [リットル] AR容積:BC容積を 3.25:1 と設定する
+BcVolume = 24.615
+; A制御弁　補助空気だめ 容積 [リットル]
+ArVolume = 80.0
+; A制御弁　附加空気だめ 容積 [リットル]
+SrVolume = 140.0
+
+; デバッグ用ダイアログ表示
 ShowDebugDialog = false
+; 配線用遮断器ダイアログ表示
+ShowMccbDialog =　false
+; 計算スレッドの同期にスピンロックを使うかどうか
+; コアが大量にある、新しい世代のCPU環境では使用推奨。
+UseSpinLockSynchronising = false
