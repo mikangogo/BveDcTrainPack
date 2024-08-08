@@ -163,6 +163,8 @@ EmergencyBpExhaustOpeningRatio = 15.0
 BpChargingOpeningRatio = 0.4
 ; ブレーキ弁　釣合管　緩め込め位置　開度比率
 ErChargingOpeningRatio = 0.5
+; ブレーキ弁　釣合空気だめ 容積 [リットル]
+ErVolume = 15.0
 
 ; 「ブレーキ」電磁弁　開度比率
 BrakeMvOpeningRatio = 0.1
