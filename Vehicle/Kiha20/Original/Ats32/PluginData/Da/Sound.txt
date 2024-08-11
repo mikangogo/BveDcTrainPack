@@ -9,7 +9,7 @@ BveTs Vehicle Sound 3.00
 
 [AutomaticBrake]
 ErPistonDropping = ..\..\..\..\..\..\Sound\BrakeController\ME23B\ErPistonDropping.wav
-ErDropping = ..\..\..\..\..\..\Sound\BrakeController\ME23B\ErDropping.wav
+ErDropping = ..\..\..\..\..\..\Sound\BrakeController\ME23B\FromKyuroku\ErDropping.wav
 ErCharging = ..\..\..\..\..\..\Sound\BrakeController\ME23\ErCharging.wav
 BpCharging = ..\..\..\..\..\..\Sound\BrakeController\ME23B\BpCharging.wav
 EvBpDropping = ..\..\..\..\..\..\Sound\Brake\Ku\EvBpDropping.wav

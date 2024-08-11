@@ -141,6 +141,8 @@
 
 ## [@kyu-roku](https://kyurokugouyon.web.fc2.com/) さん
 
+- 気動車音源
+
 - キハ183運転台
   - .\Panel\Kiha183
 

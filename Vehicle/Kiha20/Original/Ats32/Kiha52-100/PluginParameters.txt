@@ -161,23 +161,8 @@ BrakePipeVolume = 13
 ; ユルメ管　容積 [リットル]
 ReleasePipeVolume = 1.52
 
-; ブレーキ弁　釣合ピストン　ブレーキ管　排気比率
-BpEqPistonExhaustOpeningRatio = 1.0
-; ブレーキ弁　釣合ピストン　釣合管　ブレーキ管　込め溝開度比率
-BpErEqPistonOpeningRatio = 0.05
-; ブレーキ弁　釣合管　排気開度比率
-ErExhaustOpeningRatio = 0.22
 ; ブレーキ弁　ブレーキ管　常用ブレーキ位置　排気比率
-BpExhaustOpeningRatio = 0.01		; 10両未満
-;BpExhaustOpeningRatio = 0.1			; 10両以上
-; ブレーキ弁　ブレーキ管　非常ブレーキ位置　排気比率
-EmergencyBpExhaustOpeningRatio = 15.0
-; ブレーキ弁　ブレーキ管　緩め込め位置　開度比率
-BpChargingOpeningRatio = 0.4
-; ブレーキ弁　釣合管　緩め込め位置　開度比率
-ErChargingOpeningRatio = 0.5
-; ブレーキ弁　釣合空気だめ 容積 [リットル]
-ErVolume = 15.0
+;BpExhaustOpeningRatio = 1.0			; 10両以上
 
 ; 「ブレーキ」電磁弁　開度比率
 BrakeMvOpeningRatio = 0.1
@@ -190,6 +175,8 @@ BcVolume = 24.615
 ArVolume = 80.0
 ; A制御弁　附加空気だめ 容積 [リットル]
 SrVolume = 140.0
+; A制御弁　BC排気ポート　絞り　開度比率
+BcExhaustOpeningRatio = 0.04
 
 ; デバッグ用ダイアログ表示
 ShowDebugDialog = false
