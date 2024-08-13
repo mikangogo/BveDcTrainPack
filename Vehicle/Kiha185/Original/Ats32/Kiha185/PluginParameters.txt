@@ -79,13 +79,6 @@ ShoeNoiseSoundTxtSectionName = Shoe
 
 OtherNoiseSoundTxtFileName = Sound.txt
 
-; 「保ち」遮断器位置
-EnabledHoldingCommand = true
-; 「調圧器」遮断器位置
-EnabledGovernor = true
-; 「耐雪ブレーキ」遮断器位置
-EnabledAntiSnowBrake = false
-
 ; 中継弁　供給量比率
 RelayValveSupplyRatio = 0.1
 ; 中継弁　排気量比率
@@ -116,23 +109,8 @@ MrPipeVolume = 11.14756454
 ;BrakePipeVolume = 15    ; 47,48
 BrakePipeVolume = 17	; 40
 
-; ブレーキ弁　釣合ピストン　ブレーキ管　排気比率
-BpEqPistonExhaustOpeningRatio = 1.0
-; ブレーキ弁　釣合ピストン　釣合管　ブレーキ管　込め溝開度比率
-BpErEqPistonOpeningRatio = 0.05
-; ブレーキ弁　釣合管　排気開度比率
-ErExhaustOpeningRatio = 0.22
 ; ブレーキ弁　ブレーキ管　常用ブレーキ位置　排気比率
-BpExhaustOpeningRatio = 0.01		; 10両未満
-;BpExhaustOpeningRatio = 0.1			; 10両以上
-; ブレーキ弁　ブレーキ管　非常ブレーキ位置　排気比率
-EmergencyBpExhaustOpeningRatio = 15.0
-; ブレーキ弁　ブレーキ管　緩め込め位置　開度比率
-BpChargingOpeningRatio = 0.4
-; ブレーキ弁　釣合管　緩め込め位置　開度比率
-ErChargingOpeningRatio = 0.5
-; ブレーキ弁　釣合空気だめ 容積 [リットル]
-ErVolume = 15.0
+;BpExhaustOpeningRatio = 1.0			; 10両以上
 
 ; 「ブレーキ」電磁弁　開度比率
 BrakeMvOpeningRatio = 0.1

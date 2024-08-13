@@ -90,13 +90,6 @@ ShoeNoiseSoundTxtSectionName = Shoe
 
 OtherNoiseSoundTxtFileName = Sound.txt
 
-; 「保ち」遮断器位置
-EnabledHoldingCommand = true
-; 「調圧器」遮断器位置
-EnabledGovernor = true
-; 「耐雪ブレーキ」遮断器位置
-EnabledAntiSnowBrake = false
-
 ; 中継弁　供給量比率
 RelayValveSupplyRatio = 0.1
 ; 中継弁　排気量比率

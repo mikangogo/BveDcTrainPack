@@ -78,11 +78,6 @@ ShoeNoiseSoundTxtFileName = Sound.txt
 ShoeNoiseSoundTxtSectionName = Shoe
 OtherNoiseSoundTxtFileName = Sound.txt
 
-; 「電磁ブレーキ」遮断器位置
-Mccb_BrakeCircuit = true
-; 「調圧器」遮断器位置
-Mccb_Governor = true
-
 ; 圧縮機　回転数減速比率
 CompressorRpmReductionRatio = 0.5
 ; 圧縮機　供給量 [リットル/分]
