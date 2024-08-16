@@ -136,9 +136,9 @@ ShowDebugDialog = false
 [C2J.dll]
 SoundFilesRootPath = ..\PluginData\Dae\
 ShoeNoiseMotorNoiseTxtFileName = ShoeNoise\MotorNoise.txt
-ShoeNoiseSoundTxtFileName = Sound.txt
+ShoeNoiseSoundTxtFileName = Sound_Dare.txt
 ShoeNoiseSoundTxtSectionName = Shoe
-OtherNoiseSoundTxtFileName = Sound.txt
+OtherNoiseSoundTxtFileName = Sound_Dare.txt
 
 ; 圧縮機　回転数減速比率
 CompressorRpmReductionRatio = 0.5

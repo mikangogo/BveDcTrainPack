@@ -1,0 +1,22 @@
+BveTs Vehicle Sound 3.00
+
+[Shoe]
+
+
+[AutomaticBrake]
+ErPistonDropping = ..\..\..\..\..\..\Sound\BrakeController\ME23B\ErPistonDropping.wav
+ErDropping = ..\..\..\..\..\..\Sound\BrakeController\ME23B\FromKyuroku\ErDropping.wav
+ErCharging = ..\..\..\..\..\..\Sound\BrakeController\ME23\ErCharging.wav
+BpCharging = ..\..\..\..\..\..\Sound\BrakeController\ME23B\BpCharging.wav
+EvBpDropping = ..\..\..\..\..\..\Sound\Brake\Ku\EvBpDropping.wav
+BpDropping = ..\..\..\..\..\..\Sound\Brake\Av\BpDropping.wav
+BcExhaust = ..\..\..\..\..\..\Sound\Brake\Av\BcExhaust.wav
+BpExhaust = ..\..\..\..\..\..\Sound\BrakeController\ME23\BpExhaust.wav
+RpExhaust = ..\..\..\..\..\..\Sound\BrakeController\ME23B\FromTk105\RpExhaust.wav
+Controller_0To1 = ..\..\..\..\..\..\Sound\BrakeController\ME23\FromTk105\Controller_0To1.wav
+Controller_1To2 = ..\..\..\..\..\..\Sound\BrakeController\ME23\FromTk105\Controller_1To2.wav
+Controller_2To3 = ..\..\..\..\..\..\Sound\BrakeController\ME23\FromTk105\Controller_2To3.wav
+Controller_MinMax = ..\..\..\..\..\..\Sound\BrakeController\ME23\FromTk105\Controller_MinMax.wav
+GovernorOn = ..\..\..\..\..\..\Sound\Brake\Av\S17On.wav
+GovernorOff = ..\..\..\..\..\..\Sound\Brake\Av\S17Off.wav
+B3aExhaust = ..\..\..\..\..\..\Sound\Brake\B3a\Exhaust.wav
