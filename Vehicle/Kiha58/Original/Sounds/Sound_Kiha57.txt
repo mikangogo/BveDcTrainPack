@@ -1,13 +1,13 @@
 BveTs Vehicle Sound 3.00
 
 [Run]
-0 = ..\..\..\..\Sound\Run\Kiha58\Ballast\25m.wav
+0 = ..\..\..\..\Sound\Run\Kiha65\Ballast\FromNtfiv\25m.wav
 1 = ..\..\..\..\Sound\Run\Kiha58\Bridge\25m.wav
 2 = ..\..\..\..\Sound\Run\Kiha58\Bridge\25m.wav
-3 = ..\..\..\..\Sound\Run\Kiha58\Tunnel\25m.wav
-4 = ..\..\..\..\Sound\Run\Kiha58\Tunnel\25m.wav
-5 = ..\..\..\..\Sound\Run\Kiha58\Ballast\25m.wav
-6 = ..\..\..\..\Sound\Run\Kiha58\Tunnel\25m.wav
+3 = ..\..\..\..\Sound\Run\Kiha65\Tunnel\FromNtfiv\25m.wav
+4 = ..\..\..\..\Sound\Run\Kiha65\Tunnel\FromNtfiv\25m.wav
+5 = ..\..\..\..\Sound\Run\Kiha65\Ballast\FromNtfiv\25m.wav
+6 = ..\..\..\..\Sound\Run\Kiha65\Tunnel\FromNtfiv\25m.wav
 
 
 [Flange]
@@ -20,7 +20,7 @@ BveTs Vehicle Sound 3.00
 6 = ..\..\..\..\Sound\Run\Kiha58\Flange\Moderate_0.wav
 
 [Switch]
-0 = ..\..\..\..\Sound\Run\Kiha58\\Switch\Switch.wav
+0 = ..\..\..\..\Sound\Run\Kiha65\Switch\FromNtfiv\Switch.wav
 
 [Horn]
 Primary = ..\..\..\..\Sound\Horn\Aw5\Start.wav
