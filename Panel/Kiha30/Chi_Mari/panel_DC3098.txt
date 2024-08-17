@@ -18,14 +18,14 @@ NighttimeImage = panel_DC3098_n.png
 Layer = 2
 
 
-;‘OÆ“”
+;å‰ç…§ç¯
 [PilotLamp]
 Subject = true
 Location = 0, 0
 DaytimeImage = light.png
 Layer = 1
 
-;ŠW
+;è“‹
 [PilotLamp]
 Subject = true
 Location = 1028, 2490
@@ -54,7 +54,7 @@ DaytimeImage = futa2.png
 NighttimeImage = futa2_n.png
 Layer = 14
 
-;ƒXƒ^ƒt’u‚«ƒ‰ƒCƒg
+;ã‚¹ã‚¿ãƒ•ç½®ããƒ©ã‚¤ãƒˆ
 [PilotLamp]
 Subject = true
 Location = 185, 726
@@ -62,14 +62,14 @@ DaytimeImage = light2.png
 Layer = 15
 
 
-;ŒË•Â“”
+;æˆ¸é–‰ç¯
 [PilotLamp]
 Subject = door
 Location = 125, 2018
 DaytimeImage = door.png
 Layer = 15
 
-;‘¬“xŒv
+;é€Ÿåº¦è¨ˆ
 [Needle]
 Subject = ats30
 Location = 757, 2341
@@ -86,7 +86,7 @@ NaturalFreq = 5
 DampingRatio = 0.8
 
 
-;ˆ³—ÍŒv1
+;åœ§åŠ›è¨ˆ1
 [Needle]
 Subject = ats102
 Location = 1067,2340
@@ -116,9 +116,9 @@ Maximum = 1000
 NaturalFreq = 0
 
 
-;ˆ³—ÍŒv2
+;åœ§åŠ›è¨ˆ2
 [Needle]
-Subject = ats103
+Subject = ats104
 Location = 1339,2340
 DaytimeImage = needle2.png
 NighttimeImage = needle2_n.png
@@ -132,7 +132,7 @@ Maximum = 1000
 NaturalFreq = 0
 
 [Needle]
-Subject = ats104
+Subject = ats103
 Location = 1339,2340
 DaytimeImage = needle3.png
 NighttimeImage = needle3_n.png
@@ -146,7 +146,7 @@ Maximum = 1000
 NaturalFreq = 0
 
 
-;‘¬“xŒv
+;é€Ÿåº¦è¨ˆ
 [Needle]
 Subject = ats30
 Location = 757, 2346
@@ -162,7 +162,7 @@ NaturalFreq = 5
 DampingRatio = 0.8
 
 
-;ˆ³—ÍŒv1
+;åœ§åŠ›è¨ˆ1
 [Needle]
 Subject = ats102
 Location = 1067,2345
@@ -190,9 +190,9 @@ Maximum = 1000
 NaturalFreq = 0
 
 
-;ˆ³—ÍŒv2
+;åœ§åŠ›è¨ˆ2
 [Needle]
-Subject = ats103
+Subject = ats104
 Location = 1339,2345
 DaytimeImage = needle2_kage.png
 Origin = 64, 180
@@ -205,7 +205,7 @@ Maximum = 1000
 NaturalFreq = 0
 
 [Needle]
-Subject = ats104
+Subject = ats103
 Location = 1339,2345
 DaytimeImage = needle3_kage.png
 Origin = 64, 180
@@ -218,7 +218,7 @@ Maximum = 1000
 NaturalFreq = 0
 
 
-;ATS”’“”
+;ATSç™½ç¯
 [PilotLamp]
 Subject = ats0
 Location = 1864, 992
@@ -226,7 +226,7 @@ DaytimeImage = ATS_w.png
 NighttimeImage = ATS_w_n.png
 Layer = 10
 
-;ATSÔ“”
+;ATSèµ¤ç¯
 [PilotLamp]
 Subject = ats1
 Location = 1920, 978
@@ -234,7 +234,7 @@ DaytimeImage = ATS_r.png
 NighttimeImage = ATS_r_n.png
 Layer = 9
 
-;•\¦“”
+;è¡¨ç¤ºç¯
 [pilotlamp]
 subject = ats8
 location = 700, 2131
