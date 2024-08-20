@@ -113,21 +113,6 @@ ShoeNoiseSoundTxtSectionName = Shoe
 
 OtherNoiseSoundTxtFileName = Sound.txt
 
-; 中継弁　供給量比率
-RelayValveSupplyRatio = 0.1
-; 中継弁　排気量比率
-RelayValveExhaustRatio = 0.7
-; 中継弁　供給位置開始差圧 [kPa]
-RelayValveSupplyStartKiloPascal = 3.0
-; 中継弁　排気位置開始差圧 [kPa]
-RelayValveExhaustStartKiloPascal = 3.0
-; 中継弁　インショット作用　開始圧力 [kPa]
-InShotStartKiloPascal = 2.8
-; 中継弁　インショット作用　終了圧力 [kPa]
-InShotEndKiloPascal = 35.0
-; 中継弁　インショット作用　比率
-InShotRate = 1.0
-
 ; 圧縮機　回転数減速比率
 CompressorRpmReductionRatio = 0.82
 ; 圧縮機　供給量 [リットル/分]
@@ -142,33 +127,16 @@ MrPipeVolume = 11.14756454
 ; ブレーキ管　容積 [リットル]
 ;BrakePipeVolume = 15    ; 47,48
 BrakePipeVolume = 17	; 40
+; ブレーキシリンダ　容積 [リットル]
+;BcVolume = 25.34    ; 47, 48: 254 x 250 x 2
+BcVolume = 20.36    ; 40: 180 x 200 x 4
 
 ; ブレーキ弁　ブレーキ管　常用ブレーキ位置　排気比率
 ;BpExhaustOpeningRatio = 1.0			; 10両以上
 
-; 「ブレーキ」電磁弁　開度比率
-BrakeMvOpeningRatio = 0.1
-; 「ユルメ」電磁弁　開度比率
-ReleaseMvOpeningRatio = 0.25
-
-; 応荷重装置　空車時BC圧 [kPa]
-MinimumBcPressureKiloPascal = 352.8
-; 応荷重装置　積車時BC圧 [kPa]
-MaximumBcPressureKiloPascal = 470.4
-; 応荷重装置　最大乗車率
-MaximumLoadRate = 2.5
-
-; 制御弁　AC管最大圧力 [kPa]
-AcLimitingPressureKiloPascal = 441.0
-; 制御弁　AC排気弁　開度比率
-AcExhaustOpeningRatio = 0.1
-; 制御弁　AC給気弁　開度比率
-AcSupplyOpeningRatio = 0.03
 ; 制御弁　QC/BP 容積比　（BP容積 x QcBpVolumeRatio = QC容積）
 ;QcBpVolumeRatio = 0.075    		; 47,48
 QcBpVolumeRatio = 0.066176471	; 40
-; 制御弁　QC逆止弁　開度比率
-QcValveOpeningRatio = 0.25
 
 ; デバッグ用ダイアログ表示
 ShowDebugDialog = false

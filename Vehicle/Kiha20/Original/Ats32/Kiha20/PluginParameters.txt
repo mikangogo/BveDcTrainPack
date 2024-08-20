@@ -97,11 +97,6 @@ ReleasePipeVolume = 1.52
 ; ブレーキ弁　ブレーキ管　常用ブレーキ位置　排気比率
 ;BpExhaustOpeningRatio = 1.0			; 10両以上
 
-; 「ブレーキ」電磁弁　開度比率
-BrakeMvOpeningRatio = 0.1
-; 「ユルメ」電磁弁　開度比率
-ReleaseMvOpeningRatio = 0.25
-
 ; A制御弁　ブレーキシリンダ 容積 [リットル] AR容積:BC容積を 3.25:1 と設定する
 BcVolume = 24.615
 ; A制御弁　補助空気だめ 容積 [リットル]
@@ -115,6 +110,48 @@ BcExhaustOpeningRatio = 0.04
 ShowDebugDialog = false
 ; 配線用遮断器ダイアログ表示
 ShowMccbDialog =　false
+; 計算スレッドの同期にスピンロックを使うかどうか
+; コアが大量にある、新しい世代のCPU環境では使用推奨。
+UseSpinLockSynchronising = false
+
+
+[DE.dll]
+SoundFilesRootPath = ..\PluginData\Da\
+ShoeNoiseMotorNoiseTxtFileName = ShoeNoise\MotorNoise.txt
+ShoeNoiseSoundTxtFileName = Sound.txt
+ShoeNoiseSoundTxtSectionName = Shoe
+OtherNoiseSoundTxtFileName = Sound.txt
+
+; 圧縮機　回転数減速比率
+CompressorRpmReductionRatio = 0.5
+; 圧縮機　供給量 [リットル/分]
+CompressorSupplyLiterPerMinute = 630.0
+; 圧縮機　運転開始圧力 [kPa]
+GovernorStartKiloPascal = 600.0
+; 圧縮機　運転終了圧力 [kPa]
+GovernorStopKiloPascal = 695.0
+
+; 元空気だめ管　容積 [リットル]
+MrPipeVolume = 11.14756454
+; ブレーキ管　容積 [リットル]
+BrakePipeVolume = 13
+; ユルメ管　容積 [リットル]
+ReleasePipeVolume = 1.52
+
+; ブレーキ弁　ブレーキ管　常用ブレーキ位置　排気比率
+BpExhaustOpeningRatio = 1.0			; 10両以上
+; ブレーキシリンダ　容積 [リットル] 
+BcVolume = 24.615
+
+; E制御弁　AC排気弁　開度比率
+AcExhaustOpeningRatio = 0.8
+; E制御弁　AC給気弁　開度比率
+AcSupplyOpeningRatio = 0.2
+
+; デバッグ用ダイアログ表示
+ShowDebugDialog = false
+; 配線用遮断器ダイアログ表示
+ShowMccbDialog = false
 ; 計算スレッドの同期にスピンロックを使うかどうか
 ; コアが大量にある、新しい世代のCPU環境では使用推奨。
 UseSpinLockSynchronising = false

@@ -97,11 +97,6 @@ ReleasePipeVolume = 1.52
 ; ブレーキ弁　ブレーキ管　常用ブレーキ位置　排気比率
 ;BpExhaustOpeningRatio = 1.0			; 10両以上
 
-; 「ブレーキ」電磁弁　開度比率
-BrakeMvOpeningRatio = 0.1
-; 「ユルメ」電磁弁　開度比率
-ReleaseMvOpeningRatio = 0.25
-
 ; A制御弁　ブレーキシリンダ 容積 [リットル] AR容積:BC容積を 3.25:1 と設定する
 BcVolume = 24.615
 ; A制御弁　補助空気だめ 容積 [リットル]

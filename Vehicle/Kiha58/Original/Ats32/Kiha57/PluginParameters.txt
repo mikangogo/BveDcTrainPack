@@ -159,14 +159,6 @@ ReleasePipeVolume = 1.52
 ; ブレーキ弁　ブレーキ管　常用ブレーキ位置　排気比率
 ;BpExhaustOpeningRatio = 1.0			; 10両以上
 
-; 「ブレーキ」電磁弁　開度比率
-BrakeMvOpeningRatio = 0.1
-; 「ユルメ」電磁弁　開度比率
-ReleaseMvOpeningRatio = 0.25
-
-; A制御弁　ブレーキシリンダ 容積 [リットル] AR容積:BC容積を 3.25:1 と設定する
-; DAR形の場合、AC容積となる。
-BcVolume = 6.7
 ; A制御弁　補助空気だめ 容積 [リットル]
 ArVolume = 21.0
 ; A制御弁　附加空気だめ 容積 [リットル]
@@ -177,6 +169,9 @@ BcExhaustOpeningRatio = 0.02
 BcOpeningRatio = 0.5
 ; A制御弁　SR連絡ポート　絞り　開度比率
 SrOpeningRatio = 0.3
+; DAR形　AC 容積 [リットル] AR容積:AC容積を 3.25:1 と設定する
+; DAR形の場合、増圧シリンダを動かすためにACへ接続となる。
+AcVolume = 6.7
 ; DAR形　増圧シリンダ　容積 [リットル]
 PressureIntensifierVolume = 16.246       ; 152x165 + 3/4(15m) 2.994 x 4 + 4.27
 ; 中継弁　供給量比率
