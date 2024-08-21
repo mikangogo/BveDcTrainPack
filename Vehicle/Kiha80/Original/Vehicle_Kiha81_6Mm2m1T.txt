@@ -1,0 +1,7 @@
+BveTs Vehicle 2.00:utf-8
+PerformanceCurve = ..\..\..\Notch\Kiha81_6Mm2m\Notch.txt
+Parameters = Params\Param_Kiha81_6Mm2m1T.txt
+Panel = ..\..\..\Panel\Kiha58\General_Panoramic\Panel.txt
+Sound = Sounds\Sound_Kiha81.txt
+Ats32 = Ats32\Kiha81\PluginOrganizer.dll
+Ats64 = Ats32\Kiha81\PluginOrganizer64.dll
