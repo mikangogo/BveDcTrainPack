@@ -22,7 +22,7 @@ pip:
         - ..\..\..\..\..\Plugin64\Engine\Dmh17_Tc2a\Dmh17_Tc2a.dll
       - cmd:
         - run
-        - ..\..\..\..\..\Plugin64\AirBrake\DA\DA.dll
+        - ..\..\..\..\..\Plugin64\AirBrake\AutomaticBrakeSystem.dll
       - cmd:
         - run
         - ..\..\..\..\..\Plugin\ThirdParty\RealAnalogGauge\x64\RealAnalogGauge.dll

@@ -71,7 +71,9 @@ WheelDiameter = 860.0
 ShowDebugDialog = false
 
 
-[C26.dll]
+[AutomaticBrakeSystem.dll]
+SystemType = C26
+
 SoundFilesRootPath = ..\PluginData\C26\
 ShoeNoiseMotorNoiseTxtFileName = ShoeNoise\MotorNoise.txt
 ShoeNoiseSoundTxtFileName = Sound.txt

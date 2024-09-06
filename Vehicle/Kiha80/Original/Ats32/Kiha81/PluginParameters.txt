@@ -70,7 +70,9 @@ WheelDiameter = 820.0 ;新品は860、計算の場合は820
 
 ShowDebugDialog = false
 
-[C3.dll]
+[AutomaticBrakeSystem.dll]
+SystemType = C3
+
 SoundFilesRootPath = ..\PluginData\Dars\
 ShoeNoiseMotorNoiseTxtFileName = ShoeNoise\MotorNoise.txt
 ShoeNoiseSoundTxtFileName = Sound_Kiha81.txt

@@ -133,7 +133,9 @@ WheelDiameter = 820.0 ;新品は860、計算の場合は820
 
 ShowDebugDialog = false
 
-[C2J.dll]
+[AutomaticBrakeSystem.dll]
+SystemType = C2J
+
 SoundFilesRootPath = ..\PluginData\Dae\
 ShoeNoiseMotorNoiseTxtFileName = ShoeNoise\MotorNoise.txt
 ShoeNoiseSoundTxtFileName = Sound_Dare.txt

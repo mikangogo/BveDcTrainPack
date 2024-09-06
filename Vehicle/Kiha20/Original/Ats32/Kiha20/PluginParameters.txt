@@ -71,7 +71,9 @@ WheelDiameter = 820.0 ;新品は860、計算の場合は820
 
 ShowDebugDialog = false
 
-[DA.dll]
+[AutomaticBrakeSystem.dll]
+SystemType = DA
+
 SoundFilesRootPath = ..\PluginData\Da\
 ShoeNoiseMotorNoiseTxtFileName = ShoeNoise\MotorNoise.txt
 ShoeNoiseSoundTxtFileName = Sound.txt
@@ -115,43 +117,45 @@ ShowMccbDialog =　false
 UseSpinLockSynchronising = false
 
 
-[DE.dll]
-SoundFilesRootPath = ..\PluginData\Da\
-ShoeNoiseMotorNoiseTxtFileName = ShoeNoise\MotorNoise.txt
-ShoeNoiseSoundTxtFileName = Sound.txt
-ShoeNoiseSoundTxtSectionName = Shoe
-OtherNoiseSoundTxtFileName = Sound.txt
+; [AutomaticBrakeSystem.dll]
+; SystemType = DE
 
-; 圧縮機　回転数減速比率
-CompressorRpmReductionRatio = 0.5
-; 圧縮機　供給量 [リットル/分]
-CompressorSupplyLiterPerMinute = 630.0
-; 圧縮機　運転開始圧力 [kPa]
-GovernorStartKiloPascal = 600.0
-; 圧縮機　運転終了圧力 [kPa]
-GovernorStopKiloPascal = 695.0
+; SoundFilesRootPath = ..\PluginData\Da\
+; ShoeNoiseMotorNoiseTxtFileName = ShoeNoise\MotorNoise.txt
+; ShoeNoiseSoundTxtFileName = Sound.txt
+; ShoeNoiseSoundTxtSectionName = Shoe
+; OtherNoiseSoundTxtFileName = Sound.txt
 
-; 元空気だめ管　容積 [リットル]
-MrPipeVolume = 11.14756454
-; ブレーキ管　容積 [リットル]
-BrakePipeVolume = 13
-; ユルメ管　容積 [リットル]
-ReleasePipeVolume = 1.52
+; ; 圧縮機　回転数減速比率
+; CompressorRpmReductionRatio = 0.5
+; ; 圧縮機　供給量 [リットル/分]
+; CompressorSupplyLiterPerMinute = 630.0
+; ; 圧縮機　運転開始圧力 [kPa]
+; GovernorStartKiloPascal = 600.0
+; ; 圧縮機　運転終了圧力 [kPa]
+; GovernorStopKiloPascal = 695.0
 
-; ブレーキ弁　ブレーキ管　常用ブレーキ位置　排気比率
-BpExhaustOpeningRatio = 1.0			; 10両以上
-; ブレーキシリンダ　容積 [リットル] 
-BcVolume = 24.615
+; ; 元空気だめ管　容積 [リットル]
+; MrPipeVolume = 11.14756454
+; ; ブレーキ管　容積 [リットル]
+; BrakePipeVolume = 13
+; ; ユルメ管　容積 [リットル]
+; ReleasePipeVolume = 1.52
 
-; E制御弁　AC排気弁　開度比率
-AcExhaustOpeningRatio = 0.8
-; E制御弁　AC給気弁　開度比率
-AcSupplyOpeningRatio = 0.2
+; ; ブレーキ弁　ブレーキ管　常用ブレーキ位置　排気比率
+; BpExhaustOpeningRatio = 1.0			; 10両以上
+; ; ブレーキシリンダ　容積 [リットル] 
+; BcVolume = 24.615
 
-; デバッグ用ダイアログ表示
-ShowDebugDialog = false
-; 配線用遮断器ダイアログ表示
-ShowMccbDialog = false
-; 計算スレッドの同期にスピンロックを使うかどうか
-; コアが大量にある、新しい世代のCPU環境では使用推奨。
-UseSpinLockSynchronising = false
+; ; E制御弁　AC排気弁　開度比率
+; AcExhaustOpeningRatio = 0.8
+; ; E制御弁　AC給気弁　開度比率
+; AcSupplyOpeningRatio = 0.2
+
+; ; デバッグ用ダイアログ表示
+; ShowDebugDialog = false
+; ; 配線用遮断器ダイアログ表示
+; ShowMccbDialog = false
+; ; 計算スレッドの同期にスピンロックを使うかどうか
+; ; コアが大量にある、新しい世代のCPU環境では使用推奨。
+; UseSpinLockSynchronising = false

@@ -12,7 +12,7 @@ pip:
         - ..\..\..\..\..\Plugin\Engine\Dmh17_Tc2a\Dmh17_Tc2a.dll
       - cmd:
         - run
-        - ..\..\..\..\..\Plugin\AirBrake\DARS\C3.dll
+        - ..\..\..\..\..\Plugin\AirBrake\AutomaticBrakeSystem.dll
       - cmd:
         - run
         - ..\..\..\..\..\Plugin\ThirdParty\RealAnalogGauge\x86\RealAnalogGauge.dll

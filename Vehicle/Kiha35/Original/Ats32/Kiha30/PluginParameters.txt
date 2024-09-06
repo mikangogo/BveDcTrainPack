@@ -70,7 +70,9 @@ WheelDiameter = 820.0 ;新品は860、計算の場合は820
 
 ShowDebugDialog = false
 
-[DA.dll]
+[AutomaticBrakeSystem.dll]
+SystemType = DA
+
 SoundFilesRootPath = ..\PluginData\Da\
 ShoeNoiseMotorNoiseTxtFileName = ShoeNoise\MotorNoise.txt
 ShoeNoiseSoundTxtFileName = Sound.txt
