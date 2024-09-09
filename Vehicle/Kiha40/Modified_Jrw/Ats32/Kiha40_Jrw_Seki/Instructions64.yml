@@ -12,7 +12,7 @@ pip:
         - ..\..\..\..\..\Plugin64\Engine\Sa6d125h_Tacn22\Sa6d125h_Tacn22.dll
       - cmd:
         - run
-        - ..\..\..\..\..\Plugin64\AirBrake\Cle\C26.dll
+        - ..\..\..\..\..\Plugin64\AirBrake\AutomaticBrakeSystem.dll
       - cmd:
         - run
         - ..\..\..\..\..\Plugin\ThirdParty\RealAnalogGauge\x64\RealAnalogGauge.dll
