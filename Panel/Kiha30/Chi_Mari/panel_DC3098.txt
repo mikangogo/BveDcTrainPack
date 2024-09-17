@@ -88,7 +88,7 @@ DampingRatio = 0.8
 
 ;圧力計1
 [Needle]
-Subject = ats102
+Subject = mr
 Location = 1067,2340
 DaytimeImage = needle2.png
 NighttimeImage = needle2_n.png
@@ -102,7 +102,7 @@ Maximum = 1000
 NaturalFreq = 0
 
 [Needle]
-Subject = ats101
+Subject = er
 Location = 1067,2340
 DaytimeImage = needle3.png
 NighttimeImage = needle3_n.png
@@ -118,7 +118,7 @@ NaturalFreq = 0
 
 ;圧力計2
 [Needle]
-Subject = ats104
+Subject = bc
 Location = 1339,2340
 DaytimeImage = needle2.png
 NighttimeImage = needle2_n.png
@@ -132,7 +132,7 @@ Maximum = 1000
 NaturalFreq = 0
 
 [Needle]
-Subject = ats103
+Subject = bp
 Location = 1339,2340
 DaytimeImage = needle3.png
 NighttimeImage = needle3_n.png
@@ -164,7 +164,7 @@ DampingRatio = 0.8
 
 ;圧力計1
 [Needle]
-Subject = ats102
+Subject = mr
 Location = 1067,2345
 DaytimeImage = needle2_kage.png
 Origin = 64, 180
@@ -177,7 +177,7 @@ Maximum = 1000
 NaturalFreq = 0
 
 [Needle]
-Subject = ats101
+Subject = er
 Location = 1067,2345
 DaytimeImage = needle3_kage.png
 Origin = 64, 180
@@ -192,7 +192,7 @@ NaturalFreq = 0
 
 ;圧力計2
 [Needle]
-Subject = ats104
+Subject = bc
 Location = 1339,2345
 DaytimeImage = needle2_kage.png
 Origin = 64, 180
@@ -205,7 +205,7 @@ Maximum = 1000
 NaturalFreq = 0
 
 [Needle]
-Subject = ats103
+Subject = bp
 Location = 1339,2345
 DaytimeImage = needle3_kage.png
 Origin = 64, 180

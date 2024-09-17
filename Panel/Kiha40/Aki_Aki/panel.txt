@@ -46,7 +46,7 @@ DampingRatio = 0.5
 
 
 [Needle]
-Subject = ats102
+Subject = mr
 Location = 910,1415
 DaytimeImage = NeedlePressLow.png
 NighttimeImage =NeedlePressLow_N.png
@@ -62,7 +62,7 @@ DampingRatio     = 0.01
 
 
 [Needle]
-Subject = ats101
+Subject = er
 Location = 910,1415
 DaytimeImage = NeedlePressHigh.png
 NighttimeImage =NeedlePressHigh_N.png
@@ -78,7 +78,7 @@ DampingRatio     = 0.01
 
 
 [Needle]
-Subject = ats104
+Subject = bc
 Location = 1127,1415
 DaytimeImage = NeedlePressLow.png
 NighttimeImage =NeedlePressLow_N.png
@@ -94,7 +94,7 @@ DampingRatio     = 0.01
 
 
 [Needle]
-Subject = ats103
+Subject = bp
 Location = 1127,1415
 DaytimeImage = NeedlePressHigh.png
 NighttimeImage =NeedlePressHigh_N.png

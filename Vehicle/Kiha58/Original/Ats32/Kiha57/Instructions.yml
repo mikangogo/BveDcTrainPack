@@ -26,3 +26,6 @@ pip:
       - cmd:
         - run
         - ..\..\..\..\..\Plugin\ThirdParty\RealAnalogGauge\x86\RealAnalogGauge.dll
+      - cmd:
+        - run
+        - ..\..\..\..\..\Plugin\BveHooker\BveHooker.dll

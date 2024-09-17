@@ -224,8 +224,7 @@ StopPin = True
 
 
 [Needle]##mr_needle
-##Subject = mr
-Subject = ats102
+Subject = mr
 Location = 1704, 2189
 DaytimeImage = BVEWS\pressure-needle-up.png
 NighttimeImage = null.png
@@ -240,8 +239,7 @@ NaturalFreq = 0
 Color = 901518
 
 [Needle]
-##Subject = mr
-Subject = ats102
+Subject = mr
 Location = 1704, 2189
 DaytimeImage = null.png
 NighttimeImage = BVEWS\pressure-needle-up.png
@@ -256,8 +254,7 @@ NaturalFreq = 0
 Color = 160402
 
 [Needle]##mr_needle_shadow
-##Subject = mr
-Subject = ats102
+Subject = mr
 Location = 1720, 2200
 DaytimeImage = BVEWS\pressure-needle-up_shadow.png
 ;NighttimeImage = null.png
@@ -271,8 +268,7 @@ Maximum = 1000
 NaturalFreq = 0
 
 [Needle]##mr_needle_shadow_B
-##Subject = mr
-Subject = ats102
+Subject = mr
 Location = 1638, 2239
 DaytimeImage = BVEWS\pressure-needle-up_shadowB.png
 ;NighttimeImage = null.png
@@ -287,8 +283,7 @@ NaturalFreq = 0
 
 
 [Needle]##er_needle
-##Subject = er
-Subject = ats101
+Subject = er
 Location = 1703, 2189
 DaytimeImage = BVEWS\pressure-needle-up.png
 NighttimeImage = null.png
@@ -303,8 +298,7 @@ NaturalFreq = 0
 Color = 242227
 
 [Needle]
-##Subject = er
-Subject = ats101
+Subject = er
 Location = 1703, 2189
 DaytimeImage = null.png
 NighttimeImage = BVEWS\pressure-needle-up.png
@@ -319,8 +313,7 @@ NaturalFreq = 0
 Color = 040404
 
 [Needle]##er_needle_shadow
-##Subject = er
-Subject = ats101
+Subject = er
 Location = 1730, 2207
 DaytimeImage = BVEWS\pressure-needle-up_shadow.png
 ;NighttimeImage = null.png
@@ -334,8 +327,7 @@ Maximum = 1000
 NaturalFreq = 0
 
 [Needle]##er_needle_shadow_B
-##Subject = er
-Subject = ats101
+Subject = er
 Location = 1638, 2239
 DaytimeImage = BVEWS\pressure-needle-up_shadowB.png
 ;NighttimeImage = null.png
@@ -350,8 +342,7 @@ NaturalFreq = 0
 
 
 [Needle]##bc_needle
-##Subject = bc
-Subject = ats104
+Subject = bc
 Location = 2083, 2188
 DaytimeImage = BVEWS\pressure-needle-up.png
 NighttimeImage = null.png
@@ -366,8 +357,7 @@ NaturalFreq = 0
 Color = 901518
 
 [Needle]
-##Subject = bc
-Subject = ats104
+Subject = bc
 Location = 2083, 2188
 DaytimeImage = null.png
 NighttimeImage = BVEWS\pressure-needle-up.png
@@ -382,8 +372,7 @@ NaturalFreq = 0
 Color = 160402
 
 [Needle]##bc_needle_shadow
-##Subject = bc
-Subject = ats104
+Subject = bc
 Location = 2067, 2215
 DaytimeImage = BVEWS\pressure-needle-up_shadow.png
 ;NighttimeImage = null.png
@@ -398,8 +387,7 @@ NaturalFreq = 0
 
 
 [Needle]##bp_needle
-##Subject = bp
-Subject = ats103
+Subject = bp
 Location = 2083, 2188
 DaytimeImage = BVEWS\pressure-needle-up.png
 NighttimeImage = null.png
@@ -414,8 +402,7 @@ NaturalFreq = 0
 Color = 242227
 
 [Needle]
-##Subject = bp
-Subject = ats103
+Subject = bp
 Location = 2083, 2188
 DaytimeImage = null.png
 NighttimeImage = BVEWS\pressure-needle-up.png
@@ -430,8 +417,7 @@ NaturalFreq = 0
 Color = 040404
 
 [Needle]##bp_needle
-##Subject = bp
-Subject = ats103
+Subject = bp
 Location = 2058, 2239
 DaytimeImage = BVEWS\pressure-needle-up_shadow.png
 ;NighttimeImage = null.png

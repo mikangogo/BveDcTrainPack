@@ -34,7 +34,7 @@ NaturalFreq = 6.3
 DampingRatio = 0.5
 
 [Needle]
-Subject = ats102
+Subject = mr
 Location = 946,1448
 DaytimeImage = ..\Aki_Aki\NeedlePressLow.png
 NighttimeImage = ..\Aki_Aki\NeedlePressLow_N.png
@@ -50,7 +50,7 @@ DampingRatio     = 0.01
 
 
 [Needle]
-Subject = ats101
+Subject = er
 Location = 946,1448
 DaytimeImage = ..\Aki_Aki\NeedlePressHigh.png
 NighttimeImage = ..\Aki_Aki\NeedlePressHigh_N.png
@@ -66,7 +66,7 @@ DampingRatio     = 0.01
 
 
 [Needle]
-Subject = ats104
+Subject = bc
 Location = 1170, 1447
 DaytimeImage = ..\Aki_Aki\NeedlePressLow.png
 NighttimeImage = ..\Aki_Aki\NeedlePressLow_N.png
@@ -82,7 +82,7 @@ DampingRatio     = 0.01
 
 
 [Needle]
-Subject = ats103
+Subject = bp
 Location = 1170, 1447
 DaytimeImage = ..\Aki_Aki\NeedlePressHigh.png
 NighttimeImage = ..\Aki_Aki\NeedlePressHigh_N.png

@@ -181,8 +181,7 @@ Layer = 8
 
 ;元空気ダメ
 [Needle]
-;Subject = mr
-Subject = ats102
+Subject = mr
 Location = 1736, 2209
 DaytimeImage = PrsRedNeedle1500_d.png
 NighttimeImage = PrsRedNeedle1500_n.png
@@ -198,8 +197,7 @@ DampingRatio = 0.8
 
 ;ツリアイ空気ダメ
 [Needle]
-;Subject = er
-Subject = ats101
+Subject = er
 Location = 1736, 2209
 DaytimeImage = PrsBlackNeedle1500_d.png
 NighttimeImage = PrsBlackNeedle1500_n.png
@@ -223,8 +221,7 @@ Layer = 8
 
 ;ブレーキ管
 [Needle]
-;Subject = bp
-Subject = ats103
+Subject = bp
 Location = 2006, 2212
 DaytimeImage = PrsBlackNeedle_d.png
 NighttimeImage = PrsBlackNeedle_n.png
@@ -240,8 +237,7 @@ DampingRatio = 0.8
 
 ;ブレーキシリンダ
 [Needle]
-;Subject = bc
-Subject = ats104
+Subject = bc
 Location = 2007, 2212
 DaytimeImage = PrsRedNeedle_d.png
 NighttimeImage = PrsRedNeedle_n.png

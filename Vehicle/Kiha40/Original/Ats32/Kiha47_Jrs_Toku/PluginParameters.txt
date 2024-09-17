@@ -8,6 +8,9 @@ InstructionFileName = Instructions.yml
 VerboseLogging = true
 InstructionFileName = Instructions64.yml
 
+[BveHooker.dll]
+Enabled = true
+
 [Dmf15Hs_Dw10.dll]
 SoundFilesRootPath = ..\PluginData\Dmf15Hsa_Dw10\
 

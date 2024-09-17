@@ -30,9 +30,9 @@ daytimeimage = d_spd_on.png
 nighttimeimage = n_spd_on.png
 layer = 15
 
-; ˆ³—ÍŒv(Ô:Œ³‹ó‹Cƒ_ƒ •:ƒcƒŠƒAƒC‹ó‹Cƒ_ƒ)
-[Needle]; ƒcƒŠƒAƒC‹ó‹Cƒ_ƒ
-Subject = ats101
+; ï¿½ï¿½ï¿½ÍŒv(ï¿½ï¿½:ï¿½ï¿½ï¿½ï¿½Cï¿½_ï¿½ï¿½ ï¿½ï¿½:ï¿½cï¿½ï¿½ï¿½Aï¿½Cï¿½ï¿½Cï¿½_ï¿½ï¿½)
+[Needle]; ï¿½cï¿½ï¿½ï¿½Aï¿½Cï¿½ï¿½Cï¿½_ï¿½ï¿½
+Subject = er
 Location = 688, 1551
 DaytimeImage = needle\prs_up_d.png
 NighttimeImage = needle\prs_up_n.png
@@ -46,8 +46,8 @@ Minimum = 0
 Maximum = 980
 NaturalFreq = 0
 
-[Needle]; Œ³‹ó‹Cƒ_ƒ
-Subject = ats102
+[Needle]; ï¿½ï¿½ï¿½ï¿½Cï¿½_ï¿½ï¿½
+Subject = mr
 Location = 688, 1551
 DaytimeImage = needle\prs_low_d.png
 NighttimeImage = needle\prs_low_n.png
@@ -61,8 +61,8 @@ Minimum = 0
 Maximum = 980
 NaturalFreq = 0
 
-[Needle]; ƒuƒŒ[ƒLŠÇ
-Subject = ats103
+[Needle]; ï¿½uï¿½ï¿½ï¿½[ï¿½Lï¿½ï¿½
+Subject = bp
 Location = 948, 1551
 DaytimeImage = needle\prs_up_d.png
 NighttimeImage = needle\prs_up_n.png
@@ -162,7 +162,7 @@ daytimeimage = d_engine_brake.png
 nighttimeimage = d_engine_brake.png
 layer = 15
 
-; Œv
+; ï¿½ï¿½ï¿½v
 [Needle]
 Location = 1249, 1578
 Subject = hour
