@@ -120,6 +120,15 @@ BcVolume = 20.36    ; 40: 180 x 200 x 4
 ;QcBpVolumeRatio = 0.075    		; 47,48
 QcBpVolumeRatio = 0.066176471	; 40
 
+; 応荷重弁　最小/最大時ブレーキシリンダ圧力 [kPa]
+;MinimumBcPressureKiloPascal = 352.8     ; 47,48
+;MaximumBcPressureKiloPascal = 470.4     ; 47,48
+MinimumBcPressureKiloPascal = 441.0     ; 40
+MaximumBcPressureKiloPascal = 548.8     ; 40
+; 応荷重弁　250%乗車時　倍率
+;MaximumLoadRate = 1.5859 ; 47,48
+MaximumLoadRate = 1.408 ; 40
+
 ; デバッグ用ダイアログ表示
 ShowDebugDialog = false
 ; 配線用遮断器ダイアログ表示

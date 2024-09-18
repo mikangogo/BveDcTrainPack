@@ -28,6 +28,7 @@ PressureRates = 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.059659091,0.0625,0.0
 
 
 [Dynamics]
+Capacity = 96
 MotorcarWeight = 37400
 MotorcarCount = 1
 TrailerWeight = 36500

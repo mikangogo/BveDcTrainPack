@@ -195,6 +195,12 @@ UseSpinLockSynchronising = false
 ; ; E制御弁　AC給気弁　開度比率
 ; AcSupplyOpeningRatio = 0.03
 
+; ; 応荷重弁　最小/最大時ブレーキシリンダ圧力 [kPa]
+; MinimumBcPressureKiloPascal = 411.6
+; MaximumBcPressureKiloPascal = 539.0
+; ; 応荷重弁　250%乗車時　倍率
+; MaximumLoadRate = 1.408
+
 ; ; デバッグ用ダイアログ表示
 ; ShowDebugDialog = false
 ; ; 配線用遮断器ダイアログ表示
