@@ -1,0 +1,49 @@
+﻿[AutomaticBrakeSystem.dll]
+SystemType = DER
+
+SoundFilesRootPath = ..\PluginData\Da\
+ShoeNoiseMotorNoiseTxtFileName = ShoeNoise\MotorNoise.txt
+ShoeNoiseSoundTxtFileName = Sound.txt
+ShoeNoiseSoundTxtSectionName = Shoe
+OtherNoiseSoundTxtFileName = Sound.txt
+
+; 圧縮機　回転数減速比率
+CompressorRpmReductionRatio = 0.5
+; 圧縮機　供給量 [リットル/分]
+CompressorSupplyLiterPerMinute = 630.0
+; 圧縮機　運転開始圧力 [kPa]
+GovernorStartKiloPascal = 600.0
+; 圧縮機　運転終了圧力 [kPa]
+GovernorStopKiloPascal = 695.0
+
+; 元空気だめ管　容積 [リットル]
+MrPipeVolume = 11.14756454
+; ブレーキ管　容積 [リットル]
+BrakePipeVolume = 13
+; ブレーキシリンダ　容積 [リットル] 
+BcVolume = 20.36    ; DT44系: 180 x 200 x 4
+; ブレーキシリンダピストン受圧面積 [m2]
+PistonArea = 0.788752128        ; 設定分からない、キハ40-100相当
+ShoeFriction = 0.3, 0.07, 0.122     ; 苗穂の制輪子
+
+; ブレーキ弁　ブレーキ管　常用ブレーキ位置　排気比率
+;BpExhaustOpeningRatio = 1.0			; 10両以上
+
+; E制御弁　AC排気弁　開度比率
+AcExhaustOpeningRatio = 0.01
+; E制御弁　AC給気弁　開度比率
+AcSupplyOpeningRatio = 0.03
+
+; 応荷重弁　最小/最大時ブレーキシリンダ圧力 [kPa]
+MinimumBcPressureKiloPascal = 411.6
+MaximumBcPressureKiloPascal = 539.0
+; 応荷重弁　250%乗車時　倍率
+MaximumLoadRate = 1.408
+
+; デバッグ用ダイアログ表示
+ShowDebugDialog = false
+; 配線用遮断器ダイアログ表示
+ShowMccbDialog = false
+; 計算スレッドの同期にスピンロックを使うかどうか
+; コアが大量にある、新しい世代のCPU環境では使用推奨。
+UseSpinLockSynchronising = false

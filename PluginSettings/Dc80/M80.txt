@@ -1,0 +1,59 @@
+﻿
+[AutomaticBrakeSystem.dll]
+SystemType = M80
+
+SoundFilesRootPath = ..\PluginData\Dars\
+ShoeNoiseMotorNoiseTxtFileName = ShoeNoise\MotorNoise.txt
+ShoeNoiseSoundTxtFileName = Sound_Kiha82.txt
+ShoeNoiseSoundTxtSectionName = Shoe
+OtherNoiseSoundTxtFileName = Sound_Kiha82.txt
+
+; 圧縮機　回転数減速比率
+CompressorRpmReductionRatio = 0.5
+; 圧縮機　供給量 [リットル/分]
+CompressorSupplyLiterPerMinute = 840.0
+; 圧縮機　運転開始圧力 [kPa]
+GovernorStartKiloPascal = 600.0
+; 圧縮機　運転終了圧力 [kPa]
+GovernorStopKiloPascal = 695.0
+
+; 元空気だめ管　容積 [リットル]
+MrPipeVolume = 11.14756454
+; ブレーキ管　容積 [リットル]
+BrakePipeVolume = 12.1609795
+; ユルメ管　容積 [リットル]
+ReleasePipeVolume = 0.1
+; ブレーキシリンダピストン受圧面積 [m2]
+;PistonArea = 0.873766377        ; 81: 254 x 250 x 2
+PistonArea = 0.436883189        ; それ以外: ディスク
+;ShoeFriction = 0.32, 0.01, 0.05 ; 81: 254 x 250 x 2
+ShoeFriction = 0.42, 0.04, 0.05 ; それ以外: ディスク
+
+; A制御弁　補助空気だめ 容積 [リットル]
+ArVolume = 21.0
+; A制御弁　附加空気だめ 容積 [リットル]
+SrVolume = 65.0
+; A制御弁　BC排気ポート　絞り　開度比率
+BcExhaustOpeningRatio = 0.02
+; A制御弁　BC込めポート　絞り　開度比率
+;BcOpeningRatio = 0.75
+; A制御弁　SR連絡ポート　絞り　開度比率
+SrOpeningRatio = 0.3
+; DAR形　AC 容積 [リットル] AR容積:AC容積を 3.25:1 と設定する
+; DAR形の場合、増圧シリンダを動かすためにACへ接続となる。
+AcVolume = 6.7
+; DAR形　増圧シリンダ　容積 [リットル]
+;PressureIntensifierVolume = 24.615       ; 81: 254 x 250 x 2
+PressureIntensifierVolume = 16.246       ; それ以外: ディスク 152x165 + 3/4(15m) 2.994 x 4 + 4.27
+; 中継弁　供給量比率
+RelayValveSupplyRatio = 0.09
+; 中継弁　排気量比率
+RelayValveExhaustRatio = 0.5
+
+; デバッグ用ダイアログ表示
+ShowDebugDialog = false
+; 配線用遮断器ダイアログ表示
+ShowMccbDialog = false
+; 計算スレッドの同期にスピンロックを使うかどうか
+; コアが大量にある、新しい世代のCPU環境では使用推奨。
+UseSpinLockSynchronising = false

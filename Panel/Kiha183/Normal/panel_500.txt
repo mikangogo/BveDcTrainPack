@@ -74,7 +74,7 @@ DampingRatio = 0.8
 
 
 [Needle]
-Subject = ats102
+Subject = mr
 Location = 1972,2808
 DaytimeImage = needle2.png
 NighttimeImage = needle2_n.png
@@ -90,7 +90,7 @@ NaturalFreq = 80
 DampingRatio = 0.1
 
 [Needle]
-Subject = ats101
+Subject = er
 Location = 1972,2808
 DaytimeImage = needle3.png
 NighttimeImage = needle3_n.png
@@ -107,7 +107,7 @@ DampingRatio = 0.1
 
 
 [Needle]
-Subject = ats102
+Subject = mr
 Location = 1972,2818
 DaytimeImage = needle2_kage.png
 TransparentColor = 000000
@@ -122,7 +122,7 @@ NaturalFreq = 80
 DampingRatio = 0.1
 
 [Needle]
-Subject = ats101
+Subject = er
 Location = 1972,2818
 DaytimeImage = needle3_kage.png
 TransparentColor = 000000
@@ -138,7 +138,7 @@ DampingRatio = 0.1
 
 
 [Needle]
-Subject = ats104
+Subject = bc
 Location = 2489,2808
 DaytimeImage = needle2.png
 NighttimeImage = needle2_n.png
@@ -154,7 +154,7 @@ NaturalFreq = 80
 DampingRatio = 0.1
 
 [Needle]
-Subject = ats103
+Subject = bp
 Location = 2489,2808
 DaytimeImage = needle3.png
 NighttimeImage = needle3_n.png
@@ -170,7 +170,7 @@ NaturalFreq = 80
 DampingRatio = 0.1
 
 [Needle]
-Subject = ats104
+Subject = bc
 Location = 2489,2818
 DaytimeImage = needle2_kage.png
 TransparentColor = 000000
@@ -185,7 +185,7 @@ NaturalFreq = 80
 DampingRatio = 0.1
 
 [Needle]
-Subject = ats103
+Subject = bp
 Location = 2489,2818
 DaytimeImage = needle3_kage.png
 TransparentColor = 000000

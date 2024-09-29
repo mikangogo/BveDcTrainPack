@@ -1,0 +1,47 @@
+﻿[AutomaticBrakeSystem.dll]
+SystemType = DA
+
+SoundFilesRootPath = ..\PluginData\Da\
+ShoeNoiseMotorNoiseTxtFileName = ShoeNoise\MotorNoise.txt
+ShoeNoiseSoundTxtFileName = Sound.txt
+ShoeNoiseSoundTxtSectionName = Shoe
+OtherNoiseSoundTxtFileName = Sound.txt
+
+; 圧縮機　回転数減速比率
+CompressorRpmReductionRatio = 0.5
+; 圧縮機　供給量 [リットル/分]
+CompressorSupplyLiterPerMinute = 630.0
+; 圧縮機　運転開始圧力 [kPa]
+GovernorStartKiloPascal = 600.0
+; 圧縮機　運転終了圧力 [kPa]
+GovernorStopKiloPascal = 695.0
+
+; 元空気だめ管　容積 [リットル]
+MrPipeVolume = 11.14756454
+; ブレーキ管　容積 [リットル]
+BrakePipeVolume = 13
+; ユルメ管　容積 [リットル]
+ReleasePipeVolume = 1.52
+; ブレーキシリンダピストン受圧面積 [m2]
+PistonArea = 0.739235541
+ShoeFriction = 0.32, 0.01, 0.05
+
+; ブレーキ弁　ブレーキ管　常用ブレーキ位置　排気比率
+;BpExhaustOpeningRatio = 1.0			; 10両以上
+
+; A制御弁　ブレーキシリンダ 容積 [リットル] AR容積:BC容積を 3.25:1 と設定する
+BcVolume = 24.615
+; A制御弁　補助空気だめ 容積 [リットル]
+ArVolume = 80.0
+; A制御弁　附加空気だめ 容積 [リットル]
+SrVolume = 140.0
+; A制御弁　BC排気ポート　絞り　開度比率
+BcExhaustOpeningRatio = 0.04
+
+; デバッグ用ダイアログ表示
+ShowDebugDialog = false
+; 配線用遮断器ダイアログ表示
+ShowMccbDialog = false
+; 計算スレッドの同期にスピンロックを使うかどうか
+; コアが大量にある、新しい世代のCPU環境では使用推奨。
+UseSpinLockSynchronising = false

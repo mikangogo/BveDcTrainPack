@@ -1,0 +1,48 @@
+[AutomaticBrakeSystem.dll]
+SystemType = mg184
+
+SoundFilesRootPath = ..\PluginData\C36\
+ShoeNoiseMotorNoiseTxtFileName = ShoeNoise\MotorNoise.txt
+ShoeNoiseSoundTxtFileName = Sound.txt
+ShoeNoiseSoundTxtSectionName = Shoe
+
+OtherNoiseSoundTxtFileName = Sound.txt
+
+; 圧縮機　回転数減速比率
+CompressorRpmReductionRatio = 0.82
+; 圧縮機　供給量 [リットル/分]
+CompressorSupplyLiterPerMinute = 370.0
+; 圧縮機　運転開始圧力 [kPa]
+GovernorStartKiloPascal = 686.0
+; 圧縮機　運転終了圧力 [kPa]
+GovernorStopKiloPascal = 784.0
+
+; 元空気だめ管　容積 [リットル]
+MrPipeVolume = 11.14756454
+; ブレーキ管　容積 [リットル]
+BrakePipeVolume = 13    ; m182
+; ブレーキシリンダ　容積 [リットル]
+BcVolume = 19.704    ; 140 x 160 x 8
+; ブレーキシリンダピストン受圧面積 [m2]
+PistonArea = 0.868949448    ; 鋳鉄用
+;PistonArea = 0.49321748    ; レジン用
+ShoeFriction = 0.32, 0.01, 0.05
+;ShoeFriction = 0.3, 0.07, 0.122     ; 鋳鉄: USライト
+;ShoeFriction = 0.55, 0.01, 0.034   ; レジン
+
+; 制御弁　QC/BP 容積比　（BP容積 x QcBpVolumeRatio = QC容積）
+QcBpVolumeRatio = 0.086538    ; m182
+
+; 応荷重弁　最小/最大時ブレーキシリンダ圧力 [kPa]
+MinimumBcPressureKiloPascal = 372.4
+MaximumBcPressureKiloPascal = 411.6     ; 100%乗車
+; 応荷重弁　100%乗車時　倍率
+MaximumLoadRate = 1.08597   ; 自重: 44.2[t]
+
+; デバッグ用ダイアログ表示
+ShowDebugDialog = false
+; 配線用遮断器ダイアログ表示
+ShowMccbDialog = false
+; 計算スレッドの同期にスピンロックを使うかどうか
+; コアが大量にある、新しい世代のCPU環境では使用推奨。
+UseSpinLockSynchronising = false

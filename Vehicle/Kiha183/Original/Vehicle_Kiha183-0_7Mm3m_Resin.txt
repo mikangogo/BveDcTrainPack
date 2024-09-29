@@ -1,7 +1,0 @@
-BveTs Vehicle 2.00:utf-8
-PerformanceCurve = ..\..\..\Notch\Kiha183-0_7Mm3m\Notch.txt
-Parameters = Params\Param_Kiha183-0_7Mm3m_Resin.txt
-Panel = ..\..\..\Panel\Kiha183\Normal\panel_0.txt
-Sound = Sounds\Sound_Kiha183-0.txt
-Ats32 = Ats32\Kiha183-0_Resin\PluginOrganizer.dll
-Ats64 = Ats32\Kiha183-0_Resin\PluginOrganizer64.dll

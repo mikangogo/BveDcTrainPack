@@ -8,6 +8,9 @@ InstructionFileName = Instructions.yml
 VerboseLogging = true
 InstructionFileName = Instructions64.yml
 
+[BveHooker.dll]
+Enabled = true
+
 [Dmf13Hs_Dw13.dll]
 SoundFilesRootPath = ..\PluginData\Dmf13Hsa_Dw13\
 
@@ -88,28 +91,47 @@ WheelDiameter = 820.0
 
 ShowDebugDialog = false
 
-[C55.dll]
+[AutomaticBrakeSystem.dll]
+CombinedFormationType = jr_dc183
+CombinedFormationPluginParametersRootPath = ..\..\..\..\..\PluginSettings\Dc183
+
 SoundFilesRootPath = ..\PluginData\C36\
 ShoeNoiseMotorNoiseTxtFileName = ShoeNoise\MotorNoise.txt
 ShoeNoiseSoundTxtFileName = Sound.txt
 ShoeNoiseSoundTxtSectionName = Shoe
-
 OtherNoiseSoundTxtFileName = Sound.txt
 
-EnabledBrakeCircuit = true
-EnabledGovernor = true
-EnabledAntiSnowBrake = false
-EnabledDynamicBrake = true
-BoosterBrakeMode = 0
-
-RelayValveProportionGain = 3.0
-RelayValveDeliveryRatio = 2.0
-RelayValveExhaustRatio = 7.0
-RelayValveDeliveryThresholdKiloPascal = 0.0
-RelayValveExhaustThresholdKiloPascal = 8.0
-RelayValveExhaustPositionThresholdKiloPascal = 10.0
-
-Formation = m,M,M,M,m,M,M,M,m
-
+; デバッグ用ダイアログ表示
 ShowDebugDialog = false
+; 配線用遮断器ダイアログ表示
 ShowMccbDialog = false
+; 計算スレッドの同期にスピンロックを使うかどうか
+; コアが大量にある、新しい世代のCPU環境では使用推奨。
+UseSpinLockSynchronising = false
+
+[AutomaticBrakeSystem.dll.Car.1]
+PluginParametersFileName = mcg183-1500.txt
+
+[AutomaticBrakeSystem.dll.Car.2]
+PluginParametersFileName = M182-500.txt
+
+[AutomaticBrakeSystem.dll.Car.3]
+PluginParametersFileName = Ms182-500.txt
+
+[AutomaticBrakeSystem.dll.Car.4]
+PluginParametersFileName = M182-500.txt
+
+[AutomaticBrakeSystem.dll.Car.5]
+PluginParametersFileName = M182-500.txt
+
+[AutomaticBrakeSystem.dll.Car.6]
+PluginParametersFileName = mcg183-1500.txt
+
+[AutomaticBrakeSystem.dll.Car.7]
+PluginParametersFileName = M182-500.txt
+
+[AutomaticBrakeSystem.dll.Car.8]
+PluginParametersFileName = M182-500.txt
+
+[AutomaticBrakeSystem.dll.Car.9]
+PluginParametersFileName = mcg183-1500.txt

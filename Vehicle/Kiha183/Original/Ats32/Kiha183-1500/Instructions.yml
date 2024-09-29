@@ -12,7 +12,10 @@ pip:
         - ..\..\..\..\..\Plugin\Engine\Dmf13Hs_Dw13\Dmf13Hs_Dw13.dll
       - cmd:
         - run
-        - ..\..\..\..\..\Plugin\AirBrake\Cle\C55.dll
+        - ..\..\..\..\..\Plugin\AirBrake\AutomaticBrakeSystem.dll
       - cmd:
         - run
         - ..\..\..\..\..\Plugin\ThirdParty\RealAnalogGauge\x86\RealAnalogGauge.dll
+      - cmd:
+        - run
+        - ..\..\..\..\..\Plugin\BveHooker\BveHooker.dll
