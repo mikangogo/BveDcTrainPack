@@ -25,7 +25,7 @@ BrakePipeVolume = 12.1609795
 ReleasePipeVolume = 0.1
 ; ブレーキシリンダピストン受圧面積 [m2]
 ;PistonArea = 0.873766377        ; 81: 254 x 250 x 2
-PistonArea = 0.436883189        ; それ以外: ディスク
+PistonArea = 0.394904087        ; それ以外: ディスク
 ;ShoeFriction = 0.32, 0.01, 0.05 ; 81: 254 x 250 x 2
 ShoeFriction = 0.42, 0.04, 0.05 ; それ以外: ディスク
 

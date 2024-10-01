@@ -23,7 +23,7 @@ BrakePipeVolume = 13
 ; ユルメ管　容積 [リットル]
 ReleasePipeVolume = 1.52
 ; ブレーキシリンダピストン受圧面積 [m2]
-PistonArea = 0.40612
+PistonArea = 0.394904087
 ShoeFriction = 0.42, 0.04, 0.05
 
 ; ブレーキ弁　ブレーキ管　常用ブレーキ位置　排気比率

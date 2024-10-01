@@ -8,8 +8,8 @@ BveTs Vehicle Sound 3.00
 4 = ..\..\..\..\..\..\Sound\Shoe\Kiha58\Shoe_2.wav
 
 [AutomaticBrake]
-ErPistonDropping = ..\..\..\..\..\..\Sound\BrakeController\ME23B\ErPistonDropping.wav
-ErDropping = ..\..\..\..\..\..\Sound\BrakeController\ME23B\FromKyuroku\ErDropping.wav
+ErPistonDropping = ..\..\..\..\..\..\Sound\BrakeController\ME23\ErPistonDropping.wav
+ErDropping = ..\..\..\..\..\..\Sound\BrakeController\ME23\ErDropping.wav
 ErCharging = ..\..\..\..\..\..\Sound\BrakeController\ME23\ErCharging.wav
 BpCharging = ..\..\..\..\..\..\Sound\BrakeController\ME23B\BpCharging.wav
 EvBpDropping = ..\..\..\..\..\..\Sound\Brake\Ku\EvBpDropping.wav

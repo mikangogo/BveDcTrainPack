@@ -25,12 +25,14 @@ BrakePipeVolume = 13
 ReleasePipeVolume = 1.52
 ; ブレーキシリンダピストン受圧面積 [m2]
 ;PistonArea = 0.873766377        ; 81: 254 x 250 x 2
-PistonArea = 0.436883189        ; それ以外: ディスク
+PistonArea = 0.394904087        ; それ以外: ディスク
 ;ShoeFriction = 0.32, 0.01, 0.05 ; 81: 254 x 250 x 2
 ShoeFriction = 0.42, 0.04, 0.05 ; それ以外: ディスク
 
 ; ブレーキ弁　ブレーキ管　常用ブレーキ位置　排気比率
 ;BpExhaustOpeningRatio = 1.0			; 10両以上
+; ブレーキ電磁弁　開度比率
+BrakeMvOpeningRatio = 0.005
 
 ; A制御弁　補助空気だめ 容積 [リットル]
 ArVolume = 21.0

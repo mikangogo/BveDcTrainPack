@@ -30,6 +30,9 @@ PistonArea = 0.873766377        ; 81: 254 x 250 x 2
 ShoeFriction = 0.32, 0.01, 0.05 ; 81: 254 x 250 x 2
 ;ShoeFriction = 0.42, 0.04, 0.05 ; それ以外: ディスク
 
+; ブレーキ電磁弁　開度比率
+BrakeMvOpeningRatio = 0.005
+
 ; A制御弁　補助空気だめ 容積 [リットル]
 ArVolume = 21.0
 ; A制御弁　附加空気だめ 容積 [リットル]
