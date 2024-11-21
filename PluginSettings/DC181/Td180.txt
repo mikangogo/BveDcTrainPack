@@ -1,0 +1,46 @@
+[AutomaticBrakeSystem.dll]
+SystemType = Td180
+
+SoundFilesRootPath = ..\PluginData\C16\
+ShoeNoiseMotorNoiseTxtFileName = ShoeNoise\MotorNoise.txt
+ShoeNoiseSoundTxtFileName = Sound.txt
+ShoeNoiseSoundTxtSectionName = Shoe
+OtherNoiseSoundTxtFileName = Sound.txt
+
+; 圧縮機　回転数減速比率
+CompressorRpmReductionRatio = 0.82
+; 圧縮機　供給量 [リットル/分]
+CompressorSupplyLiterPerMinute = 370.0
+; 圧縮機　運転開始圧力 [kPa]
+GovernorStartKiloPascal = 784.0
+; 圧縮機　運転終了圧力 [kPa]
+GovernorStopKiloPascal = 882.0
+
+; 元空気だめ管　容積 [リットル]
+MrPipeVolume = 11.14756454
+; ブレーキ管　容積 [リットル]
+BrakePipeVolume = 7.695619839       ; 3/4 25m
+; 増圧シリンダ　容積 [リットル]
+; 1次車は 365x12 ブレーキダイヤフラム
+; 2次車はキハ57と同等
+BcVolume = 16.246       ; 152x165 + 3/4(15m) 2.994 x 4 + 4.27
+; ブレーキシリンダピストン受圧面積 [m2]
+PistonArea = 0.394904087
+ShoeFriction = 0.42, 0.04, 0.05
+
+; 制御弁　QC/BP 容積比　（BP容積 x QcBpVolumeRatio = QC容積）
+QcBpVolumeRatio = 0.454804
+
+; 応荷重弁　最小/最大時ブレーキシリンダ圧力 [kPa]
+MinimumBcPressureKiloPascal = 362.6
+MaximumBcPressureKiloPascal = 490.0    ; 200%乗車
+; 応荷重弁　200%乗車時　倍率
+MaximumLoadRate = 1.1333   ; 自重: 45.0[t]
+
+; デバッグ用ダイアログ表示
+ShowDebugDialog = false
+; 配線用遮断器ダイアログ表示
+ShowMccbDialog = false
+; 計算スレッドの同期にスピンロックを使うかどうか
+; コアが大量にある、新しい世代のCPU環境では使用推奨。
+UseSpinLockSynchronising = false

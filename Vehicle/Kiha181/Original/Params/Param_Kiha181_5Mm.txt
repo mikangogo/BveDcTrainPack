@@ -38,9 +38,9 @@ Capacity = 59
 
 [Cab]
 PowerNotchCount = 7
-BrakeNotchCount = 8
+BrakeNotchCount = 7
 HoldingSpeedNotchCount = 3
-BrakeText = 運転,１,２,３,４,５,６,７,８,非常
+BrakeText = 運転,15°,25°,36°,47°,54°,62°,70°,非常
 PowerText = 切,１,２,３,４,５,６,[７]
 HoldingSpeedText = 切,Ｂ１,Ｂ２,Ｂ３
 ReverserText = 後退,中立,前進

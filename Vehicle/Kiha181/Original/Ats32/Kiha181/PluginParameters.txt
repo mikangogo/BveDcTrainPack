@@ -8,6 +8,9 @@ InstructionFileName = Instructions.yml
 VerboseLogging = true
 InstructionFileName = Instructions64.yml
 
+[BveHooker.dll]
+Enabled = true
+
 [Dml30Hsd_Dw4.dll]
 SoundFilesRootPath = ..\PluginData\Dml30Hsd_Dw4\
 
@@ -91,23 +94,35 @@ WheelDiameter = 820.0
 
 ShowDebugDialog = false
 
-[C16.dll]
+[AutomaticBrakeSystem.dll]
+CombinedFormationType = jr_dc181
+CombinedFormationPluginParametersRootPath = ..\..\..\..\..\PluginSettings\Dc181
+
 SoundFilesRootPath = ..\PluginData\C16\
 ShoeNoiseMotorNoiseTxtFileName = ShoeNoise\MotorNoise.txt
 ShoeNoiseSoundTxtFileName = Sound.txt
 ShoeNoiseSoundTxtSectionName = Shoe
-
-EnabledHoldingCommand = true
-EnabledGovernor = true
-EnabledAntiSnowBrake = false
-
-RelayValveProportionGain = 3.0
-RelayValveDeliveryRatio = 2.0
-RelayValveExhaustRatio = 28.0
-RelayValveDeliveryThresholdKiloPascal = 0.0
-RelayValveExhaustThresholdKiloPascal = 8.0
-
 OtherNoiseSoundTxtFileName = Sound.txt
 
+; デバッグ用ダイアログ表示
 ShowDebugDialog = false
+; 配線用遮断器ダイアログ表示
 ShowMccbDialog = false
+; 計算スレッドの同期にスピンロックを使うかどうか
+; コアが大量にある、新しい世代のCPU環境では使用推奨。
+UseSpinLockSynchronising = false
+
+[AutomaticBrakeSystem.dll.Car.1]
+PluginParametersFileName = Mcg181.txt
+
+[AutomaticBrakeSystem.dll.Car.2]
+PluginParametersFileName = M180.txt
+
+[AutomaticBrakeSystem.dll.Car.3]
+PluginParametersFileName = M180.txt
+
+[AutomaticBrakeSystem.dll.Car.4]
+PluginParametersFileName = M180.txt
+
+[AutomaticBrakeSystem.dll.Car.5]
+PluginParametersFileName = Mcg181.txt

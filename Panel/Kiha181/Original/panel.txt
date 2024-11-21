@@ -45,7 +45,7 @@ DaytimeImage = light.png
 Layer = 15
 
 
-;‘¬“xŒv
+;é€Ÿåº¦è¨ˆ
 [Needle]
 Subject = kmph
 Location = 1446,2381
@@ -63,9 +63,9 @@ DampingRatio = 0.8
 
 
 
-;ˆ³—ÍŒv1
+;åœ§åŠ›è¨ˆ1
 [Needle]
-Subject = ats103
+Subject = bp
 Location = 2045,2388
 DaytimeImage = needle3.png
 NighttimeImage = needle3_n.png
@@ -79,7 +79,7 @@ Maximum = 980
 NaturalFreq = 0
 
 [Needle]
-Subject = ats104
+Subject = bc
 Location = 2045,2388
 DaytimeImage = needle2.png
 NighttimeImage = needle2_n.png
@@ -94,7 +94,7 @@ NaturalFreq = 80
 DampingRatio = 0.1
 
 
-;Œv
+;æ™‚è¨ˆ
 [Needle]
 Subject = min
 Location = 2635,2385
@@ -140,9 +140,9 @@ Maximum = 60
 NaturalFreq = 5
 DampingRatio = 0.8
 
-;‰A
+;é™°
 
-;‘¬“xŒv
+;é€Ÿåº¦è¨ˆ
 [Needle]
 Subject = kmph
 Location = 1446,2386
@@ -159,9 +159,9 @@ DampingRatio = 0.8
 
 
 
-;ˆ³—ÍŒv1
+;åœ§åŠ›è¨ˆ1
 [Needle]
-Subject = ats103
+Subject = bp
 Location = 2045,2393
 DaytimeImage = needle3_kage.png
 Origin = 64, 180
@@ -174,7 +174,7 @@ Maximum = 980
 NaturalFreq = 0
 
 [Needle]
-Subject = ats104
+Subject = bc
 Location = 2045,2393
 DaytimeImage = needle2_kage.png
 Origin = 64, 180
@@ -188,7 +188,7 @@ NaturalFreq = 80
 DampingRatio = 0.1
 
 
-;Œv
+;æ™‚è¨ˆ
 [Needle]
 Subject = min
 Location = 2635,2390
@@ -231,7 +231,7 @@ Maximum = 60
 NaturalFreq = 5
 DampingRatio = 0.8
 
-;ƒhƒA
+;ãƒ‰ã‚¢
 [PilotLamp]
 Subject = door
 Location = 881, 1965
@@ -239,56 +239,63 @@ DaytimeImage = door.png
 Layer = 15
 
 
-;ª
+;â†‘
 [PilotLamp]
 Subject = ats8
 Location = 1108, 1965
 DaytimeImage = ue.png
 Layer = 15
 
-;|
+;ï¼
 [PilotLamp]
 Subject = ats10
 Location = 1287, 1966
 DaytimeImage = yoko.png
 Layer = 15
 
-;«
+;â†“
 [PilotLamp]
 Subject = ats9
 Location = 1463, 1965
 DaytimeImage = shita.png
 Layer = 15
 
-;ƒuƒŒ[ƒL
+;ãƒ–ãƒ¬ãƒ¼ã‚­ã€€ãƒ–ãƒ¬ãƒ¼ã‚­æŒ‡ä»¤
 [PilotLamp]
-Subject = ats41
+Subject = ats111
 Location = 2137, 1967
-DaytimeImage = EBpLp.png
+DaytimeImage = BrPLp_G.png
 Layer = 15
 
-;•Ï
+;ãƒ–ãƒ¬ãƒ¼ã‚­ã€€ã‚†ã‚‹ã‚æŒ‡ä»¤
+[PilotLamp]
+Subject = ats112
+Location = 2137, 1967
+DaytimeImage = BrPLp_Y.png
+Layer = 15
+
+;å¤‰
 [PilotLamp]
 Subject = ats43
 Location = 1709, 1966
 DaytimeImage = hen.png
 Layer = 15
 
-;•ÏE‹@ŠÖƒuƒŒ[ƒL
+;å¤‰ãƒ»æ©Ÿé–¢ãƒ–ãƒ¬ãƒ¼ã‚­
 [PilotLamp]
 Subject = ats53
 Location = 1709, 1966
 DaytimeImage = hen_eb.png
 Layer = 16
 
-;’¼
+;ç›´
 [PilotLamp]
 Subject = ats44
 Location = 1886, 1966
 DaytimeImage = choku.png
 Layer = 15
 
-;’¼E‹@ŠÖƒuƒŒ[ƒL
+;ç›´ãƒ»æ©Ÿé–¢ãƒ–ãƒ¬ãƒ¼ã‚­
 [PilotLamp]
 Subject = ats54
 Location = 1886, 1966
@@ -309,14 +316,14 @@ Location = 2388, 1966
 DaytimeImage = ATS_r.png
 Layer = 15
 
-;”ñí
+;éå¸¸
 ;[PilotLamp]
 ;Subject = 
 ;Location = 2639, 1967
 ;DaytimeImage = EmPLp_R.png
 ;Layer = 15
 
-;”ñí
+;éå¸¸
 ;[PilotLamp]
 ;Subject = 
 ;Location = 2639, 1967
