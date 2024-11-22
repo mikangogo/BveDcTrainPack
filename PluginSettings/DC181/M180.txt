@@ -1,3 +1,8 @@
+; 形式: キハ180
+; 定員[人]: 76
+; 自重[t]: 43
+; 積重[t]: 50
+
 [AutomaticBrakeSystem.dll]
 SystemType = M180
 
@@ -32,10 +37,10 @@ ShoeFriction = 0.42, 0.04, 0.05
 QcBpVolumeRatio = 0.454804
 
 ; 応荷重弁　最小/最大時ブレーキシリンダ圧力 [kPa]
-MinimumBcPressureKiloPascal = 362.6
-MaximumBcPressureKiloPascal = 490.0    ; 200%乗車
+MinimumBcPressureKiloPascal = 401.8
+MaximumBcPressureKiloPascal = 529.2    ; 200%乗車
 ; 応荷重弁　200%乗車時　倍率
-MaximumLoadRate = 1.1333   ; 自重: 45.0[t]
+MaximumLoadRate = 1.1627907   ; 自重: 43.0[t]
 
 ; デバッグ用ダイアログ表示
 ShowDebugDialog = false

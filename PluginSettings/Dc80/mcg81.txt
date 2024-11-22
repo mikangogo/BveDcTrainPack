@@ -1,4 +1,8 @@
-﻿
+﻿; 形式: キハ81
+; 定員[人]: 40
+; 自重[t]: 42.2
+; 積重[t]: -
+
 [AutomaticBrakeSystem.dll]
 SystemType = mcg81
 

@@ -1,9 +1,7 @@
 BveTs Vehicle Sound 3.00
 
 [Shoe]
-;0 = ..\..\..\..\..\..\Sound\Shoe\Kiha183\Shoe_0.wav
-;1 = ..\..\..\..\..\..\Sound\Shoe\Kiha183\Shoe_1.wav
-;2 = ..\..\..\..\..\..\Sound\Shoe\Kiha183\Shoe_2.wav
+1 = ..\..\..\..\..\..\Sound\Shoe\Kiha65\FromNtfiv\Shoe_1.wav
 
 [AutomaticBrake]
 BpCharging = ..\..\..\..\..\..\Sound\BrakeController\ME23\BpCharging.wav

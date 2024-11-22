@@ -1,10 +1,10 @@
-; 形式: キサシ180
-; 定員[人]: 40
-; 自重[t]: 31
-; 積重[t]: 33
+; 形式: キロ180
+; 定員[人]: 48
+; 自重[t]: 44
+; 積重[t]: 49
 
 [AutomaticBrakeSystem.dll]
-SystemType = Td180
+SystemType = M180
 
 SoundFilesRootPath = ..\PluginData\C16\
 ShoeNoiseMotorNoiseTxtFileName = ShoeNoise\MotorNoise.txt
@@ -37,10 +37,10 @@ ShoeFriction = 0.42, 0.04, 0.05
 QcBpVolumeRatio = 0.454804
 
 ; 応荷重弁　最小/最大時ブレーキシリンダ圧力 [kPa]
-MinimumBcPressureKiloPascal = 294.0
-MaximumBcPressureKiloPascal = 401.8    ; 200%乗車
+MinimumBcPressureKiloPascal = 401.8
+MaximumBcPressureKiloPascal = 529.2    ; 200%乗車
 ; 応荷重弁　200%乗車時　倍率
-MaximumLoadRate = 1.06451613   ; 自重: 31.0[t]
+MaximumLoadRate = 1.11363636   ; 自重: 44.0[t]
 
 ; デバッグ用ダイアログ表示
 ShowDebugDialog = false

@@ -1,4 +1,8 @@
-﻿
+﻿; 形式: キサシ80
+; 定員[人]: 32
+; 自重[t]: 38.2
+; 積重[t]: -
+
 [AutomaticBrakeSystem.dll]
 SystemType = Td80
 

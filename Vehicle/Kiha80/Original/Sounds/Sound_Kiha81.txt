@@ -48,3 +48,6 @@ Min = ..\..\..\..\Sound\TractionController\Mc19\Notch_Off.wav
 [Reverser]
 On = ..\..\..\..\Sound\TractionController\Mc19\Rever_Max.wav
 Off = ..\..\..\..\Sound\TractionController\Mc19\Rever_Neutral.wav
+
+[Others]
+Noise = ..\..\..\..\Sound\Environment\Loop_Dmf15Hs-g.wav

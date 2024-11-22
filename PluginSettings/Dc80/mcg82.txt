@@ -1,4 +1,8 @@
-﻿
+﻿; 形式: キハ82
+; 定員[人]: 52
+; 自重[t]: 43.0
+; 積重[t]: 48.2
+
 [AutomaticBrakeSystem.dll]
 SystemType = mcg82
 

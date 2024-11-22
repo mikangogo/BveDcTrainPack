@@ -1,3 +1,8 @@
+; 形式: キハ181
+; 定員[人]: 52
+; 自重[t]: 45
+; 積重[t]: 51
+
 [AutomaticBrakeSystem.dll]
 SystemType = Mcg181
 
