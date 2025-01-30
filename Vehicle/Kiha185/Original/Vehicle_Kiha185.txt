@@ -1,5 +1,5 @@
 BveTs Vehicle 2.00:utf-8
-PerformanceCurve = ..\..\..\Notch\Dmf13Hs_Tc2a_2613_860\Notch.txt
+PerformanceCurve = ..\..\..\Notch\Kiha185_2Mm\Notch.txt
 Parameters = Params\Param_Kiha185.txt
 Panel = ..\..\..\Panel\Kiha185\Original\Panel_kiha185.txt
 Sound = Sounds\Sound_Kiha185.txt

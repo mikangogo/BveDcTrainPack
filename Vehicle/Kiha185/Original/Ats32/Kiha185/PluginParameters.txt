@@ -69,7 +69,7 @@ TdOrOnThreshold = 3.0
 TdOrOffThreshold = 3.0
 
 FinalDriveRatio = 2.613
-WheelDiameter = 860.0
+WheelDiameter = 820.0
 
 ShowDebugDialog = false
 
